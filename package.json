@@ -1,0 +1,24 @@
+{
+  "name": "factorix-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "drift-zoom": "^1.5.1",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "next": "15.0.2",
+    "nouislider": "^15.8.1",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "sass": "^1.82.0",
+    "swiper": "^11.1.14",
+    "wowjs": "^1.1.3"
+  }
+}

@@ -1,0 +1,45 @@
+@use "sass:meta";
+// Bootstrap CSS
+@import "/assets/css/bootstrap.min.css";
+
+// Line Awesome CSS
+@import "/assets/css/line-awesome.min.css";
+
+// Font Awesome CSS
+@import "/assets/css/fontAwesomePro.css";
+
+// Animate CSS
+@import "/assets/css/animate.css";
+
+// Bar Filler CSS
+@import "/assets/css/barfiller.css";
+
+// Magnific Popup Video
+@import "/assets/css/magnific-popup.css";
+
+// Flaticon CSS
+@import "/assets/css/flaticon.css";
+
+// Owl Carousel CSS
+@import "/assets/css/owl.carousel.css";
+
+// Slick Slider CSS
+@import "/assets/css/slick.css";
+
+// Nice Select
+@import "/assets/css/nice-select.css";
+
+// Back to Top
+@import "/assets/css/backToTop.css";
+
+// Metis Menu
+@import "/assets/css/metismenu.css";
+@import "/assets/css/nouislider.css";
+
+// Odometer CSS
+@import "/assets/css/odometer.min.css";
+@import "/assets/css/drift-basic.min.css";
+
+// Style CSS
+@include meta.load-css("style.scss");
+@include meta.load-css("custom.scss");

@@ -1,0 +1,192 @@
+@use "variables";
+
+.billing-details-wrap h5 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: variables.$primary_color;
+  padding-top: 0;
+}
+
+.billing-details-wrap h5:nth-child(1) {
+  border-top: none;
+}
+
+.billing-details-wrap form {
+  padding: 30px 0;
+}
+
+.mini-shop-cart {
+  border: 1px solid #ddd;
+}
+
+.single-cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+
+  h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #000;
+  }
+
+  i {
+    float: right;
+    color: #444;
+  }
+}
+
+.single-cart-item p {
+  margin: 0;
+}
+
+.single-cart-item p.price b {
+  font-size: 16px;
+  color: #333;
+  margin-right: 30px;
+}
+
+.prod_desc {
+  padding-left: 15px;
+}
+
+.calculation-area span {
+  float: right;
+}
+
+.calculation-area {
+  padding: 20px;
+}
+
+span.blu-color {
+  color: #47d194;
+}
+
+.calculation-area b p {
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+  color: #444;
+  font-size: 16px;
+}
+
+.showing-result-shorting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 20px;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+
+.showing-result-shorting p {
+  margin: 0;
+}
+
+.product-remove a i {
+  color: red;
+}
+
+.nice-select.form-dropdown {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.billing-details-wrap input,
+.billing-details-wrap select {
+  margin-bottom: 35px;
+}
+
+.order-wrap h6 {
+  font-size: 24px;
+  color: variables.$primary_color;
+  padding: 25px;
+  padding-top: 0;
+}
+
+.payment-method-wrap {
+  border: 1px solid #eee;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.payment-method input {
+  width: inherit;
+}
+
+.payment-method {
+  margin-bottom: 20px;
+}
+
+.payment-method-wrap h6 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 30px;
+}
+
+.payment-method span {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.payment-method img {
+  margin-left: 15px;
+}
+
+.payment-method-wrap .main-btn {
+  margin-top: 35px;
+  display: block;
+  text-align: center;
+}
+
+table .product-name {
+  width: 180px !important;
+}
+
+table .product-price {
+  width: 100px !important;
+}
+
+table .product-status {
+  width: 60px !important;
+}
+
+table .product-action {
+  width: 200px !important;
+}
+
+table .product-remove {
+  width: 40px !important;
+}
+
+span.status.text-success,
+span.status.text-danger {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.single-cart-item .cart-cross-btn {
+  font-size: 18px;
+  color: variables.$theme_color;
+  display: block;
+  position: absolute;
+  right: 25px;
+  bottom: 45px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.buttons-cart {
+  gap: 20px;
+  display: inline-flex;
+}
+
+.checkout-page textarea {
+  height: 265px;
+}

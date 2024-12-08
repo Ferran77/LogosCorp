@@ -1,0 +1,137 @@
+@use "variables";
+
+.client-content-wrap {
+    max-width: calc(100% - 65px);
+    @media #{variables.$xs}{
+        max-width: calc(100% - 0px);
+        margin-top: 60px;
+    }
+}
+
+.contact-info-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background: #FA4729;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact-text p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: variables.$text_dark;
+}
+
+
+// Client # 01  
+
+.client-area.pt-100 {
+    @media #{variables.$xs} {
+        padding-top: 50px;
+    }
+}
+
+.single-client {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 215px;
+    // margin-left: 30px;
+
+    img {
+        max-width: inherit;
+    }
+
+    @media #{variables.$lg} {
+        margin-left: 0;
+        width: inherit;
+    }
+
+    @media #{variables.$md} {
+        margin-left: 0;
+        width: inherit;
+    }
+
+    @media #{variables.$xs} {
+        margin-left: 0;
+        width: inherit;
+    }
+}
+
+.progress-bar-area{
+    @media #{variables.$xs}{
+        margin-top: 30px;
+    }
+}
+
+.client-area .owl-dots {
+    display: none;
+}
+
+// Clients # 02
+
+.single-client-item {
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    border-color: #D3DCE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 40px;
+    @media #{variables.$xs}{
+        padding: 20px 0;
+    }
+}
+
+.single-client-item:nth-of-type(6){
+    border: none;
+}
+
+
+
+// Clients Page 
+
+.single-client-wrap {
+    border: 1px solid #eee;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.clients-img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px 0;
+}
+
+.clients-img-inner {
+    flex: 0 0 185px;
+    &:hover img{
+        opacity: 1;
+    }
+}
+
+.clients-img-inner img {
+    width: 160px;
+    opacity: .2;
+}

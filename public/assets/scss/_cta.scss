@@ -1,0 +1,8 @@
+@use "variables";
+
+.cta-btn{
+    @media #{variables.$xs}{
+        margin-top: 20px;
+    }
+    
+}
