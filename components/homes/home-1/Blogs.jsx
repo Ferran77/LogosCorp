@@ -12,8 +12,9 @@ export default function Blogs() {
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-6 text-center">
             <div className="section-title">
-              <h6>From Our Blog</h6>
-              <h2>Our latest news</h2>
+              <h6>De nuestro Blog</h6>
+              <p>Lo invitamos a explorar nuestro blog; un espacio donde compartimos artículos cuidadosamente elaborados para inspirarlo e informarlo sobre temas que, sabemos, le serán de gran interés</p>
+              <h2>Últimas novedades:</h2>
             </div>
           </div>
         </div>
@@ -57,11 +58,12 @@ export default function Blogs() {
           >
             {blogs.map((blog, index) => (
               <SwiperSlide key={index}>
-                <Link
+                {/* Blog Links Here */}
+                {/* <Link 
                   href={`/blog-details/${blog.id}`}
                   className="single-blog-item wow fadeInUp"
                   data-wow-delay={blog.delay}
-                >
+                > */}
                   <div className="blog-img">
                     <Image alt="" src={blog.imgSrc} width={890} height={664} />
                   </div>
@@ -77,7 +79,7 @@ export default function Blogs() {
                       <span>{blog.comments}</span>
                     </div>
                   </div>
-                </Link>{" "}
+                {/* </Link>{" "} */}
               </SwiperSlide>
             ))}
             <div className="owl-dots mt-0 spd1"></div>

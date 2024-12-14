@@ -1,7 +1,7 @@
 export const footerLinks = [
-  { href: "/about", label: "About" },
-  { href: "/services", label: "Services" },
-  { href: "/project-standard", label: "Project" },
-  { href: "/price", label: "Pricing" },
-  { href: "/faq", label: "FAQ" },
+  { href: "/", label: "Nosotros" },
+  { href: "/", label: "Servicios" },
+  { href: "/", label: "Mi proyecto" },
+  { href: "/", label: "Blog" },
+  { href: "/", label: "Tienda" },
 ];

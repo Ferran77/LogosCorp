@@ -7,15 +7,15 @@ export default function Cta() {
         <div className="row align-items-center">
           <div className="col-xl-8 col-lg-8 col-md-8">
             <div className="cta-title">
-              <div className="section-title">
-                <h2 className="text-white">We make creative solutions.</h2>
+              <div className="section-title ml-6">
+                <h2 className="text-white">Arquitectura nacida <br/> del corazón.</h2>
               </div>
             </div>
           </div>
           <div className="col-xl-4 col-lg-4 col-md-4 text-lg-end">
             <div className="cta-btn">
-              <Link href={`/contact`} className="white-btn">
-                Contact Us
+              <Link href={`/`} className="white-btn mr-8">
+                Contáctenos
               </Link>
             </div>
           </div>

@@ -37,9 +37,9 @@ export default function ExtraInfo() {
             <div className="contact-list mb-40">
               {/* <h4>About</h4> */}
               <p>
-                Welcome to Factorix, a full service industrial and factory
-                theme. We specialize in creating beautiful, functional design
-                that reflect your unique site.
+              En LOGOS-CORP MÉXICO, Valoramos profundamente su inversión y esfuerzo en la construcción o remodelación de su propiedad. Por ello, invertimos en la capacitación continua de nuestro equipo en diversas especialidades, asegurando que cada servicio que ofrecemos esté a la altura de su confianza y expectativas.
+
+¡Con nosotros, su confianza está garantizada!
               </p>
               <Image
                 alt=""
@@ -49,8 +49,8 @@ export default function ExtraInfo() {
                 className="height-auto"
               />
               <div className="mt-30 mb-30">
-                <Link href={`/contact`} className="theme-btn">
-                  Get In Touch
+                <Link href={`/`} className="theme-btn">
+                  Contacto
                 </Link>
               </div>
             </div>
@@ -62,11 +62,11 @@ export default function ExtraInfo() {
                 <i className="lab la-instagram" />
               </a>
               <a href="#">
-                <i className="lab la-linkedin-in" />
+                <i className="lab la-youtube" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <i className="lab la-skype" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

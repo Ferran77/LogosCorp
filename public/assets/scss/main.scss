@@ -1,4 +1,13 @@
 @use "sass:meta";
+@use "style.scss";
+@use "custom.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 // Bootstrap CSS
 @import "/assets/css/bootstrap.min.css";
 
@@ -43,3 +52,5 @@
 // Style CSS
 @include meta.load-css("style.scss");
 @include meta.load-css("custom.scss");
+
+

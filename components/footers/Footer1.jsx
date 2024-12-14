@@ -11,30 +11,32 @@ export default function Footer1() {
           <div className="footer-up">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12">
-                <Link href={`/`} className="logo">
+                <Link href={`/`} className="logo ">
                   <Image
-                    alt="factorix-logo"
+                    alt="logos-corp-logo"
                     src="/assets/img/logo-white.png"
                     width={198}
                     height={64}
+                    className="pl-5"
                   />
                 </Link>
-                <p>
-                  We provide the best techniques <br />
-                  to deliver superior performance.
+                <p className="pt-4 font-bold">
+                  Arquitectura nacida del corazón
                 </p>
               </div>
               <div className="col-lg-2 col-md-6">
-                <h5>Office</h5>
+                <h5>México</h5>
                 <p>
-                  Corporate Office- <br />
-                  175 24th Street, OT- 35 London, UK 265
+                  Contancto: <br />
+                  Teléfono: 55 5801 8167
+                </p>
+                <h5>Oaxaca</h5>
+                <p>
+                  Contacto: <br />
+                  Teléfono: 951 0454 506
                 </p>
                 <div className="company-email">
-                  <a href="#">info@factorix.com</a>
-                </div>
-                <div className="phone-number">
-                  <p>+18-4675826</p>
+                  <a href="#">info@logoscorp.net</a>
                 </div>
               </div>
               <div className="col-lg-2 offset-lg-1 col-md-6 com-sm-12">
@@ -55,9 +57,21 @@ export default function Footer1() {
                   <li>
                     <div className="social-area">
                       {socialLinks.map((link, index) => (
-                        <a key={index} href={link.href}>
-                          <i className={link.iconClass} />
-                          {link.label}
+                        <a
+                          key={index}
+                          href={link.href}
+                          className="inline-block mr-4 text-2xl text-black hover:text-blue-600"
+                        >
+                          {/* Renderiza el ícono */}
+                          {link.iconComponent ? (
+                            <span className="text-white mr-4">
+                              {link.iconComponent}
+                            </span> // React Icon
+                          ) : (
+                            <i className={link.iconClass} /> // Line Awesome Icon
+                          )}
+                          {/* Renderiza el label */}
+                          <span className="ml-2 text-white">{link.label}</span>
                         </a>
                       ))}
                     </div>
@@ -74,11 +88,14 @@ export default function Footer1() {
           <div className="row justify-content-center align-items-center justify-content-center">
             <div className="col-lg-6 col-md-6 col-sm-12">
               <p className="copyright-line">
-                © {new Date().getFullYear()} Factorix. All rights reserved.
+                © {new Date().getFullYear()} Ferrán Dev. Tods los derechos
+                reservados.
               </p>
             </div>
             <div className="col-lg-6 col-md-6 col-xs-12 text-md-end">
-              <p className="privacy">Privacy Policy | Terms &amp; Conditions</p>
+              <p className="privacy">
+                Política de privacidad | Terminos &amp; Condiciones
+              </p>
             </div>
           </div>
         </div>

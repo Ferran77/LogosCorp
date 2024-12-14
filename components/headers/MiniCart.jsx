@@ -84,7 +84,7 @@ export default function MiniCart() {
                       </Link>
                     </div>
                     <div className="mini-cart-item-des">
-                      <Link href={`/product-details`}>{elm.title}</Link>
+                      <Link href={`/`}>{elm.title}</Link>
                       <span className="mini-cart-item-price">
                         <b>
                           {elm.quantity} x ${elm.price.toFixed(2)}
@@ -105,10 +105,10 @@ export default function MiniCart() {
                   <b>Total</b>${totalPrice.toFixed(2)}
                 </span>
                 <div className="cart-action-btn">
-                  <Link href={`/cart`} className="theme-btn">
+                  <Link href={`/`} className="theme-btn">
                     View Cart
                   </Link>
-                  <Link href={`/checkout`} className="bordered-btn">
+                  <Link href={`/`} className="bordered-btn">
                     Checkout
                   </Link>
                 </div>
@@ -117,14 +117,14 @@ export default function MiniCart() {
           ) : (
             <>
               <div className="row p-3">
-                <div className="col-12 p-3">Shop Cart is Expty</div>
+                <div className="col-12 p-3">Tu carrito está vacío</div>
                 <div className="cart-action-btn">
                   <Link
-                    href={`/product`}
+                    href={`/`}
                     onClick={cartClose}
                     className="bordered-btn browse-products-btn"
                   >
-                    Browse Products
+                    Productos
                   </Link>
                 </div>
               </div>

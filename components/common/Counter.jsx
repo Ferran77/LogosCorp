@@ -6,13 +6,17 @@ const Counter = ({ parentClass, min = 0, max }) => {
   const [counted, setCounted] = useState(min);
 
   const startCountup = () => {
+    const step = max / 20; // Divide el total en 20 pasos
+
     const intervalId = setInterval(() => {
       setCounted((prevCount) => {
-        const tempCount = prevCount + Math.ceil(max / 20);
+        const tempCount = prevCount + step;
+
         if (tempCount >= max) {
           clearInterval(intervalId);
-          return max;
+          return max; // Asegura que no pase el valor máximo
         }
+
         return tempCount;
       });
     }, 50);
@@ -28,27 +32,24 @@ const Counter = ({ parentClass, min = 0, max }) => {
       });
     };
 
-    const options = {
+    const observer = new IntersectionObserver(handleIntersection, {
       root: null,
       rootMargin: "0px",
       threshold: 0.5,
-    };
+    });
 
-    const observer = new IntersectionObserver(handleIntersection, options);
     if (targetElement.current) {
       observer.observe(targetElement.current);
     }
 
     return () => {
-      if (targetElement.current) {
-        observer.unobserve(targetElement.current);
-      }
+      if (targetElement.current) observer.unobserve(targetElement.current);
     };
   }, []);
 
   return (
     <span ref={targetElement} className={parentClass}>
-      {counted}
+      {Math.floor(counted)} {/* Redondea hacia abajo */}
     </span>
   );
 };

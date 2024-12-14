@@ -327,6 +327,7 @@ export const projects7 = [
     category: "Production",
     delay: ".8s",
   },
+  
 ];
 
 export const projects8 = [

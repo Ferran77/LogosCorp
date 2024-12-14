@@ -12,15 +12,15 @@ import Services from "@/components/homes/home-1/Services";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 
 export const metadata = {
-  title: "Home || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+  title: "LOGOS-CORP MÉXICO",
+  description: "LOGOS CORP MÉXICO",
 };
 export default function Home() {
   return (
     <>
       <Header1 />
-      <FeatureLine />
       <Hero />
+      <FeatureLine />
       <Services />
       <FeatureLine />
       <About />

@@ -71,22 +71,22 @@ export const services2 = [
 export const services3 = [
   {
     iconClass: "flaticon-factory",
-    title: "Metal Manufacturing",
+    title: "Arquitectura y diseño",
     delay: ".2s",
   },
   {
     iconClass: "flaticon-oil-pump",
-    title: "Oil Refinery Plants",
+    title: "Costrucción y remodelación",
     delay: ".4s",
   },
   {
     iconClass: "flaticon-maintenance",
-    title: "Maintenance Repair",
+    title: "Render y modelados 3D",
     delay: ".6s",
   },
   {
     iconClass: "flaticon-crane",
-    title: "Construction Works",
+    title: "Servicios especiales",
     delay: ".8s",
 
     extraClass: "b-none", // optional additional class

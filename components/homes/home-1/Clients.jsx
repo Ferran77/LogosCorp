@@ -14,23 +14,21 @@ export default function Clients() {
           <div className="col-xl-6 col-lg-6 col-md-7">
             <div className="client-content-wrap">
               <div className="section-title">
-                <h6>OUR CLIENTS</h6>
+                <h6>Nuestros Clientes</h6>
                 <h2>
-                  We work with the <br />
-                  best brands
+                  Nos preocupamos por <br />
+                  cada uno de nuestros clientes
                 </h2>
               </div>
               <p>
-                Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
-                magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor
-                incididunt ut labore et dolore sed do magna aliqua.
+                En LOGOS-CORP MÉXICO, cultivamos relaciones basadas en humanismo y honestidad asegurando, que cada interacción refleje nuestro compromiso auténtico con su éxito. .
               </p>
               <div className="contact-info-wrap">
                 <div className="contact-icon">
                   <i className="las la-envelope" />
                 </div>
                 <div className="contact-text">
-                  <p>info@factorix.com</p>
+                  <p>info@logoscorp.net</p>
                 </div>
               </div>
             </div>

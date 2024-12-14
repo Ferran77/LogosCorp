@@ -19,10 +19,11 @@ export default function Header1() {
               <div className="logo">
                 <Link className="navbar-brand" href={`/`}>
                   <Image
-                    alt=""
-                    src="/assets/img/logo-white.png"
-                    width={198}
-                    height={64}
+                    alt="Logo"
+                    src="/assets/img/logos img/logotipo_mundo_sin_fondo_-logos-corp_mexico.png"
+                    width={180}
+                    height={180}
+                    className="pt-2 mr-15"
                   />
                 </Link>
               </div>

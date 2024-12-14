@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export default function Projects() {
+  //Data Projects 7
   return (
     <div id="project-1" className="project-section theme-bg">
       <div className="container-fluid">

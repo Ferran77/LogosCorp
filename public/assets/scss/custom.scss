@@ -3,11 +3,13 @@
 }
 
 .marquee-anim {
-  animation: slider-anim 40s linear infinite;
+  animation: slider-anim 50s linear infinite;
   display: flex;
   align-items: center;
   h5 {
     text-wrap: nowrap;
+    color: #181D4E; 
+    border: none
   }
 }
 

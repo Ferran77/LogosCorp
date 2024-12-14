@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    future: {
+      webpack5: true,
+    },
+  };
+  
+  export default nextConfig;
+  

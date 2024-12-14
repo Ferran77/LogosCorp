@@ -14,10 +14,10 @@ export default function Testimonials() {
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-5 col-md-7 text-center">
             <div className="section-title">
-              <h6 className="text-white">Testimonial</h6>
-              <h2 className="text-white">
-                We build customer trust and loyalty
-              </h2>
+              <h6 className="text-white">Impacto social</h6>
+              <p className="text-[#181d4e] text-2xl">
+                Transformamos nuestro entorno con cada proyecto; contribuyendo activamente al bienestar y al desarrollo de la comunidad
+              </p>
             </div>
           </div>
         </div>
@@ -48,8 +48,8 @@ export default function Testimonials() {
                       <Image
                         alt=""
                         src={testimonial.authorImage}
-                        width={120}
-                        height={120}
+                        width={420}
+                        height={420}
                       />
                       <h6 className="text-white">
                         {testimonial.authorName}{" "}

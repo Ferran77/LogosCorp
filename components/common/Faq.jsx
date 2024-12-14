@@ -1,130 +1,83 @@
 import React from "react";
 import Image from "next/image";
 import Counter from "./Counter";
+
 export default function Faq() {
   return (
-    <div className="faq-section section-padding">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-xl-6 col-lg-6">
-            <div className="section-title">
-              <h6>FAQ</h6>
-              <h2>
-                We develop &amp; <br />
-                build production
-              </h2>
-            </div>
-            <div className="cp-custom-accordion">
-              <div className="accordions" id="accordionExample">
-                <div className="accordion-items">
-                  <h2 className="accordion-header" id="headingOne">
-                    <button
-                      className="accordion-buttons"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      <span />
-                      How can I apply for a job?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    className="accordion-collapse collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                      dapibus leo.
-                    </div>
-                  </div>
+    <div className="faq-section py-8">
+      <div className="container mx-auto px-4">
+        {/* Section Title */}
+        <div className="section-title text-center mb-12">
+          <h6 className="text-lg text-gray-500 uppercase mb-2">Evolución y actualización constante</h6>
+          <h2 className="text-3xl md:text-4xl font-bold leading-tight">
+            ¡Nos renovamos continuamente <br />
+            para brindarle el mejor servicio!
+          </h2>
+        </div>
+
+        {/* Counters Section */}
+        <div className="flex flex-wrap justify-center gap-8">
+          {/* Counter Block 1 */}
+          <div className="w-full md:w-1/2 relative">
+            {/* Background Image */}
+            <div className="relative w-full h-80 md:h-96">
+              <Image
+                src="/assets/img/counter-bg-1.jpg"
+                alt="Background"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-lg"
+              />
+              {/* Counters */}
+              <div className="absolute bottom-4 left-4 flex flex-col gap-4">
+                {/* Counter Item 1 */}
+                <div className="single-counter-item bg-gray-900 bg-opacity-80 text-white p-4 rounded-md shadow-md">
+                  <h6 className="text-sm font-semibold mb-1">Clientes satisfechos</h6>
+                  <h1 className="text-2xl font-bold">
+                    <Counter max={24} />+
+                  </h1>
+                  <p className="text-gray-300 text-sm">36 Proyectos concluidos</p>
                 </div>
-                <div className="accordion-items">
-                  <h2 className="accordion-header" id="headingTwo">
-                    <button
-                      className="accordion-buttons collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      <span />
-                      Which specialties are requested today?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                      dapibus leo.
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-items">
-                  <h2 className="accordion-header" id="headingThree">
-                    <button
-                      className="accordion-buttons collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      <span />
-                      Do you produce products worldwide?
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseThree"
-                    className="accordion-collapse collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div className="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                      dapibus leo.
-                    </div>
-                  </div>
+                {/* Counter Item 2 */}
+                <div className="single-counter-item bg-blue-600 bg-opacity-80 text-white p-4 rounded-md shadow-md">
+                  <h6 className="text-sm font-semibold mb-1">Años de experiencia</h6>
+                  <h1 className="text-2xl font-bold">
+                    <Counter max={5} />+
+                  </h1>
+                  <p className="text-gray-300 text-sm">5 Proyectos en proceso</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 text-lg-end">
-            <div className="counter-wrap">
-              <div className="counter-img">
-                <Image
-                  alt=""
-                  src="/assets/img/counter-bg.jpg"
-                  width={3703}
-                  height={4480}
-                  className="height-auto"
-                />
-              </div>
-              <div className="counter-content">
-                <div className="single-counter-item dark-bg">
-                  <h6>Happy Clients</h6>
-                  <h1>
-                    <Counter max={124} />+
+
+          {/* Counter Block 2 */}
+          <div className="w-full md:w-1/2 relative">
+            {/* Background Image */}
+            <div className="relative w-full h-80 md:h-96">
+              <Image
+                src="/assets/img/counter-bg-2.jpg"
+                alt="Background"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-lg"
+              />
+              {/* Counters */}
+              <div className="absolute bottom-4 left-4 flex flex-col gap-4">
+                {/* Counter Item 3 */}
+                <div className="single-counter-item bg-gray-900 bg-opacity-80 text-white p-4 rounded-md shadow-md">
+                  <h6 className="text-sm font-semibold mb-1">Proyectos activos</h6>
+                  <h1 className="text-2xl font-bold">
+                    <Counter max={12} />+
                   </h1>
-                  <p>Adipiscing elit, do eiusm.</p>
+                  <p className="text-gray-300 text-sm">En desarrollo</p>
                 </div>
-                <div className="single-counter-item theme-bg">
-                  <h6>Partners</h6>
-                  <h1>
-                    <Counter max={16} />+
+                {/* Counter Item 4 */}
+                <div className="single-counter-item bg-blue-600 bg-opacity-80 text-white p-4 rounded-md shadow-md">
+                  <h6 className="text-sm font-semibold mb-1">Horas trabajadas</h6>
+                  <h1 className="text-2xl font-bold">
+                    <Counter max={1000} />+
                   </h1>
-                  <p>Sed do eiusmod tempor.</p>
+                  <p className="text-gray-300 text-sm">Dedicación profesional</p>
                 </div>
               </div>
             </div>
