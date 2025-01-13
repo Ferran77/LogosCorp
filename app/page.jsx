@@ -6,6 +6,7 @@ import Clients from "@/components/homes/home-1/Clients";
 import Cta from "@/components/homes/home-1/Cta";
 import Faq from "@/components/common/Faq";
 import FeatureLine from "@/components/homes/home-1/FeatureLine";
+import VirtualTour from "@/components/homes/home-1/VirtualTour";
 import FeatureLineIframe from "@/components/homes/home-1/FeatureLineIframe";
 import Hero from "@/components/homes/home-1/Hero";
 import Projects from "@/components/homes/home-1/Projects";
@@ -23,7 +24,7 @@ export default function Home() {
       <Hero />
       <FeatureLine />
       <Services />
-      <FeatureLineIframe />
+      <VirtualTour />
       <About />
       <Testimonials />
       <Projects />

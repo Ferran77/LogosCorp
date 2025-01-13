@@ -17,7 +17,8 @@
 
     .breadcrumb-title {
         position: relative;
-        z-index: 999;    
+        z-index: 999; 
+          
         margin-top: 60px;    
     }
 	
@@ -41,6 +42,25 @@
            }
     }
 
+    & .breadcrumb-title p {
+        font-size: 20px;
+		font-weight: 300;
+        color: #e4bf41;
+        margin: 0;
+        letter-spacing: -1px;
+
+        @media #{variables.$md} {
+            font-size: 15px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 10px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 5px;
+           }
+    }
     .breadcrumb-icon i {
         font-size: 24px;
         color: #fff;

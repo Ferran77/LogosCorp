@@ -14,16 +14,18 @@ export default function FeatureLineIframe() {
           justifyContent: "center",
           alignItems: "center",
           height: "700px", // Ajusta la altura para el iframe
+          pointerEvents: "auto",
         }}
       >
         {/* Renderización del iframe */}
         <iframe
-          src="https://www.logoscorp.net/modelo%20rio%20de%20la%20plata/"
+          src="/tour/index.html"
           width="100%"
           height="100%"
           style={{ border: "none" }}
+          allow="fullscreen; autoplay; clipboard-write; encrypted-media; picture-in-picture; gamepad"
           allowFullScreen
-          title="Video Frame"
+          title="Virtual Tour"
         ></iframe>
       </div>
     </div>

@@ -29,11 +29,11 @@ export default function Hero() {
           >
             {/* <div className="overlay"></div> */}
           </div>
-          <div className="hero-area-content">
-            <div className="container">
-              <div className="row justify-content-center align-items-center">
-                <div className="col-lg-12 wow fadeInUp " data-wow-delay=".2s">
-                  <div className="section-title">
+          <div className="hero-area-content ">
+            <div className="container ">
+              <div className="row justify-content-center align-items-center ">
+                <div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
+                  <div className="section-title text-blue-600">
                     <h1>
                       {slide.title.split("\n").map((elm, i) => (
                         <React.Fragment key={i}>
@@ -47,7 +47,7 @@ export default function Hero() {
                       className="theme-btn"
                       style={{ animation: "none" }}
                     >
-                      About Us
+                      Nosotros
                     </Link>
                   </div>
                 </div>

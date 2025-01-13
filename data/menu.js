@@ -3,10 +3,10 @@ export const menuItems = [
     title: "Inicio",
     subMenu: [
       { title: "Home", href: "/" },
-      { title: "Arquitectura", href: "/home-2" },
-      { title: "Diseño", href: "/home-3" },
-      { title: "Construcción", href: "/home-4" },
-      { title: "Modelado 3Dy Reder", href: "/home-5" },
+      { title: "Arquitectura y Diseño", href: "/home-2" },
+      { title: "Contrucción", href: "/home-3" },
+      { title: "Modelado 3D y Reder", href: "/home-4" },
+      { title: "Proyectos especiales", href: "/home-5" },
     ],
     active: true,
   },
@@ -25,20 +25,21 @@ export const menuItems = [
     title: "Mi Proyecto",
     subMenu: [
       { title: "Avances", href: "/project-standard" },
+      {
+        title: "Fases del proyecto",
+        subMenu: [
+          { title: "Anteproyecto", href: "/project-details-left-sidebar/1" },
+          { title: "Proyecto Arquitectónico", href: "/project-details-right-sidebar/2" },
+          { title: "Proyecto Estructural", href: "/project-details-gallery/3" },
+        ],
+        isNested: true,
+      },
       { title: "Metro Fullwidth", href: "/project-fullwidth" },
       { title: "Grid", href: "/project-grid" },
       { title: "List", href: "/project-list" },
       { title: "Masonry", href: "/project-masonry" },
       { title: "Slider", href: "/project-slider" },
-      {
-        title: "Single Project",
-        subMenu: [
-          { title: "Left Sidebar", href: "/project-details-left-sidebar/1" },
-          { title: "Right Sidebar", href: "/project-details-right-sidebar/2" },
-          { title: "Gallery", href: "/project-details-gallery/3" },
-        ],
-        isNested: true,
-      },
+     
     ],
   },
   {

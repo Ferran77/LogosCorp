@@ -66,6 +66,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+	pointer-events: auto;
     @media #{variables.$md} {
         height: 450px;
     }
@@ -92,9 +93,9 @@
 }
 
 
-.slick-list {
-    z-index: 1;
-}
+// .slick-list {
+//     z-index: 1;
+// }
 
 // Feature # 02
 

@@ -12,8 +12,8 @@ import Work from "@/components/otherPages/about/Work";
 import React from "react";
 
 export const metadata = {
-  title: "About || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+  title: "Nosotros || LOGOS-CORP MÉXICO",
+  description: "LOGOS-CORP - Arquitectura, diseño & contrucción",
 };
 export default function page() {
   return (
@@ -25,7 +25,8 @@ export default function page() {
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
-                <h1>About Us</h1>
+                <h1>LOGOS-CORP MÉXICO</h1>
+                <p>"ARQUITECTURA NACIDA DEL CORAZÓN"</p>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />

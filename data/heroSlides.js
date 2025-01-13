@@ -1,11 +1,12 @@
 export const slides = [
   {
     backgroundImage: "url(assets/img/slider/2.jpg)",
-    title: "Welcome\n to our industrial\n oil platform",
+    title: "Conozca nuestros\n servicios de \n Arquitectura y Diseño",
   },
   {
     backgroundImage: "url(assets/img/slider/3.jpg)",
-    title: "Welcome\n to our industrial\n oil platform",
+    title: "Potenciamos su\n proyecto con\n solidez y experiencia",
+    
   },
 ];
 

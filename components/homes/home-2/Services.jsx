@@ -11,16 +11,17 @@ export default function Services() {
         <div className="row align-items-center">
           <div className="col-xl-4 col-lg-4 col-md-4">
             <div className="section-title">
-              <h6>What We Offer</h6>
-              <h2>Our Services</h2>
+              <h6>¡Confie en nuestros servicios!</h6>
+              <h2>Potenciamos su proyecto con solidez y experiencia</h2>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-8">
             <p>
-              Construction is a general term meaning the art and science to form
-              objects systems organizations, and comes from Latin construction
-              and Old French construction. To construct is the verb: the act of
-              building, and the noun
+              Transformamos sus ideas en espacios extraordinarios. Desde
+              anteproyectos inspiradores hasta proyectos arquitectónicos
+              detallados y estructuras sólidas, materializamos su visión con
+              diseño y precisión. Contáctenos y descubra cómo convertir sus
+              aspiraciones en una realidad arquitectónica única
             </p>
           </div>
         </div>
@@ -69,7 +70,11 @@ export default function Services() {
                   <SwiperSlide className="single-service-item" key={index}>
                     <div className="service-icon">
                       <span>
-                        <i className={service.iconClass} />
+                        {service.icon ? (
+                          <service.icon className="react-icon text-blue-700 text-4xl hover:text-red-500" />
+                        ) : (
+                          <i className={service.iconClass} />
+                        )}
                       </span>
                     </div>
                     <div className="service-title">

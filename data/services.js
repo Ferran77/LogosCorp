@@ -1,37 +1,35 @@
+import { FaDraftingCompass } from "react-icons/fa";
+import { FaBuildingCircleCheck } from "react-icons/fa6";
+import { TbCrane } from "react-icons/tb";
+
 export const services = [
   {
-    iconClass: "flaticon-oil-industry",
-    title: "Petroleum Refinery",
+    icon: FaDraftingCompass,
+    title: "Anteproyectos",
     description:
       "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
   },
   {
-    iconClass: "flaticon-oil-pump",
-    title: "Offshore Drilling",
+    icon: FaBuildingCircleCheck,
+    title: "Proyectos arquitectónicos",
     description:
       "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
   },
   {
-    iconClass: "flaticon-lab-tool",
-    title: "Chemical Research",
+    icon: TbCrane,
+    title: "Proyectos estructurales",
     description:
       "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
   },
   {
-    iconClass: "flaticon-production",
-    title: "Construction Industry",
+    icon: FaDraftingCompass,
+    title: "Instalaciones básicas",
     description:
       "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
   },
   {
-    iconClass: "flaticon-crane",
-    title: "Civil Engineering",
-    description:
-      "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
-  },
-  {
-    iconClass: "flaticon-drilling-machine",
-    title: "Mechanical Engineering",
+    icon: FaDraftingCompass,
+    title: "Instalaciones especiales",
     description:
       "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
   },

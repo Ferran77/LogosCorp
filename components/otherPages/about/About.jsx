@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function About() {
   return (
     <div id="about-2" className="about-page about-section section-padding pb-0">
-      <div className="container">
+      <div className="container mb-55">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6">
             <div className="about-img-wrap">
@@ -17,54 +17,55 @@ export default function About() {
                   className="height-auto"
                 />
               </div>
-              <div className="image-two wow fadeInUp" data-wow-delay=".4s">
+              <div className="image-two wow fadeInUp mb-85" data-wow-delay=".4s">
                 <Image
                   alt=""
                   src="/assets/img/about/about-page-2.jpg"
                   width={410}
-                  height={450}
+                  height={150}
                   className="height-auto"
                 />
               </div>
               <div className="founder-year-wrap">
-                <h1>1995</h1>
-                <span>Start In</span>
+                <h1>2020</h1>
+                <span>Nuestro inicio</span>
               </div>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="about-content-wrap">
               <div className="section-title">
-                <h6>About Us</h6>
+                <h6>Nosotros</h6>
                 <h2>
-                  We proudly leed <br />
-                  the world's future
+                  Arquitectura, diseño <br />
+                  & construcción
                 </h2>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+Durante nuestro tiempo como empresa legalmente constituida, hemos completado con éxito más de 35 proyectos de diversas envergaduras, creando y sosteniendo más de 65 empleos formales y más de 90 empleos temporales que benefician a las familias y al bienestar comunitario.
+
+¡Nuestra creencia en la honestidad y la confianza impulsa vínculos auténticos y duraderos!
               </p>
               <ul className="about-key mt-30">
                 <li>
                   <i className="las la-check-square" />
-                  <p>Best Industrial</p>
+                  <p>Arquitectura</p>
                 </li>
                 <li>
                   <i className="las la-check-square" />
-                  <p>Quality Construction</p>
+                  <p>Diseño</p>
                 </li>
                 <li>
                   <i className="las la-check-square" />
-                  <p>Expert Contractor</p>
+                  <p>Construcción</p>
                 </li>
                 <li>
                   <i className="las la-check-square" />
-                  <p>Affordable Cost Rate</p>
+                  <p>Render y modelados 3D</p>
                 </li>
               </ul>
               <Link href={`/about`} className="theme-btn mt-30">
-                About Us
+                Nosotros
               </Link>
             </div>
           </div>

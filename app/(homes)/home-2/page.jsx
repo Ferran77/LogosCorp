@@ -15,7 +15,7 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Home Oil Industry || Factorix - Industrial & Factory React Nextjs Template",
+    "Arquitectura y Diseño",
   description: "Factorix - Industrial & Factory React Nextjs Template",
 };
 export default function page() {

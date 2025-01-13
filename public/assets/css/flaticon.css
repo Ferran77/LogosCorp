@@ -114,3 +114,7 @@
 	.flaticon-oil-platform:before {
 		content: "\f115";
 	}
+
+	.flaticon-drafting-compass:before {
+		content: "\f116"; /* Usa un código único que no esté repetido */
+	  }
