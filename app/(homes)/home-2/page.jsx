@@ -1,7 +1,7 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import About from "@/components/homes/home-2/About";
-import Blogs from "@/components/homes/home-2/Blogs";
+import Architecture from "@/components/homes/home-2/Architecture";
 import Clients from "@/components/common/Clients";
 import Facts from "@/components/homes/home-2/Facts";
 import Features from "@/components/homes/home-2/Features";
@@ -23,16 +23,16 @@ export default function page() {
     <>
       <Header1 />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Services />
-      <Mission />
-      <Features />
-      <Facts />
+      {/* <Mission /> */}
+      {/* <Features /> */}
+      {/* <Facts />
       <Projects />
       <Clients />
-      <Testimonials />
+      <Testimonials /> */}
       <Team />
-      <Blogs />
+      <Architecture />
       <Footer1 />
     </>
   );

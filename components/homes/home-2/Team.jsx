@@ -48,18 +48,29 @@ export default function Team() {
           <div className="col-xl-6 col-lg-6 order-1 order-lg-2">
             <div className="team-content-wrap">
               <div className="section-title">
-                <h6 className="text-white">Our Team</h6>
+                <h6 className="text-white">Somos especialistas</h6>
                 <h2 className="text-white">
-                  Rare talent &amp; true workmanship
+                  Instalaciones básicas &amp; instalaciones especiales
                 </h2>
               </div>
               <p>
-                Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim. Adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore.
+                Básicas:
+                <li>Instalación hidráulica</li>
+                <li>Instalación sanitaria</li>
+                <li>Instalación eléctrica</li>
+                <li>Instalación de gas</li>
+               
+              </p>
+              <p>
+               Especiales:
+               <li>Sitema de CCTV</li>
+                <li>Riego automatizado para jardín</li>
+                <li>Sistema domótico -Casa inteligente- </li>
+                <li>Sistema de voz y datos</li>
+                <li>Sistema de elevadores</li>
               </p>
               <Link href={`/about`} className="theme-btn mt-30">
-                About Us
+                Nosotros
               </Link>
             </div>
           </div>

@@ -27,6 +27,14 @@ export const features = [
     backgroundImage: "/assets/img/feature/2-4.jpg",
     delay: ".8s",
   },
+  {
+    number: "05",
+    title: "Simón",
+    description: "Oil",
+    backgroundImage: "/assets/img/feature/2-4.jpg",
+    delay: ".8s",
+  },
+  
 ];
 
 export const features2 = [

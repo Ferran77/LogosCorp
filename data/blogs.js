@@ -40,7 +40,7 @@ export const blogs = [
 export const blogs2 = [
   {
     id: 5,
-    title: "Oil refining: three ways you can invest",
+    title: "Anteproyecto",
     category: "Refinery",
     date: "November 30 2023",
     comments: "1 comment",

@@ -81,7 +81,7 @@ export default function Services() {
                       <h4>{service.title}</h4>
                     </div>
                     <p>{service.description}</p>
-                    <Link href={`/services`} className="service-link">
+                    <Link href={service.link} className="service-link">
                       <i className="las la-long-arrow-alt-right" />
                     </Link>
                   </SwiperSlide>

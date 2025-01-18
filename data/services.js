@@ -1,5 +1,7 @@
 import { FaDraftingCompass } from "react-icons/fa";
 import { FaBuildingCircleCheck } from "react-icons/fa6";
+import { MdElectricMeter } from "react-icons/md";
+import { BiSolidCctv } from "react-icons/bi";
 import { TbCrane } from "react-icons/tb";
 
 export const services = [
@@ -7,31 +9,38 @@ export const services = [
     icon: FaDraftingCompass,
     title: "Anteproyectos",
     description:
-      "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
+      "Sus sueños, expectativas, necesidades y dudas se aclaran durante esta etapa de la mano de especialistas calificados quienes le acompañarán en todo momento presentándole soluciones innovadoras y prácticas para materializar su visión de proyecto.",
+      link: "/project-details-left-sidebar/1",
   },
   {
     icon: FaBuildingCircleCheck,
     title: "Proyectos arquitectónicos",
     description:
-      "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
+      "¿Sabía que cada proyecto arquitectónico exitoso comienza con una planeación rigurosa y detallada? El Proyecto Arquitectónico es la base sólida sobre la que se construye cualquier edificación profesional.",
+      link: "/project-details-right-sidebar/2",
   },
   {
     icon: TbCrane,
     title: "Proyectos estructurales",
     description:
-      "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
+      "Con una Memoria de Cálculo Estructural meticulosa, garantizamos que su inmueble resista tanto las condiciones diarias como los eventos inesperados; brindándole tranquilidad y protección.",
+      link: "/project-details-gallery/3",
   },
   {
-    icon: FaDraftingCompass,
+    icon: MdElectricMeter,
     title: "Instalaciones básicas",
     description:
-      "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
+      "¿Sabía usted que el correcto cálculo y distribución deriva en un ahorro directo en su economía a largo plazo, así como en su seguridad y funcionalidad?",
+      link: "/project-details-left-sidebar/1",
+      
   },
   {
-    icon: FaDraftingCompass,
+    icon: BiSolidCctv,
     title: "Instalaciones especiales",
     description:
-      "Lorem ipsum dolor consectetur adipiscing elit Ut et massa mi.",
+      "Confíe en nosotros para implementar soluciones avanzadas en instalaciones especiales que transforman sus espacios, combinando tecnología, seguridad y eficiencia para satisfacer sus necesidades con calidad y experiencia.",
+      link: "/project-details-left-sidebar/1",
+     
   },
 ];
 
