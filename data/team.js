@@ -4,48 +4,24 @@ export const teamMembers = [
     role: "Operator",
     image: "/assets/img/team/1.jpg",
     delay: ".2s",
-    socials: [
-      { platform: "facebook", icon: "lab la-facebook-f", link: "#" },
-      { platform: "instagram", icon: "lab la-instagram", link: "#" },
-      { platform: "linkedin", icon: "lab la-linkedin-in", link: "#" },
-      { platform: "skype", icon: "la la-skype", link: "#" },
-    ],
   },
   {
     name: "Jane Doe",
     role: "Engineer",
     image: "/assets/img/team/2.jpg",
     delay: ".4s",
-    socials: [
-      { platform: "facebook", icon: "lab la-facebook-f", link: "#" },
-      { platform: "instagram", icon: "lab la-instagram", link: "#" },
-      { platform: "linkedin", icon: "lab la-linkedin-in", link: "#" },
-      { platform: "skype", icon: "la la-skype", link: "#" },
-    ],
   },
   {
     name: "Alice Smith",
     role: "Designer",
     image: "/assets/img/team/3.jpg",
     delay: ".6s",
-    socials: [
-      { platform: "facebook", icon: "lab la-facebook-f", link: "#" },
-      { platform: "instagram", icon: "lab la-instagram", link: "#" },
-      { platform: "linkedin", icon: "lab la-linkedin-in", link: "#" },
-      { platform: "skype", icon: "la la-skype", link: "#" },
-    ],
   },
   {
     name: "Bob Johnson",
     role: "Manager",
     image: "/assets/img/team/4.jpg",
     delay: ".8s",
-    socials: [
-      { platform: "facebook", icon: "lab la-facebook-f", link: "#" },
-      { platform: "instagram", icon: "lab la-instagram", link: "#" },
-      { platform: "linkedin", icon: "lab la-linkedin-in", link: "#" },
-      { platform: "skype", icon: "la la-skype", link: "#" },
-    ],
   },
 ];
 

@@ -33,6 +33,16 @@
 
     .team-bg{
         transition: transform .3s ease;
+        width: 100%;
+  height: auto; /* Mantén la proporción */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 100%; /* Escala la imagen al ancho del contenedor */
+    height: auto; /* Mantén la proporción */
+    object-fit: cover; /* Asegúrate de que se recorte correctamente */
+  }
     }
 
     .team-hover-info {

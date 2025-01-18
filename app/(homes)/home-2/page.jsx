@@ -1,16 +1,16 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import About from "@/components/homes/home-2/About";
+// import About from "@/components/homes/home-2/About";
 import Architecture from "@/components/homes/home-2/Architecture";
-import Clients from "@/components/common/Clients";
-import Facts from "@/components/homes/home-2/Facts";
-import Features from "@/components/homes/home-2/Features";
+// import Clients from "@/components/common/Clients";
+// import Facts from "@/components/homes/home-2/Facts";
+// import Features from "@/components/homes/home-2/Features";
 import Hero from "@/components/homes/home-2/Hero";
-import Mission from "@/components/homes/home-2/Mission";
-import Projects from "@/components/homes/home-2/Projects";
+// import Mission from "@/components/homes/home-2/Mission";
+// import Projects from "@/components/homes/home-2/Projects";
 import Services from "@/components/homes/home-2/Services";
 import Team from "@/components/homes/home-2/Team";
-import Testimonials from "@/components/homes/home-2/Testimonials";
+// import Testimonials from "@/components/homes/home-2/Testimonials";
 import React from "react";
 
 export const metadata = {

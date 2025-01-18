@@ -23,10 +23,4 @@ export const architecture = [
       imgSrc: "/assets/img/blog/2-4.jpg",
       delay: ".8s",
     },
-    {
-        id: 5,
-        title: "Instalaciones especiales",
-        imgSrc: "/assets/img/blog/2-4.jpg",
-        delay: ".10s",
-      },
   ];

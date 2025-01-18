@@ -11,7 +11,7 @@ export default function Services() {
         <div className="row align-items-center">
           <div className="col-xl-4 col-lg-4 col-md-4">
             <div className="section-title">
-              <h6>¡Confie en nuestros servicios!</h6>
+              <h6>¡Confíe en nuestros servicios!</h6>
               <h2>Potenciamos su proyecto con solidez y experiencia</h2>
             </div>
           </div>
