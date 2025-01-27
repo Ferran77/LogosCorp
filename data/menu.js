@@ -28,9 +28,9 @@ export const menuItems = [
       {
         title: "Fases del proyecto",
         subMenu: [
-          { title: "Anteproyecto", href: "/project-details-left-sidebar/1" },
+          { title: "Anteproyecto", href: "/project-details-right-sidebar/1" },
           { title: "Proyecto Arquitectónico", href: "/project-details-right-sidebar/2" },
-          { title: "Proyecto Estructural", href: "/project-details-gallery/3" },
+          { title: "Proyecto Estructural", href: "/project-details-right-sidebar/3" },
         ],
         isNested: true,
       },

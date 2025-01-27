@@ -52,7 +52,7 @@ export default function Footer1() {
                 </ul>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12">
-                <h5>Get in Touch</h5>
+                <h5>Síganos en nuestras redes sociales</h5>
                 <ul>
                   <li>
                     <div className="social-area">

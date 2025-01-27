@@ -10,7 +10,7 @@ export const services = [
     title: "Anteproyectos",
     description:
       "Sus sueños, expectativas, necesidades y dudas se aclaran durante esta etapa de la mano de especialistas calificados quienes le acompañarán en todo momento presentándole soluciones innovadoras y prácticas para materializar su visión de proyecto.",
-      link: "/project-details-left-sidebar/1",
+      link: "/project-details-right-sidebar/1",
   },
   {
     icon: FaBuildingCircleCheck,
@@ -24,7 +24,7 @@ export const services = [
     title: "Proyectos estructurales",
     description:
       "Con una Memoria de Cálculo Estructural meticulosa, garantizamos que su inmueble resista tanto las condiciones diarias como los eventos inesperados; brindándole tranquilidad y protección.",
-      link: "/project-details-gallery/3",
+      link: "/project-details-right-sidebar/3",
   },
   {
     icon: MdElectricMeter,
@@ -156,5 +156,50 @@ export const services6 = [
     icon: "flaticon-crane",
     wowDelay: ".8s",
     additionalClass: "b-none", // Optional additional class
+  },
+];
+
+export const services7 = [
+  {
+    id: 5,
+    imgSrc: "/assets/img/services/1.jpg",
+    number: "01.",
+    title: "Conceptualización Visual",
+    description: "El Anteproyecto es la base sobre la cual se edifica cualquier gran proyecto. Consiste en bocetos detallados y plantas arquitectónicas esquemáticas que representan una vista preliminar de cómo se distribuirán sus espacios. ¿Le gustaría tener una idea clara y visual antes de comenzar con la construcción? Estos bocetos son el primer paso para darle forma a su visión, permitiéndole ajustar detalles antes de avanzar a la siguiente fase.",
+  },
+  {
+    id: 6,
+    imgSrc: "/assets/img/services/2.jpg",
+    number: "02.",
+    title: "Renderizado de Imágenes y Videos",
+    description: "¡Esto no es solo papel y lápiz! El Anteproyecto también incluye renderizados de imágenes y videos que le permitirán vivir sus futuros espacios. Imagine poder recorrer virtualmente su proyecto, ver la luz natural entrar por las ventanas, o cómo se distribuirán los muebles en cada habitación. ¿No sería increíble visualizarlo todo antes de que la primera piedra se coloque?",
+  },
+  {
+    id: 7,
+    imgSrc: "/assets/img/services/3.jpg",
+    number: "03.",
+    title: "Toma de Decisiones Informada",
+    description: "Uno de los beneficios más importantes del Anteproyecto es que le brinda los elementos suficientes para tomar decisiones acertadas. ¿Está seguro de que el diseño actual es lo que desea? Con esta herramienta, puede realizar cambios y ajustes antes de entrar en la fase de construcción, evitando costosos errores más adelante. ¡Es su oportunidad para asegurarse de que cada detalle es perfecto!",
+  },
+  {
+    id: 8,
+    imgSrc: "/assets/img/services/4.jpg",
+    number: "04.",
+    title: "Evaluación de Costos y Viabilidad",
+    description: "El Anteproyecto también le permitirá evaluar de manera preliminar los costos y la viabilidad del proyecto. ¿Quiere saber si su idea se ajusta a su presupuesto? Con un anteproyecto detallado, podrá hacerlo sin comprometer la calidad de su visión.",
+  },
+  {
+    id: 9,
+    imgSrc: "/assets/img/services/4.jpg",
+    number: "05.",
+    title: "Personalización a su Medida",
+    description: "Un Anteproyecto no es un proceso genérico; se personaliza para satisfacer sus necesidades específicas. Desde la distribución de espacios hasta los materiales y acabados, cada aspecto del proyecto se adapta a sus gustos y requisitos. ¿Por qué conformarse con menos cuando puede tener un proyecto hecho a su medida?",
+  },
+  {
+    id: 10,
+    imgSrc: "/assets/img/services/4.jpg",
+    number: "06.",
+    title: "Seguridad en el Resultado Final",
+    description: "Finalmente, el Anteproyecto le proporciona la seguridad de que el resultado final será exactamente lo que usted imaginó. ¿Qué podría ser mejor que la tranquilidad de saber que su inversión está en manos expertas y que su visión será respetada en cada paso del camino? Este documento es esencial para que usted, como cliente, esté completamente seguro y satisfecho antes de avanzar.",
   },
 ];

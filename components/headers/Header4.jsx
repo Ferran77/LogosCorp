@@ -9,10 +9,10 @@ import MiniCart from "./MiniCart";
 
 export default function Header4() {
   return (
-    <div className="header-area">
+    <div className="header-area bg-[#181d4e]">
       <div id="header-sticky">
         <div className="navigation">
-          <div className="container">
+          <div className="container bg-[#181d4e] ">
             <div className="header-inner-box">
               {/* Logo */}
               <div className="logo">

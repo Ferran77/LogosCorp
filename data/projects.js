@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "Perfect Revets",
+    title: "¡Un buen inicio garantiza su tranquilidad!",
     category: "Textile",
     imgSrc: "/assets/img/project/5-1.jpg",
   },
