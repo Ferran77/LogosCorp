@@ -27,7 +27,7 @@ export default function About() {
                 />
               </div>
               <div className="founder-year-wrap">
-                <h1>2020</h1>
+                <h1 >2020</h1>
                 <span>Nuestro inicio</span>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function About() {
           <div className="col-xl-6 col-lg-6">
             <div className="about-content-wrap">
               <div className="section-title">
-                <h6>Nosotros</h6>
+                <h6 className="text-[#f5c31f]">Nosotros</h6>
                 <h2>
                   Arquitectura, diseño <br />
                   & construcción

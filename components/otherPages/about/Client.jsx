@@ -6,8 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 export default function Client() {
   return (
-    <div className="client-section section-padding pt-0">
-      <div className="container">
+    <div className="client-section section-padding pt-10">
+      <div className="container pt-10">
         <div className="row align-items-center mt-120">
           <div className="col-12">
             <Swiper

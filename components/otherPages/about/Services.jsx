@@ -8,21 +8,19 @@ export default function Services() {
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6 col-md-6">
             <div className="section-title">
-              <h6 className="text-white">What We Offer</h6>
+              <h6 className="text-white">Logos-Corp México</h6>
               <h2 className="text-white">
-                Engineering solutions for all industries
+              Arquitectura, diseño y construcción
               </h2>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6">
             <p>
-              Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco.
+            En nuestra empresa 100% mexicana, cada proyecto nace de la visión compartida de nuestros fundadores, con el propósito de transformar el entorno de manera positiva. <br/> <br/> Combinamos nuestra experiencia técnica-operativa con los principios de la geometría sagrada, infundiendo en cada obra una armonía única que redefine el espacio y eleva la experiencia arquitectónica. <br/> Cada diseño es un testimonio de nuestra dedicación a la innovación y al impacto duradero.
             </p>
+            <br/>
             <p>
-              Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam.
+            En LOGOS-CORP MÉXICO, Valoramos profundamente su inversión y esfuerzo en la construcción o remodelación de su propiedad. Por ello, invertimos en la capacitación continua de nuestro equipo en diversas especialidades, asegurando que cada servicio que ofrecemos esté a la altura de su confianza y expectativas. <br/> <br/> ¡Con nosotros, su confianza está garantizada!
             </p>
           </div>
         </div>

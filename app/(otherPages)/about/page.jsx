@@ -26,7 +26,7 @@ export default function page() {
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
                 <h1>LOGOS-CORP MÉXICO</h1>
-                <p>"ARQUITECTURA NACIDA DEL CORAZÓN"</p>
+                <p>ARQUITECTURA NACIDA DEL CORAZÓN</p>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />
