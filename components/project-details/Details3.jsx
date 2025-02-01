@@ -9,11 +9,9 @@ export default function Details3({ projectItem }) {
         <div className="row align-items-end mb-60">
           <div className="col-xl-9 col-lg-9">
             <div className="project-desc">
-              <h3>{projectItem.title}</h3>
+              <h3>¡Su seguridad es nuestra prioridad!</h3>
               <p>
-                Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                sit aspernatur aut odit aut fugit, sed quia consequuntur. Dicta
-                sunt explicabo.
+              Con una Memoria de Cálculo Estructural meticulosa, garantizamos que su inmueble resista tanto las condiciones diarias como los eventos inesperados, brindándole tranquilidad y protección.
               </p>
             </div>
           </div>
@@ -55,15 +53,9 @@ export default function Details3({ projectItem }) {
                 />
               </div>
               <div className="project-details-content">
-                <h3>Altogether Better</h3>
+                <h3>Confíe en nuestra experiencia y honestidad.</h3>
                 <p>
-                  Aenean interdum purus vitae purus laoreet, eu egestas augue
-                  dictum. Nunc tincidunt felis ullamcorper dolor euismod
-                  porttitor at tincidunt arcu. Ut molestie cursus sapien, a
-                  auctor quam viverra ac. Sed non blandit mi. Proin pharetra dui
-                  in molestie sollicitudin. Vivamus ornare lorem in tempus
-                  facilisis. Quisque tristique erat interdum augue sodales
-                  fringilla.
+                Le aseguramos que cada decisión estará respaldada por un análisis riguroso y detallado. <br/> Contamos la sólida experiencia de ingenieros calculistas 
                 </p>
               </div>
               <div className="project-image-gallery">
@@ -98,14 +90,7 @@ export default function Details3({ projectItem }) {
                 </div>
               </div>
               <p className="mt-30">
-                Phasellus euismod, dolor at efficitur condimentum, neque nulla
-                viverra lectus, varius bibendum quam sapien dignissim mi.
-                Maecenas rhoncus leo turpis, sit amet aliquet lectus viverra
-                sed. Aliquam sodales commodo imperdiet. Morbi tincidunt ante
-                interdum urna commodo tempor vitae id orci. Suspendisse id orci
-                ut erat convallis iaculis luctus vel diam. Donec felis eros,
-                consectetur sed ornare quis, ultrices a libero. Vestibulum
-                consectetur purus id libero euismod maximus.
+              Con un proyecto estructural sólido y bien planificado, garantizamos la seguridad y durabilidad de tu construcción. <br/> Nuestro equipo de expertos está altamente comprometido a ofrecerle soluciones innovadoras y eficientes, <br/> asegurando que cada detalle cumpla con los más altos estándares.
               </p>
             </div>
           </div>

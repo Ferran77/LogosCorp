@@ -203,3 +203,41 @@ export const services7 = [
     description: "Finalmente, el Anteproyecto le proporciona la seguridad de que el resultado final será exactamente lo que usted imaginó. ¿Qué podría ser mejor que la tranquilidad de saber que su inversión está en manos expertas y que su visión será respetada en cada paso del camino? Este documento es esencial para que usted, como cliente, esté completamente seguro y satisfecho antes de avanzar.",
   },
 ];
+
+export const services8 = [
+  {
+    id: 1,
+    imgSrc: "/assets/img/services/1.jpg",
+    number: "01.",
+    title: "Importancia del proyecto arquitectónico",
+    description: "Un proyecto arquitectónico bien ejecutado es fundamental para asegurar que cada aspecto de la construcción esté en orden. Desde la plantas y alzados que ilustran cómo se dispondrán los espacios, hasta la planeación del mobiliario fijo y temporal, todo debe estár meticulosamente calculado. ¿Se imagina una construcción sin estos elementos? El caos sería inevitable",
+  },
+  {
+    id: 2,
+    imgSrc: "/assets/img/services/2.jpg",
+    number: "02.",
+    title: "Seguridad normativa",
+    description: "La seguridad es una prioridad en cualquier construcción. Por ello, cada Proyecto arquitectónico debe cumplir con las normativas vigentes. Esto no solo protege a quienes utilizarán el edificio, sino que también previene problemas legales a futuro. ¡No puedes dejar esto al azar!",
+  },
+  {
+    id: 3,
+    imgSrc: "/assets/img/services/3.jpg",
+    number: "03.",
+    title: "Funcionalidad y Estética",
+    description: "Un buen diseño no solo se ve bien; también funciona bien. El Proyecto Arquitectónico asegura que los espacios no solo sean estéticamente agradables, sino que también sean funcionales para los usuarios. Cada disposición de mobiliario y distribución de espacio está pensada para maximizar la eficiencia y la comodidad.",
+  },
+  {
+    id: 4,
+    imgSrc: "/assets/img/services/4.jpg",
+    number: "04.",
+    title: "Flexibilidad y Personalización",
+    description: "Cada cliente tiene necesidades y deseos únicos. Por eso, un Proyecto Arquitectónico debe ser lo suficientemente flexible para adaptarse a estos requerimientos, sin comprometer la seguridad o la funcionalidad. ¿Qué tan importante es para ti que tu espacio refleje tu visión? ¡Nosotros lo hacemos posible!",
+  },
+  {
+    id: 5,
+    imgSrc: "/assets/img/services/4.jpg",
+    number: "05.",
+    title: "Evitar Gastos Innecesarios",
+    description: "Un Proyecto Arquitectónico bien planificado también es una herramienta invaluable para evitar gastos innecesarios. Al prever problemas y solucionarlos en la fase de diseño, se evitan costosas correcciones durante la construcción. ¡Imagina ahorrar tiempo y dinero con una planificación adecuada!",
+  },
+];

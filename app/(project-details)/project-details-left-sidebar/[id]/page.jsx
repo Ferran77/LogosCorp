@@ -1,13 +1,16 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header4 from "@/components/headers/Header4";
 import Details1 from "@/components/project-details/Details1";
+import Details5 from "@/components/project-details/Details5";
+import Details6 from "@/components/project-details/Details6";
+
 import { allProjects } from "@/data/projects";
 import React from "react";
 
 export const metadata = {
   title:
-    "Project Details Left Sidebar || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+    "Proyecto arquitectónico",
+  description: "Proyecto arquitectónico",
 };
 export default function page({ params }) {
   const projectItem =
@@ -21,7 +24,7 @@ export default function page({ params }) {
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
-                <h1>Project Details Left Sidebar</h1>
+                <h1>Proyecto arquitectónico</h1>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />
@@ -31,6 +34,8 @@ export default function page({ params }) {
         </div>
       </div>
       <Details1 projectItem={projectItem} />
+      <Details6/>
+      <Details5/>
       <Footer1 />
     </>
   );

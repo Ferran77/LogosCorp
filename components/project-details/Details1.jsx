@@ -9,9 +9,11 @@ export default function Details1({ projectItem }) {
         <div className="row gx-5">
           <div className="col-xl-5 col-lg-5">
             <div className="project-details-info">
-              <h3>{projectItem.title}</h3>
-              <p>Dicta sunt explicabo enim ipsam</p>
-              <div className="row single-details-item gy-3 mt-30">
+              <h3>¡Vivimos cada detalle de su proyecto!</h3>
+              <p>Un proyecto arquitectónico bien planificado es la clave para transformar ideas en espacios funcionales y estéticamente impactantes. Cada detalle cuenta para garantizar eficiencia, seguridad y armonía en cada construcción. <br/>
+
+ <br/>Invertir en un diseño integral no solo optimiza recursos, sino que también aporta valor y durabilidad a cada obra.</p>
+              {/* <div className="row single-details-item gy-3 mt-30">
                 <div className="col-4">
                   <h5>Client</h5>
                 </div>
@@ -32,7 +34,7 @@ export default function Details1({ projectItem }) {
                 <div className="col-6">
                   <span>Jim Rayan</span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-xl-7 col-lg-7">
