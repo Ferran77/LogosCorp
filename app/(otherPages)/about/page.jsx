@@ -6,7 +6,7 @@ import Facts from "@/components/otherPages/about/Facts";
 import Process from "@/components/otherPages/about/Process";
 import Services from "@/components/otherPages/about/Services";
 import Team from "@/components/otherPages/about/Team";
-import Testimonials from "@/components/otherPages/Testimonials";
+import Cta from "@/components/homes/home-1/Cta";
 import VideoSection from "@/components/otherPages/about/VideoSection";
 import Work from "@/components/otherPages/about/Work";
 import React from "react";
@@ -40,8 +40,10 @@ export default function page() {
       <VideoSection />
       <Services />
       <Work />
+      <Cta/>
       <Process />
-      <Testimonials />
+      
+      {/* <Testimonials /> */}
       <Facts />
       <Team />
       <Footer1 />

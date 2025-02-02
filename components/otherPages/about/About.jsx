@@ -38,7 +38,7 @@ export default function About() {
                 <h6 className="text-[#f5c31f]">Nosotros</h6>
                 <h2>
                   Arquitectura, diseño <br />
-                  & construcción
+                  y construcción
                 </h2>
               </div>
               <p>

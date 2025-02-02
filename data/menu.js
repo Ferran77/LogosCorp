@@ -13,10 +13,12 @@ export const menuItems = [
   {
     title: "Nosotros", href: "/about"
   },
+  // href: "/services"
   {
-    title: "Servicios", href: "/services",
+    title: "Servicios", href: "/home-2" ,
     subMenu: [
-      { title: "Arquitectura y Diseño", href: "/home-2",
+      { title: "Todos los servicios", href: "/home-2"},
+      { title: "Arquitectura y Diseño",
         subMenu: [
           { title: "Anteproyecto", href: "/project-details-right-sidebar/1" },
           { title: "Proyecto Arquitectónico", href: "/project-details-left-sidebar/1" },

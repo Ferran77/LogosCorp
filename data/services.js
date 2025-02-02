@@ -1,3 +1,7 @@
+import { MdOutlineDesignServices } from "react-icons/md";
+import { MdConstruction } from "react-icons/md";
+import { LuScreenShare } from "react-icons/lu";
+import { FaHelmetSafety } from "react-icons/fa6";
 import { FaDraftingCompass } from "react-icons/fa";
 import { FaBuildingCircleCheck } from "react-icons/fa6";
 import { MdElectricMeter } from "react-icons/md";
@@ -77,22 +81,22 @@ export const services2 = [
 
 export const services3 = [
   {
-    iconClass: "flaticon-factory",
+    icon: MdOutlineDesignServices,
     title: "Arquitectura y diseño",
     delay: ".2s",
   },
   {
-    iconClass: "flaticon-oil-pump",
+    icon: MdConstruction,
     title: "Costrucción y remodelación",
     delay: ".4s",
   },
   {
-    iconClass: "flaticon-maintenance",
+    icon: LuScreenShare,
     title: "Render y modelados 3D",
     delay: ".6s",
   },
   {
-    iconClass: "flaticon-crane",
+    icon: FaHelmetSafety,
     title: "Servicios especiales",
     delay: ".8s",
 
@@ -109,26 +113,26 @@ export const services4 = [
 
 export const services5 = [
   {
-    icon: "flaticon-factory",
-    title: "Metal Manufacturing",
+    icon: MdOutlineDesignServices,
+    title: "Arquitectura y diseño",
 
     wowDelay: ".2s",
   },
   {
-    icon: "flaticon-oil-pump",
-    title: "Oil Refinery Plants",
+    icon: MdConstruction,
+    title: "Construcción y remodelación",
 
     wowDelay: ".4s",
   },
   {
-    icon: "flaticon-maintenance",
-    title: "Maintenance Repair",
+    icon: LuScreenShare,
+    title: "Render y modelados 3D",
 
     wowDelay: ".6s",
   },
   {
-    icon: "flaticon-crane",
-    title: "Construction Works",
+    icon: FaHelmetSafety,
+    title: "Servicios especiales",
 
     wowDelay: ".8s",
     additionalClass: "b-none",
