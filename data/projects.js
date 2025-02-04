@@ -1,3 +1,8 @@
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
+import TaskAltIcon from '@mui/icons-material/TaskAlt';
+import DescriptionIcon from '@mui/icons-material/Description';
+import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
+
 export const projects = [
   {
     id: 1,
@@ -301,33 +306,36 @@ export const projects6 = [
 export const projects7 = [
   {
     id: 39,
-    imgSrc: "/assets/img/project/1-1.jpg",
-    title: "Steel Roll",
-    category: "Production",
+    title: "Calidad en el servicio",
+    icon: WorkspacePremiumIcon, // ✅ Guardamos la referencia, NO JSX
+    description:
+      "Empleamos materiales certificados y expertos de primer nivel; asegurando de ese modo, un estándar inigualable y la tranquilidad de que tendrá un servicio impecable en cada detalle",
     delay: ".2s",
   },
   {
     id: 40,
-    imgSrc: "/assets/img/project/1-2.jpg",
-    title: "Steel Processing",
-    category: "Production",
-    delay: ".4s",
+    title: "Supervisión",
+    icon: TaskAltIcon, // ✅ Solo referencia
+    description:
+      "Designamos un arquitecto líder para cada proyecto, garantizando excelencia y coherencia en cada etapa del proceso, desde la visión hasta la ejecución global",
+    delay: ".2s",
   },
   {
     id: 41,
-    imgSrc: "/assets/img/project/1-3.jpg",
-    title: "Steel Profiles",
-    category: "Production",
-    delay: ".6s",
+    title: "Garantía por escrito",
+    icon: DescriptionIcon,
+    description:
+      "Cada proyecto está respaldado por un compromiso tangible, asegurando la calidad y la tranquilidad que solo una garantía por escrito puede ofrecer",
+    delay: ".2s",
   },
   {
     id: 42,
-    imgSrc: "/assets/img/project/1-4.jpg",
-    title: "Transportation",
-    category: "Production",
-    delay: ".8s",
+    title: "Comunicación oportuna",
+    icon: PhoneInTalkIcon,
+    description:
+      "Le mantendremos informado continuamente; proporcionándole acceso continuo al progreso de su proyecto y una respuesta inmediata a sus inquietudes con variados canales de comunicación",
+    delay: ".2s",
   },
-  
 ];
 
 export const projects8 = [

@@ -1,6 +1,5 @@
 "use client";
 import MobileNav from "@/components/headers/MobileNav";
-
 import "@/public/assets/scss/main.scss";
 
 import "swiper/css";
@@ -16,29 +15,8 @@ import Mouse from "@/components/common/Mouse";
 export default function RootLayout({ children }) {
   useEffect(() => {
     if (typeof window !== "undefined") {
-      // Import the script only on the client side
-      import("bootstrap/dist/js/bootstrap.esm").then(() => {
-        // Module is imported, you can access any exported functionality if
-      });
+      import("bootstrap/dist/js/bootstrap.esm");
     }
-  }, []);
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const header = document.getElementById("header-sticky");
-      if (scrollPosition < 400) {
-        header?.classList.remove("header-sticky");
-      } else {
-        header?.classList.add("header-sticky");
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    // Clean up event listener on component unmount
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
   }, []);
 
   const pathname = usePathname();
@@ -54,9 +32,17 @@ export default function RootLayout({ children }) {
 
     initWOW();
   }, [pathname]);
+
   return (
-    <html lang="en">
-      <body style={{ transition: "0s" }}>
+    <html lang="es">
+      <head>
+        {/* Fuente Roboto */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+      </head>
+      <body style={{ transition: "0s", fontFamily: "Roboto, sans-serif" }}>
         <Context>{children}</Context>
         <MobileNav />
         <ExtraInfo />

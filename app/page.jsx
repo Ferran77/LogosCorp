@@ -4,6 +4,7 @@ import About from "@/components/homes/home-1/About";
 import Blogs from "@/components/homes/home-1/Blogs";
 import Clients from "@/components/homes/home-1/Clients";
 import Cta from "@/components/homes/home-1/Cta";
+import Cta2 from "@/components/homes/home-1/Cta2";
 import Faq from "@/components/common/Faq";
 import FeatureLine from "@/components/homes/home-1/FeatureLine";
 import VirtualTour from "@/components/homes/home-1/VirtualTour";
@@ -24,12 +25,13 @@ export default function Home() {
       <Hero />
       <FeatureLine />
       <Services />
+      <Cta2/>
       <VirtualTour />
+      <Cta />
       <About />
       <Testimonials />
       <Projects />
       <Clients />
-      <Cta />
       <Faq />
       <Blogs />
       <Footer1 />

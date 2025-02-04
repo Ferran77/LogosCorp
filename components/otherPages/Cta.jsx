@@ -8,7 +8,7 @@ export default function Cta() {
           <div className="col-xl-8 col-lg-8 col-md-8">
             <div className="cta-title">
               <div className="section-title">
-                <h2 className="text-white">We make creative solutions.</h2>
+                <h2 className="text-white">Aproveche nuestras promociones</h2>
               </div>
             </div>
           </div>
