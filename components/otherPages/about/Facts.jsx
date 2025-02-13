@@ -6,7 +6,7 @@ export default function Facts() {
   return (
     <div
       id="counter-3"
-      className="counter-section theme-bg section-padding pb-100 pt-200"
+      className="counter-section theme-bg section-padding pb-80 pt-80"
     >
       <div className="container">
         <div className="row gx-5">

@@ -29,41 +29,23 @@ export const teamMembers2 = [
   {
     id: 1,
     imgSrc: "/assets/img/team/team-1.jpg",
-    name: "John Lewis",
-    position: "Operator",
+    name: "Arquitectura nacida del corazón:",
+    position: "Los cimientos fuertes, como en la vida, sostienen las historias más grandes.",
     delay: ".2s",
-    socials: [
-      { icon: "lab la-facebook-f", link: "#" },
-      { icon: "lab la-instagram", link: "#" },
-      { icon: "lab la-linkedin-in", link: "#" },
-      { icon: "la la-skype", link: "#" },
-    ],
   },
   {
     id: 2,
     imgSrc: "/assets/img/team/team-2.jpg",
-    name: "John Lewis",
-    position: "Operator",
+    name: "Arquitectura nacida del corazón:",
+    position: "Construimos más que estructuras, damos vida a espacios donde crecerán sueños.",
     delay: ".4s",
-    socials: [
-      { icon: "lab la-facebook-f", link: "#" },
-      { icon: "lab la-instagram", link: "#" },
-      { icon: "lab la-linkedin-in", link: "#" },
-      { icon: "la la-skype", link: "#" },
-    ],
   },
   {
     id: 3,
     imgSrc: "/assets/img/team/team-3.jpg",
-    name: "John Lewis",
-    position: "Operator",
+    name: "Arquitectura nacida del corazón:",
+    position: "Las grandes visiones toman forma con manos dedicadas y corazones comprometidos.",
     delay: ".6s",
-    socials: [
-      { icon: "lab la-facebook-f", link: "#" },
-      { icon: "lab la-instagram", link: "#" },
-      { icon: "lab la-linkedin-in", link: "#" },
-      { icon: "la la-skype", link: "#" },
-    ],
   },
 ];
 

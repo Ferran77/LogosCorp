@@ -32,8 +32,15 @@ export default function Projects() {
                       backgroundColor: "white",
                       borderRadius: "10px",
                       transition: "transform 0.3s",
-                      "&:hover": { transform: "scale(1.05)" },
+                      border: "1px solid rgba(255, 255, 255, 0.2)",
+                      height: "280px", // 🔥 Esto hace que todas tengan la misma altura
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "space-between", // Distribuye bien el contenido
+                      "&:hover":  { transform: "scale(1.05)" },
+                      border: ".5px solid #fa4729",
                     }}
+
                   >
                     {/* Ícono superior */}
                     <Box sx={{ color: "#fa4729" }}>

@@ -9,7 +9,7 @@ export default function About() {
             <div className="about-content-wrap">
               <div className="section-title">
                 <h6>What We Do</h6>
-                <h2>We develop modern production of fabrics</h2>
+                <h2>Chale! modern production of fabrics</h2>
               </div>
               <p>
                 Lorem ipsum dolor sit amet adipscin elit volare el tempor

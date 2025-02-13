@@ -22,8 +22,8 @@ export const counters = [
 ];
 
 export const counters2 = [
-  { number: 1037, label: "Project Completed" },
-  { number: 156, label: "Qualified Team" },
-  { number: 90, text: "%", label: "Client Satisfaction" },
-  { number: 23, text: "+", label: "Year of Experience" },
+  { number: 24, text:"+", label: "Clientes satisfechos" },
+  { number: 5, text:"+", label: "Años de experiencia" },
+  { number: 36, label: "Proyectos concluidos" },
+  { number: 1000, text: "+", label: "Horas trabajadas" },
 ];

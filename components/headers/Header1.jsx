@@ -21,8 +21,8 @@ export default function Header1() {
                   <Image
                     alt="Logo"
                     src="/assets/img/logos img/logotipo_mundo_sin_fondo_-logos-corp_mexico.png"
-                    width={180}
-                    height={180}
+                    width={160}
+                    height={160}
                     className="pt-2 mr-15"
                   />
                 </Link>

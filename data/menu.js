@@ -1,96 +1,68 @@
 export const menuItems = [
   {
-    title: "Inicio", href: "/",
+    title: "Inicio",
     subMenu: [
-      { title: "Home", href: "/" },
+      { title: "Inicio", href: "/" },
+      { title: "Nosotros", href: "/about" },
       
-      // { title: "Contrucción", href: "/home-3" },
-      
-      // { title: "Proyectos especiales", href: "/home-5" },
     ],
     active: true,
   },
   {
-    title: "Nosotros", href: "/about"
-  },
-  // href: "/services"
-  {
-    title: "Servicios", href: "/home-2" ,
+    title: "Servicios",
     subMenu: [
-      { title: "Todos los servicios", href: "/home-2"},
-      { title: "Arquitectura y Diseño",
-        subMenu: [
-          { title: "Anteproyecto", href: "/project-details-right-sidebar/1" },
-          { title: "Proyecto Arquitectónico", href: "/project-details-left-sidebar/1" },
-          { title: "Proyecto Estructural", href: "/project-details-gallery/1" },
-          { title: "Instalaciones", href: "/project-details-gallery/2",
-            subMenu: [
-              { title: "Instalaciones básicas", href: "/project-details-right-sidebar/1" },
-              { title: "Sistema de CCTV", href: "/project-details-left-sidebar/1" },
-              { title: "Sistema de riego automatizado", href: "/project-details-gallery/1" },
-              { title: "Sistema domótico", href: "/project-details-left-sidebar/1" },
-              { title: "Sistema de voz y datos", href: "/project-details-gallery/1" },
-              { title: "Sistema de elevadores", href: "/project-details-gallery/1" },
-            ],
-           },
-        ],
-        isNested: true,
-      },
-      { title: "Construcción y remodelación", href: "/price",
-
-        subMenu: [
-          { title: "Obra nueva", href: "/project-details-right-sidebar/1" },
-          { title: "Remodelación de interiores", href: "/project-details-left-sidebar/1" },
-          { title: "Remodelación de exteriores", href: "/project-details-gallery/1" },
-          { title: "Supervisión de obra", href: "/project-details-left-sidebar/1" },
-          { title: "Mantenimiento a empresas", href: "/project-details-gallery/1" },
-        ],
-      },
-      { title: "Modelado 3D y Reder", href: "/home-4",
-        subMenu: [
-          { title: "Imágenes 360°", href: "/project-details-right-sidebar/1"},
-          { title: "Imágenes 3D", href: "/project-details-left-sidebar/1" },
-          { title: "Tour virtual 360°", href: "/project-details-gallery/1" },
-          { title: "Recorrido virtual 3D en video", href: "/project-details-left-sidebar/1" },
-        ],
-       },
-      { title: "Valuación inmoviliaria", href: "/client" },
-      { title: "Dictamen de seguridad estructural", href: "/faq" },
-      { title: "Levantamiento arquitectónico", href: "/project-fullwidth" },
-      { title: "Levantamiento topográfico", href: "/project-grid" },
+      { title: "Nuestros Servicios", href: "/services" },
+      { title: "Arquitectura y diseño", href: "/home-2" },
+      { title: "Construción y remodelación", href: "/home-3" },
+      { title: "Render 3D y animaciones", href: "/home-4" },
+      { title: "Servicios integrales y especiales", href: "/home-5" },
+      { title: "Valución inmobiliaria", href: "/price" },
+      { title: "Dictamen de seguridad estructural", href: "/testimonial" },
+      { title: "Levantamiento arquitectónico", href: "/team" },
+      { title: "Levantamiento topográfico", href: "/client" },
+      { title: "Preguntas frecuentes", href: "/faq" },
     ],
   },
   {
-    title: "Mi Proyecto",
+    title: "Projects",
     subMenu: [
-      { title: "Avances", href: "/project-standard" },
-      
-      // { title: "List", href: "/project-list" },
-      // { title: "Masonry", href: "/project-masonry" },
-      // { title: "Slider", href: "/project-slider" },
-     
+      { title: "Standard", href: "/project-standard" },
+      { title: "Metro Fullwidth", href: "/project-fullwidth" },
+      { title: "Grid", href: "/project-grid" },
+      { title: "List", href: "/project-list" },
+      { title: "Masonry", href: "/project-masonry" },
+      { title: "Slider", href: "/project-slider" },
+      {
+        title: "Single Project",
+        subMenu: [
+          { title: "Left Sidebar", href: "/project-details-left-sidebar/1" },
+          { title: "Right Sidebar", href: "/project-details-right-sidebar/2" },
+          { title: "Gallery", href: "/project-details-gallery/3" },
+        ],
+        isNested: true,
+      },
     ],
   },
   {
     title: "Blog",
     subMenu: [
-      { title: "Últimas noticias ", href: "/blog-grid" },
+      { title: "Blog Grid", href: "/blog-grid" },
       { title: "Blog Standard", href: "/blog-standard" },
       { title: "Blog Details", href: "/blog-details/1" },
     ],
   },
   {
-    title: "Tienda",
+    title: "Shop",
     subMenu: [
-      { title: "Cupón Promocional", href: "/product" },
-      // { title: "Product Details", href: "/product-details/1" },
-      // { title: "Cart", href: "/cart" },
-      // { title: "Checkout", href: "/checkout" },
-      // { title: "Wishlist", href: "/wishlist" },
+      { title: "Shop List", href: "/product" },
+      { title: "Product Details", href: "/product-details/1" },
+      { title: "Cart", href: "/cart" },
+      { title: "Checkout", href: "/checkout" },
+      { title: "Wishlist", href: "/wishlist" },
     ],
   },
   {
-    title: "Contacto",
+    title: "Contact",
     href: "/contact",
   },
 ];

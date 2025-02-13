@@ -8,18 +8,14 @@ export default function Team() {
         <div className="row gx-5 align-items-center">
           <div className="col-xl-4 col-lg-4">
             <div className="section-title">
-              <h6>Meet the Elite</h6>
-              <h2>The Best Workers</h2>
+              <h6>Arquitectura nacida del corazón</h6>
+              <h2>Construimos con pasión y precisión</h2>
             </div>
           </div>
           <div className="col-xl-8 col-lg-8">
             <div className="team-desc">
-              <p>
-                Adipiscing elit, sed do euismod tempor incidunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitacion ullamco do euismod tempor incidunt quis nostrud
-                exercitacion Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit.
+              <p className="mt-5">
+              Cada proyecto es una historia en construcción. Nuestro equipo, dedicado y apasionado, transforma ideas en espacios que inspiran. Con calidad, compromiso y un enfoque personalizado, hacemos realidad tus sueños arquitectónicos, garantizando confianza en cada detalle.
               </p>
             </div>
           </div>
@@ -37,22 +33,15 @@ export default function Team() {
                     alt={member.name}
                     src={member.imgSrc}
                     className="height-auto"
-                    width={570}
-                    height={696}
+                    width={600}
+                    height={700}
                   />
                 </div>
                 <div className="team-hover-info">
                   <div className="team-title">
-                    <h5>{member.name}</h5>
-                    <span>{member.position}</span>
+                    <h5 className="mb-3">{member.name}</h5>
+                    <span className="mb-1">"{member.position}"</span>
                   </div>
-                </div>
-                <div className="social-icon">
-                  {member.socials.map((social, index) => (
-                    <a key={index} href={social.link}>
-                      <i className={social.icon} />
-                    </a>
-                  ))}
                 </div>
               </div>
             </div>

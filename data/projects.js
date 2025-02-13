@@ -1,8 +1,4 @@
-import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
-import TaskAltIcon from '@mui/icons-material/TaskAlt';
-import DescriptionIcon from '@mui/icons-material/Description';
-import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
-
+import { WorkspacePremiumIcon, TaskAltIcon, DescriptionIcon, PhoneInTalkIcon } from "./clientIcon";
 export const projects = [
   {
     id: 1,
