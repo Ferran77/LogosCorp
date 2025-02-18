@@ -115,24 +115,28 @@ export const services5 = [
   {
     icon: MdOutlineDesignServices,
     title: "Arquitectura y diseño",
+    href: "/home-2",
 
     wowDelay: ".2s",
   },
   {
     icon: MdConstruction,
     title: "Construcción y remodelación",
+    href: "/home-3",
 
     wowDelay: ".4s",
   },
   {
     icon: LuScreenShare,
     title: "Render y modelados 3D",
+    href: "/home-4",
 
     wowDelay: ".6s",
   },
   {
     icon: FaHelmetSafety,
     title: "Servicios especiales",
+    href: "/home-5",
 
     wowDelay: ".8s",
     additionalClass: "b-none",

@@ -23,23 +23,22 @@ export default function About() {
           <div className="col-xl-6 col-lg-6 col-md-6">
             <div className="about-content-wrap">
               <div className="section-title">
-                <h6>Who We Are</h6>
-                <h2>We are leaders in the building sector</h2>
+                <h6>Quiénes somos</h6>
+                <h2>Arquitectura nacida del corazón</h2>
               </div>
               <p>
-                Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                sit aspernatur aut odit aut fugit, sed quia.
+              En LOGOS-CORP, nos enorgullece proporcionar servicios de construcción de alta calidad, adaptados a las necesidades específicas de nuestros clientes. Desde nuevas edificaciones hasta remodelaciones complejas, manejamos cada proyecto con la máxima precisión y atención al detalle.
               </p>
               <div className="about-feature">
                 <ul>
-                  <li>Individual Approach</li>
-                  <li>Technical Construction</li>
-                  <li>Customer Support</li>
+                  <li>Enfoque Individualizado</li>
+                  <li>Supervisión constante</li>
+                  <li>Atención personalizada</li>
                 </ul>
               </div>
               <div className="about-btn mt-40">
                 <Link href={`/about`} className="theme-btn">
-                  About More
+                  Nosotros
                 </Link>
               </div>
             </div>

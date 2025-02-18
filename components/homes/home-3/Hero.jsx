@@ -36,16 +36,26 @@ export default function Hero() {
                   data-wow-delay={slide.delay}
                 >
                   <div className="section-title">
-                    <h1>
+                    <h1 className="mt-15">
                       <b>{slide.title}</b>
-                      <br />
-                      {slide.subtitle}
                     </h1>
-                    <p>
+                    <h3 className="mb-8 text-[#fa4729]">{slide.subtitle}</h3>
+
+                    <p
+                      style={{
+                        color: "#0B0D26",
+                        
+                        padding: "5px 5px",
+                        marginRight: "5px",
+                        marginTop: "15px",
+                        borderRadius: "3px",
+                      }}
+                    >
                       {slide.description.split("\n")[0]}
                       <br />
                       {slide.description.split("\n")[1]}
                     </p>
+
                     <Link href={`/about`} className="theme-btn">
                       {slide.buttonText}
                     </Link>

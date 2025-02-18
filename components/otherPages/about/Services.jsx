@@ -55,12 +55,12 @@ export default function Services() {
   ))}
 </h4>
           </div>
-          <Link href={`/about`} className="read_more_link">
-            <span className="link_text">Read More</span>
-            <span className="link_icon">
-              <i className="las la-arrow-right" />
-            </span>
-          </Link>
+          <Link href={service.href} className="read_more_link">
+  <span className="link_text">Saber más</span>
+  <span className="link_icon">
+    <i className="las la-arrow-right" />
+  </span>
+</Link>
         </div>
       </div>
     );

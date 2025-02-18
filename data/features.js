@@ -39,23 +39,23 @@ export const features = [
 
 export const features2 = [
   {
-    title: "Construction Management",
+    title: "Obras nuevas",
     description:
-      "Suspendisse lectus arcu, aliquet in tincidunt id, blandit sed lectus. Donec nunc praesentium.",
+      "Desde la concepción hasta la ejecución. Anticipamos los desafíos para ofrecerle soluciones que eleven el valor de su inversión.",
     image: "/assets/img/feature/1.jpg",
     delay: ".2s",
   },
   {
-    title: "Industrial Production",
+    title: "Remodelación interior y exterior",
     description:
-      "Suspendisse lectus arcu, aliquet in tincidunt id, blandit sed lectus. Donec nunc praesentium.",
+      "Con un enfoque innovador y atención al detalle. Renovamos cada ambiente para reflejar su estilo y maximizar su confort.",
     image: "/assets/img/feature/2.jpg",
     delay: ".4s",
   },
   {
-    title: "Facade Engineering",
+    title: "Mantenimiento a empresas",
     description:
-      "Suspendisse lectus arcu, aliquet in tincidunt id, blandit sed lectus. Donec nunc praesentium.",
+      "Protegemos sus activos. Nuestro enfoque proactivo previene problemas antes de que surjan, asegurando la eficiencia y seguridad de sus espacios.",
     image: "/assets/img/feature/3.jpg",
     delay: ".6s",
   },

@@ -11,27 +11,29 @@ import Projects from "@/components/homes/home-3/Projects";
 import Services from "@/components/homes/home-3/Services";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import VideoSection from "@/components/homes/home-3/VideoSection";
+import Cta from "@/components/homes/home-1/Cta";
 import React from "react";
 
 export const metadata = {
   title:
-    "Home Construction || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+    "Construcción y remodelación || LOGOS-CORP MÉXICO",
+  description: "Construcción y remodelación",
 };
 export default function page() {
   return (
     <>
       <Header2 />
       <Hero />
-      <Clients />
+      {/* <Clients /> */}
       <About />
       <Services />
-      <Projects />
+      {/* <Projects /> */}
       <Features />
-      <VideoSection />
-      <Process />
+      {/* <VideoSection /> */}
+      {/* <Process />
       <Testimonials />
-      <Blogs />
+      <Blogs /> */}
+      <Cta/>
       <Facts />
       <Footer1 />
     </>

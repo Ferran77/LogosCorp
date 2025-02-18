@@ -12,8 +12,8 @@ export default function Features() {
         <div className="row justify-content-center">
           <div className="col-xl-8 text-center">
             <div className="section-title">
-              <h6>What We Offer</h6>
-              <h2>Global Solutions</h2>
+              <h6>Qué ofrecemos</h6>
+              <h2>Soluciones integrales</h2>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Features() {
                   <h4>{feature.title}</h4>
                   <p>{feature.description}</p>
                   <Link href={`/about`} className="read_more_link">
-                    <span className="link_text">Read More</span>
+                    <span className="link_text">Saber más</span>
                     <span className="link_icon">
                       <i className="las la-arrow-right" />
                     </span>

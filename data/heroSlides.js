@@ -12,21 +12,21 @@ export const slides = [
 
 export const slides2 = [
   {
-    title: "Factory Industrial",
-    subtitle: "Leader in Build",
+    title: "Construcción",
+    subtitle: "Construímos con visión",
     description:
-      "Industrial Revolution, in modern history, the process of change from an agrarian\n and handicraft economy to one dominated by industry and machine manufacturing.",
+      "Convertimos ideas en estructuras sólidas y funcionales, fusionando ingeniería y diseño para crear espacios que perduran en el tiempo con calidad, precisión y compromiso absoluto.",
     image: "/assets/img/slider/4.jpg",
-    buttonText: "Learn More",
+    buttonText: "Saber más",
     delay: ".2s",
   },
   {
-    title: "Factory Industrial",
-    subtitle: "Leader in Power",
+    title: "Remodelación",
+    subtitle: "Renovando anhelos",
     description:
-      "Industrial Revolution, in modern history, the process of change from an agrarian\n and handicraft economy to one dominated by industry and machine manufacturing.",
+      "Transformamos tu hogar o negocio con diseños innovadores y materiales de alta calidad, adaptándonos a tus necesidades para brindarte confort, estilo y funcionalidad excepcionales.",
     image: "/assets/img/slider/5.jpg",
-    buttonText: "About Us",
+    buttonText: "Nosotros",
     delay: ".2s",
   },
 ];
