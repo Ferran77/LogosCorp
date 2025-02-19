@@ -15,8 +15,8 @@ export default function Header3() {
                 <Link className="navbar-brand" href={`/`}>
                   <Image
                     alt=""
-                    src="/assets/img/logo-white.png"
-                    width={198}
+                    src="/assets/img/logos img/mundo_150_150_logos-corp_mexico.png"
+                    width={64}
                     height={64}
                   />
                 </Link>

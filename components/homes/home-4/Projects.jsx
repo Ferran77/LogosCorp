@@ -16,7 +16,6 @@ export default function Projects() {
               <div className="details">
                 <div className="info">
                   <h5>{project.title}</h5>
-                  <h6>{project.category}</h6>
                 </div>
               </div>
             </Link>

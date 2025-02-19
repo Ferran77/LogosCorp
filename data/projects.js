@@ -364,26 +364,22 @@ export const projects8 = [
 export const projects9 = [
   {
     id: 47,
-    title: "Metal Process",
-    category: "Industry",
+    title: "Recorrido virtual 3D en video",
     imgSrc: "/assets/img/project/4-1.jpg",
   },
   {
     id: 48,
-    title: "Wire Rod",
-    category: "Industry",
+    title: "Tour virtual 360°",
     imgSrc: "/assets/img/project/4-2.jpg",
   },
   {
     id: 49,
-    title: "Propeller",
-    category: "Industry",
+    title: "Imágenes 3D",
     imgSrc: "/assets/img/project/4-3.jpg",
   },
   {
     id: 50,
-    title: "Hot Forging",
-    category: "Industry",
+    title: "Imágenes 360°",
     imgSrc: "/assets/img/project/4-4.jpg",
   },
 ];

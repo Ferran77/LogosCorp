@@ -12,16 +12,17 @@ export default function Services() {
           <div className="col-xl-6 col-lg-6 col-md-10">
             <div className="service-content-wrap">
               <div className="section-title">
-                <h6>Metal Services</h6>
-                <h2>Metal fabrication &amp; engineering services</h2>
+                <h6>Render 3D y animaciones</h6>
+                <h2>Viva la experirencia virtual</h2>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore
+                Esta experiencia inmersiva le permite explorar cada rincón de su
+                proyecto con total libertad y de movimiento y detalle desde
+                cualquier ángulo.
               </p>
               <div className="about-btn mt-40">
                 <Link href={`/about`} className="theme-btn">
-                  About More
+                  Saber más
                 </Link>
               </div>
             </div>
@@ -32,19 +33,20 @@ export default function Services() {
                 {services4.map((service, index) => (
                   <div
                     key={index}
-                    className="col-xl-6 col-lg-6 col-md-6 mt-30 wow fadeInUp"
+                    className="col-xl-6 col-lg-6 col-md-6 mt-30 wow fadeInUp transition duration-300"
                     data-wow-delay={service.delay}
                   >
-                    <div className="single-service-item">
-                      <div className="service-icon">
-                        <span>
-                          <i className={service.icon} />
+                    <div className="single-service-item group hover:bg-[#fa4729] p-6 rounded-lg bg-gray-800 transition-all duration-300">
+                      <div className="service-icon -mt-7">
+                        {/* Aplicamos group-hover al ícono */}
+                        <span className="text-[#fa4729] group-hover:text-white transition-colors duration-300">
+                          {React.cloneElement(service.icon, { size: 40 })}
                         </span>
                       </div>
-                      <div className="service-title">
+                      <div className="service-title -mt-5 -mb-2">
                         <h4>{service.title}</h4>
                       </div>
-                      <p>Vestibulum vestibulum posuere luctus pretium.</p>
+                      <p>{service.subtitile}</p>
                     </div>
                   </div>
                 ))}

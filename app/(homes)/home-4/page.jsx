@@ -1,5 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
-import Header3 from "@/components/headers/Header3";
+import Header1 from "@/components/headers/Header1";
 import About from "@/components/homes/home-4/About";
 import Blogs from "@/components/homes/home-4/Blogs";
 import Cta from "@/components/homes/home-4/Cta";
@@ -14,23 +14,23 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Home Metal Working || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+    "Render y modelados 3D || LOGOS-CORP MÉXICO",
+  description: "Rednder y modelados 3D - LOGOS-CORP MÉXICO",
 };
 export default function page() {
   return (
     <>
-      <Header3 />
+      <Header1 />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Services />
       <Projects />
       <Testimonials />
-      <Process />
-      <PromoSection />
+      {/* <Process /> */}
+      {/* <PromoSection /> */}
       <Cta />
-      <Team />
-      <Blogs />
+      {/* <Team />
+      <Blogs /> */}
       <Footer1 />
     </>
   );

@@ -44,7 +44,7 @@ export default function Hero() {
                     <p
                       style={{
                         color: "#0B0D26",
-                        
+                      
                         padding: "5px 5px",
                         marginRight: "5px",
                         marginTop: "15px",

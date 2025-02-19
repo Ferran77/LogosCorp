@@ -32,13 +32,13 @@ export default function Team() {
                           <span>{member.role}</span>
                         </div>
                       </div>
-                      <div className="social-icon">
+                      {/* <div className="social-icon">
                         {member.socials.map((social, socialIndex) => (
                           <a key={socialIndex} href={social.link}>
                             <i className={social.icon} />
                           </a>
                         ))}
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ))}

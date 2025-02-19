@@ -7,6 +7,10 @@ import { FaBuildingCircleCheck } from "react-icons/fa6";
 import { MdElectricMeter } from "react-icons/md";
 import { BiSolidCctv } from "react-icons/bi";
 import { TbCrane } from "react-icons/tb";
+import { Gi3dGlasses } from "react-icons/gi";
+import { MdOutline3dRotation } from "react-icons/md";
+import { TbRotate360 } from "react-icons/tb";
+import { TbView360Number } from "react-icons/tb";
 
 export const services = [
   {
@@ -105,10 +109,10 @@ export const services3 = [
 ];
 
 export const services4 = [
-  { title: "Cutting", icon: "flaticon-robotic-arm", delay: ".2s" },
-  { title: "Welding", icon: "flaticon-gears", delay: ".4s" },
-  { title: "Turning", icon: "flaticon-hard-hat", delay: ".6s" },
-  { title: "Milling", icon: "flaticon-repair-tools", delay: ".8s" },
+  { title: "Recorrido virtual 3D en video", subtitile:"Explore su proyecto antes de su construcción, identificando oportunidades de mejora desde el principio", icon: <Gi3dGlasses/>, delay: ".2s" },
+  { title: "Tour virtual 360°", subtitile:"Es una experiencia interactiva que le brinda control total sobre la exploración de su proyecto.", icon: <TbRotate360/>, delay: ".4s" },
+  { title: "Imágenes 3D",subtitile:"Son representaciones digitales detalladas y realistas de sus proyectos arquitectónicos o de diseño interior.", icon: <MdOutline3dRotation/>, delay: ".6s" },
+  { title: "Imágenes 360°", subtitile:"Capturan todos los ángulos de un espacio, permitiendo una visualización completa y detallada en cualquier dirección.", icon: <TbView360Number/>, delay: ".8s" },
 ];
 
 export const services5 = [
