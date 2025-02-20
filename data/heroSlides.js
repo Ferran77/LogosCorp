@@ -30,3 +30,24 @@ export const slides2 = [
     delay: ".2s",
   },
 ];
+
+export const slides3 = [
+  {
+    title: "Soluciones integrales",
+    subtitle: "Renovando emociones",
+    description:
+      " Estamos comprometidos a brindarle un servicio sin preocupaciones; donde la excelencia y la innovación se combinan para crear resultados excepcionales.",
+    image: "/assets/img/slider/7.jpg",
+    buttonText: "Saber más",
+    delay: ".2s",
+  },
+  {
+    title: "Servicios especiales",
+    subtitle: "Renovando espacios",
+    description:
+      "Transforme sus especios en experiencias únicas y confortables",
+    image: "/assets/img/slider/8.jpg",
+    buttonText: "Nosotros",
+    delay: ".2s",
+  },
+];

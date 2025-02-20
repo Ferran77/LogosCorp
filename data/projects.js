@@ -419,6 +419,52 @@ export const projects10 = [
   },
 ];
 
+export const projects11 = [
+  {
+    id: 47,
+    title: "Levantamiento topográfico",
+    imgSrc: "/assets/img/project/4-5.jpg",
+  },
+  {
+    id: 48,
+    title: "Dictamen de seguridad estructural",
+    imgSrc: "/assets/img/project/4-6.jpg",
+  },
+  {
+    id: 49,
+    title: "Valución inmobiliaria",
+    imgSrc: "/assets/img/project/4-7.jpg",
+  },
+  {
+    id: 50,
+    title: "Asesorías gratuítas",
+    imgSrc: "/assets/img/project/4-8.jpg",
+  },
+];
+
+export const projects12 = [
+  {
+    id: 47,
+    title: "Hogar inteligente",
+    imgSrc: "/assets/img/project/4-9.jpg",
+  },
+  {
+    id: 48,
+    title: "Sistema de CCTV",
+    imgSrc: "/assets/img/project/4-10.jpg",
+  },
+  {
+    id: 49,
+    title: "Sistema de voz y datos",
+    imgSrc: "/assets/img/project/4-11.jpg",
+  },
+  {
+    id: 50,
+    title: "Sistema de elevadores",
+    imgSrc: "/assets/img/project/4-12.jpg",
+  },
+];
+
 export const allProjects = [
   ...projects,
   ...projects2,
@@ -430,4 +476,6 @@ export const allProjects = [
   ...projects8,
   ...projects9,
   ...projects10,
+  ...projects11,
+  ...projects12,
 ];

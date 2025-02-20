@@ -11,6 +11,16 @@ import { Gi3dGlasses } from "react-icons/gi";
 import { MdOutline3dRotation } from "react-icons/md";
 import { TbRotate360 } from "react-icons/tb";
 import { TbView360Number } from "react-icons/tb";
+import { BsBuildingUp } from "react-icons/bs";
+import { FaTools, FaHardHat, FaEye } from "react-icons/fa"; 
+import { FaMap } from "react-icons/fa";
+import { FaBuildingShield } from "react-icons/fa6";
+import { FaMoneyCheckDollar } from "react-icons/fa6";
+import { RiCustomerServiceFill } from "react-icons/ri";
+import { FaHouseLaptop } from "react-icons/fa6";
+import { PiSecurityCameraBold } from "react-icons/pi";
+import { MdOutlineContactPhone } from "react-icons/md";
+import { GiElevator } from "react-icons/gi";
 
 export const services = [
   {
@@ -251,5 +261,58 @@ export const services8 = [
     number: "05.",
     title: "Evitar Gastos Innecesarios",
     description: "Un Proyecto Arquitectónico bien planificado también es una herramienta invaluable para evitar gastos innecesarios. Al prever problemas y solucionarlos en la fase de diseño, se evitan costosas correcciones durante la construcción. ¡Imagina ahorrar tiempo y dinero con una planificación adecuada!",
+  },
+];
+
+export const services9 = [
+  {
+    title: "Levantamientos topográficos",
+    description:
+      "Le ofrecemos una representación precisa de su terreno que le facilite la planificación y ejecución de sus proyectos",
+    icon: FaMap,
+  },
+  {
+    title: "Dictamen de seguridad estructural",
+    description:
+      "Un Dictamen de Seguridad Estructural exhaustivo previene riesgos y asegura la protección de quienes ocupan su edificio",
+    icon: FaBuildingShield,
+  },
+  {
+    title: "Valuación inmobiliaria",
+    description:
+      "¿Se ha preguntado cuánto vale su propiedad? No se preocupe, nosotros le hacemos un estudio detallado y completo",
+    icon: FaMoneyCheckDollar,
+  },
+  {
+    title: "Asesorías gratuitas",
+    description:
+      "Tenemos una solución integral para usted. Agende una reunión virtual y platiquemos de sus proyectos",
+    icon: RiCustomerServiceFill,
+  },
+];
+export const services10 = [
+  {
+    title: "Sistema domótico",
+    description:
+      "Transforme su espacio en un lugar inteligente. ¿Qué tal un hogar que se ajusta a su rutina y preferencias automáticamente?",
+    icon: FaHouseLaptop,
+  },
+  {
+    title: "Sistema de CCTV",
+    description:
+      "¿Desea estar al tanto de lo que sucede tanto dentro como fuera de su inmueble? Contar con un sistema de CCTV no solo es una opción, sino una necesidad.",
+    icon: PiSecurityCameraBold,
+  },
+  {
+    title: "Sistema de voz y datos",
+    description:
+      "¡Transforme su infraestructura con un sistema de voz y datos de vanguardia! ¡CONÉCTESE! en todas las áreas de su hogar u oficina sin perder la estética de los espacios!",
+    icon: MdOutlineContactPhone,
+  },
+  {
+    title: "Sistema de elevadores",
+    description:
+      "¿Está considerando instalar un elevador en su inmueble? Nuestro equipo cuenta con Ingenieros Mecatrónicos calificados para desarrollar eficientemente este tipo de proyectos.",
+    icon: GiElevator,
   },
 ];

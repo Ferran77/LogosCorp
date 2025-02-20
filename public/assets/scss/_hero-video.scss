@@ -1,0 +1,87 @@
+// hero-video.scss
+
+@use "variables";
+
+// Hero Area # 04 con Video de Fondo
+.hero-video-section {
+  position: relative;
+  z-index: 1;
+
+  // Video de fondo
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  // Capa de oscurecimiento opcional
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); // Ajusta el nivel de oscurecimiento
+    z-index: 0;
+  }
+
+  .hero-area-banner {
+    color: #fff;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+    @media #{variables.$xs} {
+      height: 600px;
+    }
+
+    .hero-area-content {
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 80px;
+      font-weight: 500;
+      line-height: 90px;
+
+      @media #{variables.$md} {
+        font-size: 75px;
+        line-height: 85px;
+        margin: 40px 0 0;
+      }
+
+      @media #{variables.$xs} {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @media #{variables.$sm} {
+        font-size: 50px;
+        line-height: 60px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+
+      @media #{variables.$md} {
+        margin-top: 50px;
+      }
+
+      @media #{variables.$xs} {
+        margin-top: 50px;
+      }
+    }
+  }
+}

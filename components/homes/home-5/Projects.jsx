@@ -1,73 +1,26 @@
-"use client";
-import { projects } from "@/data/projects";
+import { projects11 } from "@/data/projects";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Link from "next/link";
-import { Autoplay } from "swiper/modules";
 export default function Projects() {
   return (
-    <div className="project-section dark-bg section-padding pt-50 pb-50">
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-12">
-            <div className="section-title">
-              <h6 className="text-white">Our Portfolio</h6>
-              <h2 className="text-white">Creative Works</h2>
-            </div>
-          </div>
-        </div>
-        <div className="row mt-30">
-          <div className="col-xl-12">
-            <Swiper
-              breakpoints={{
-                1200: {
-                  slidesPerView: 3,
-                },
-                990: {
-                  slidesPerView: 3,
-                },
-                600: {
-                  slidesPerView: 2,
-                },
-                0: {
-                  slidesPerView: 1,
-                },
-              }}
-              spaceBetween={30}
-              className="project-slider owl-carousel"
-              modules={[Autoplay]}
-              autoplay={{
-                delay: 4000,
-              }}
-              loop
-              speed={2500}
+    <div id="project-4" className="project-section">
+      <div className="row gx-0">
+        {projects11.map((project, index) => (
+          <div key={index} className="col-xl-3 col-lg-3 col-md-6">
+            <Link
+              href={`/project-details-right-sidebar/${project.id}`}
+              className="single-project-wrap small"
             >
-              {projects.map((project, index) => (
-                <SwiperSlide key={index}>
-                  <Link
-                    href={`/project-details-left-sidebar/${project.id}`}
-                    className="single-project-wrapper"
-                  >
-                    <div className="project-bg">
-                      <Image
-                        alt=""
-                        className="height-auto"
-                        src={project.imgSrc}
-                        width={890}
-                        height={664}
-                      />
-                    </div>
-                    <div className="project-details">
-                      <h5>{project.title}</h5>
-                      <span>{project.category}</span>
-                    </div>
-                  </Link>{" "}
-                </SwiperSlide>
-              ))}
-            </Swiper>
+              <Image alt="" src={project.imgSrc} width={840} height={840} />
+              <div className="details">
+                <div className="info">
+                  <h5>{project.title}</h5>
+                </div>
+              </div>
+            </Link>
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );

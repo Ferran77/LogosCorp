@@ -15,7 +15,7 @@ export const menuItems = [
       { title: "Arquitectura y diseño", href: "/home-2" },
       { title: "Construción y remodelación", href: "/home-3" },
       { title: "Render 3D y animaciones", href: "/home-4" },
-      { title: "Servicios integrales y especiales", href: "/home-5" },
+      { title: "Soluciones integrales y servicios especiales", href: "/home-5" },
       { title: "Valución inmobiliaria", href: "/price" },
       { title: "Dictamen de seguridad estructural", href: "/testimonial" },
       { title: "Levantamiento arquitectónico", href: "/team" },
