@@ -87,3 +87,20 @@ export const chooseItems = [
     alt: "",
   },
 ];
+
+export const features3 = [
+  {
+    title: "Avalúo comercial",
+    description:
+      "Le facilita trámites notariales y registros oficiales en dependencias gubernamentales, asegurando que cada paso esté respaldado por la información más precisa y confiable",
+    image: "/assets/img/feature/4.jpg",
+    delay: ".2s",
+  },
+  {
+    title: "Avalúo comercial referenciado",
+    description:
+      "Consideramos exhaustivamente los factores adyacentes que impactan su plusvalía, como la calidad de las calles, el equipamiento urbano, la infraestructura, los servicios disponibles y la imagen urbana.",
+    image: "/assets/img/feature/5.jpg",
+    delay: ".4s",
+  },
+];

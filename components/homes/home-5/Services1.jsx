@@ -30,15 +30,17 @@ export default function Services() {
           <div className="col-xl-6 col-lg-6">
             <div className="service-content-wrap">
               <div className="section-title">
-                <h6 className="text-white">¡Soluciones integrales para su tranquilidad!</h6>
+                <h6 className="text-white">
+                  ¡Servicios especiales para su comodidad!
+                </h6>
                 <h2 className="text-white">
-                Nos preocupamos por cada uno de nuestros clientes.
+                  Su comodidad y seguridad es nuestra prioridad.
                 </h2>
               </div>
               <p>
-                En LOGOS-CORP MÉXICO, cultivamos relaciones basadas en humanismo
-                y honestidad, asegurando que cada interacción refleje nuestro
-                compromiso auténtico con su éxito.
+                En LOGOS-CORP nos comprometemos a brindarle un servicio sin preocupaciones,
+                donde la excelencia y la innovación se combinan para crear
+                resultados excepcionales.
               </p>
               <div className="about-btn mt-40">
                 <Link href={`/about`} className="theme-btn">

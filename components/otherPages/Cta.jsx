@@ -15,7 +15,7 @@ export default function Cta() {
           <div className="col-xl-4 col-lg-4 col-md-4 text-md-end">
             <div className="cta-btn">
               <Link href={`/contact`} className="white-btn">
-                Contact Us
+                Contacto
               </Link>
             </div>
           </div>
