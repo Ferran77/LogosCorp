@@ -36,7 +36,7 @@ export default function Footer1() {
                   Teléfono: 951 0454 506
                 </p>
                 <div className="company-email">
-                  <a href="#">info@logoscorp.net</a>
+                  <a href="/contact">info@logoscorp.net</a>
                 </div>
               </div>
               <div className="col-lg-2 offset-lg-1 col-md-6 com-sm-12">

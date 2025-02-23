@@ -1,14 +1,14 @@
 export const contactInfo = [
   {
     imgSrc: "/assets/img/contact/1.png",
-    text: "175 24th Street, OT- 35 Melbourn, EA 265, Australia.",
+    text: "Av. Océano Pacífico No. 169, Col. Lomas Lindas. Atizapán de Zaragoza Edo. de Méx. C.P. 52947",
   },
   {
     imgSrc: "/assets/img/contact/2.png",
-    text: "info@factorix.com",
+    text: "info@logoscorp.net",
   },
   {
     imgSrc: "/assets/img/contact/3.png",
-    text: "+18-4675826",
+    text: "México: 55 5801 8167\nOaxaca: 951 0454 506",
   },
 ];

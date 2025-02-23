@@ -1,6 +1,6 @@
 import Clients from "@/components/common/Clients";
 import Footer1 from "@/components/footers/Footer1";
-import Header2 from "@/components/headers/Header2";
+import Header1 from "@/components/headers/Header1";
 import About from "@/components/homes/home-3/About";
 import Blogs from "@/components/homes/home-3/Blogs";
 import Facts from "@/components/homes/home-3/Facts";
@@ -22,7 +22,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header2 />
+      <Header1 />
       <Hero />
       {/* <Clients /> */}
       <About />

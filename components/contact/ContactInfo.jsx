@@ -1,6 +1,7 @@
 import { contactInfo } from "@/data/contactInfo";
 import React from "react";
 import Image from "next/image";
+
 export default function ContactInfo() {
   return (
     <div className="contact-info-wrapper section-padding pb-90">
@@ -12,7 +13,16 @@ export default function ContactInfo() {
                 <div className="contact-icon">
                   <Image alt="" src={contact.imgSrc} width={32} height={32} />
                 </div>
-                <p>{contact.text}</p>
+                {contact.text.includes("\n") ? (
+                  contact.text.split("\n").map((line, idx) => (
+                    <p key={idx} style={{ margin: 0 }}>
+                      {line}
+                      <br />
+                    </p>
+                  ))
+                ) : (
+                  <p>{contact.text}</p>
+                )}
               </div>
             </div>
           ))}

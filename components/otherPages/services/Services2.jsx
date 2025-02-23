@@ -1,91 +1,86 @@
-import { services6 } from "@/data/services";
+import { services3 } from "@/data/services";
 import React from "react";
-
+import Link from "next/link";
 export default function Services2() {
   return (
-    <div
-      id="service-1"
-      className="service-page service-section section-padding pb-90"
-    >
+    <div id="service-1" className="service-section section-padding pt-60">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6 col-md-6">
             <div className="section-title">
-              <h6>What We Offer</h6>
-              <h2>Top engineering for every project</h2>
+              <h2>
+                ¡Le proporcionamos una solución integral que redefine el éxito
+                de su proyecto!{" "}
+              </h2>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6">
-            <div className="row">
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="single-service-item">
-                  <div className="service-icon">
-                    <span>
-                      <i className="flaticon-cogwheel" />
-                    </span>
-                  </div>
-                  <div className="service-title">
-                    <h4>
-                      Metal <br />
-                      Manufacturing
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div className="single-service-item">
-                  <div className="service-icon">
-                    <span>
-                      <i className="flaticon-lab-tool" />
-                    </span>
-                  </div>
-                  <div className="service-title">
-                    <h4>
-                      Chemical <br />
-                      Institute
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="col-xl-6 col-lg-6 col-md-6 ">
+            <h6 className="text-2xl text-[#181D4E]-500 font-medium">
+              Asesorías personalizadas:
+            </h6>
+            <br />
+            <p className="text-lg font-medium">
+              En LOGOS-CORP MÉXICO, cultivamos relaciónes basadas en el
+              humanismo y la honestidad, asegurando que cada interacción con
+              usted, refleje nuestro auténtico compromiso con su éxito.
+            </p>
+            <br />
+            <p className="text-lg font-medium">
+              Nuestro fiel compromiso es el de brindarle un servicio sin
+              preocupaciones, donde la excelencia y la innovación se combinan
+              para crear resultados excepcionales.
+            </p>
           </div>
         </div>
+        <div className="service-title pt-5 text-center text-4xl font-black">
+          <h4>Nuestros servicios:</h4>
+        </div>
+
         <div className="row mt-60">
-          {services6.map((service, index) => (
-            <div
-              key={index}
-              className={`col-xl-3 col-lg-3 col-md-6 wow fadeInUp`}
-              data-wow-delay={service.wowDelay}
-            >
+          {services3.map((service, index) => {
+            const Icon = service.icon;
+
+            return (
               <div
-                className={`single-service-item ${
-                  service.additionalClass || ""
-                }`}
+                key={index}
+                className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
+                data-wow-delay={service.delay}
               >
-                <div className="service-icon">
-                  <span>
-                    <i className={service.icon} />
-                  </span>
-                </div>
-                <div className="service-title">
-                  <h4>
-                    {service.title.split(" ").map((word, i) => (
-                      <span key={i}>
-                        {word}
-                        {i < service.title.split(" ").length - 1 && <br />}
-                      </span>
-                    ))}
-                  </h4>
+                <div
+                  className={`single-service-item ${service.extraClass || ""}`}
+                >
+                  <div className="service-icon">
+                    <span>
+                      {Icon && (
+                        <Icon className="react-icon text-blue-700 text-5xl hover:text-red-500" />
+                      )}
+                    </span>
+                  </div>
+                  <div className="service-title">
+                    <h4>
+                      {service.title.split(" ").map((line, i) => (
+                        <span key={i}>
+                          {line}
+                          {i < service.title.split(" ").length - 1 && (
+                            <>
+                              &nbsp;
+                              <br />
+                            </>
+                          )}
+                        </span>
+                      ))}
+                    </h4>
+                  </div>
+                  <Link href={service.link} className="read_more_link">
+                    <span className="link_text">Saber más</span>
+                    <span className="link_icon">
+                      <i className="las la-arrow-right" />
+                    </span>
+                  </Link>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

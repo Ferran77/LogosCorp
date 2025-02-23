@@ -64,8 +64,8 @@ Durante nuestro tiempo como empresa legalmente constituida, hemos completado con
                   <p>Render y modelados 3D</p>
                 </li>
               </ul>
-              <Link href={`/about`} className="theme-btn mt-30">
-                Nosotros
+              <Link href={`/contact`} className="theme-btn mt-30">
+                Contacto
               </Link>
             </div>
           </div>

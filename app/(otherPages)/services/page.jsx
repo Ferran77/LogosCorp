@@ -6,11 +6,12 @@ import Cta from "@/components/otherPages/Cta";
 import Services from "@/components/otherPages/services/Services";
 import Services2 from "@/components/otherPages/services/Services2";
 import VideoSection from "@/components/otherPages/services/VideoSection";
+import Cta2 from "@/components/otherPages/Cta2";
 import React from "react";
 
 export const metadata = {
-  title: "Services || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+  title: "Nuestros servicios || LOGOS-CORP MÉXICO",
+  description: "Servicios LOGOS-CORP MÉXICO",
 };
 export default function page() {
   return (
@@ -22,7 +23,7 @@ export default function page() {
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
-                <h1>Our Services</h1>
+                <h1>Nuestros Servicios</h1>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />
@@ -33,9 +34,10 @@ export default function page() {
       </div>
       <Services />
       <Clients />
-      <VideoSection />
+      <Cta2/>
+      {/* <VideoSection /> */}
       <Services2 />
-      <About />
+      {/* <About /> */}
       <Cta />
 
       <Footer1 />

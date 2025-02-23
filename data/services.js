@@ -30,35 +30,40 @@ export const services = [
     title: "Anteproyectos",
     description:
       "Sus sueños, expectativas, necesidades y dudas se aclaran durante esta etapa de la mano de especialistas calificados quienes le acompañarán en todo momento presentándole soluciones innovadoras y prácticas para materializar su visión de proyecto.",
-    link: "/project-details-right-sidebar/1",
+    // link: "/project-details-right-sidebar/1",
+    link: "/services"
   },
   {
     icon: FaBuildingCircleCheck,
     title: "Proyectos arquitectónicos",
     description:
       "¿Sabía que cada proyecto arquitectónico exitoso comienza con una planeación rigurosa y detallada? El Proyecto Arquitectónico es la base sólida sobre la que se construye cualquier edificación profesional.",
-    link: "/project-details-right-sidebar/2",
+    // link: "/project-details-right-sidebar/2",
+     link: "/services"
   },
   {
     icon: TbCrane,
     title: "Proyectos estructurales",
     description:
       "Con una Memoria de Cálculo Estructural meticulosa, garantizamos que su inmueble resista tanto las condiciones diarias como los eventos inesperados; brindándole tranquilidad y protección.",
-    link: "/project-details-right-sidebar/3",
+    // link: "/project-details-right-sidebar/3",
+     link: "/services"
   },
   {
     icon: MdElectricMeter,
     title: "Instalaciones básicas",
     description:
       "¿Sabía usted que el correcto cálculo y distribución deriva en un ahorro directo en su economía a largo plazo, así como en su seguridad y funcionalidad?",
-    link: "/project-details-left-sidebar/1",
+    // link: "/project-details-left-sidebar/1",
+     link: "/services"
   },
   {
     icon: BiSolidCctv,
     title: "Instalaciones especiales",
     description:
       "Confíe en nosotros para implementar soluciones avanzadas en instalaciones especiales que transforman sus espacios, combinando tecnología, seguridad y eficiencia para satisfacer sus necesidades con calidad y experiencia.",
-    link: "/project-details-left-sidebar/1",
+    // link: "/project-details-left-sidebar/1",
+     link: "/services"
   },
 ];
 
@@ -67,29 +72,29 @@ export const services2 = [
     id: 1,
     imgSrc: "/assets/img/services/1.jpg",
     number: "01.",
-    title: "Steel Processing",
-    description: "Lorem ipsum dolor sit amet.",
+    title: "Arquitectura y diseño",
+    description: "Anteproyecto, proyecto estructural y arquitectónico",
   },
   {
     id: 2,
     imgSrc: "/assets/img/services/2.jpg",
     number: "02.",
-    title: "Welding Work",
-    description: "Lorem ipsum dolor sit amet.",
+    title: "Construcción y remodelación",
+    description: "Obras nuevas, remodelaciones, mantenimiento a empresas, supervisión de obra",
   },
   {
     id: 3,
     imgSrc: "/assets/img/services/3.jpg",
     number: "03.",
-    title: "Construction",
-    description: "Lorem ipsum dolor sit amet.",
+    title: "Renders 3D",
+    description: "Recorrido virtual 3D, tour virtual 360°, imágenes 3D, imágenes 360°",
   },
   {
     id: 4,
     imgSrc: "/assets/img/services/4.jpg",
     number: "04.",
-    title: "Industrial Solutions",
-    description: "Lorem ipsum dolor sit amet.",
+    title: "Servicios especiales",
+    description: "Hogar inteligente, sistema de voz y datos, sistema de CCTV",
   },
 ];
 
@@ -97,21 +102,25 @@ export const services3 = [
   {
     icon: MdOutlineDesignServices,
     title: "Arquitectura y diseño",
+    link: "/home-2",
     delay: ".2s",
   },
   {
     icon: MdConstruction,
     title: "Costrucción y remodelación",
+    link: "/home-3",
     delay: ".4s",
   },
   {
     icon: LuScreenShare,
     title: "Render y modelados 3D",
+    link: "/home-4",
     delay: ".6s",
   },
   {
     icon: FaHelmetSafety,
     title: "Servicios especiales",
+    link: "/home-5",
     delay: ".8s",
 
     extraClass: "b-none", // optional additional class

@@ -3,11 +3,12 @@ import ContactInfo from "@/components/contact/ContactInfo";
 import ContactMap from "@/components/contact/ContactMap";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
+import Cta from "@/components/homes/home-1/Cta";
 import React from "react";
 
 export const metadata = {
-  title: "Contact || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+  title: "Contacto || LOGOS-CORP MÉXICO",
+  description: "Contacto LOGOS-CORP MÉXICO",
 };
 export default function page() {
   return (
@@ -19,7 +20,7 @@ export default function page() {
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
-                <h1>Contact Us</h1>
+                <h1>Contáctenos</h1>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />
@@ -28,8 +29,9 @@ export default function page() {
           </div>
         </div>
       </div>
-      <ContactMap />
       <ContactInfo />
+      <ContactMap />
+      <Cta/>
       <ContactForm />
       <Footer1 />
     </>

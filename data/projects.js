@@ -303,7 +303,7 @@ export const projects7 = [
   {
     id: 39,
     title: "Calidad en el servicio",
-    icon: WorkspacePremiumIcon, // ✅ Guardamos la referencia, NO JSX
+    icon: WorkspacePremiumIcon, 
     description:
       "Empleamos materiales certificados y expertos de primer nivel; asegurando de ese modo, un estándar inigualable y la tranquilidad de que tendrá un servicio impecable en cada detalle",
     delay: ".2s",
@@ -311,7 +311,7 @@ export const projects7 = [
   {
     id: 40,
     title: "Supervisión",
-    icon: TaskAltIcon, // ✅ Solo referencia
+    icon: TaskAltIcon, 
     description:
       "Designamos un arquitecto líder para cada proyecto, garantizando excelencia y coherencia en cada etapa del proceso, desde la visión hasta la ejecución global",
     delay: ".2s",

@@ -14,23 +14,23 @@ export default function Clients() {
           <div className="col-xl-6 col-lg-6 col-md-7">
             <div className="client-content-wrap">
               <div className="section-title">
-                <h6>CONTACT US</h6>
+                <h6>CONTÁCTENOS</h6>
                 <h2>
-                  Have a project? <br />
-                  Send a brief!
+                  ¿Tiene un proyecto? <br />
+                  ¡Agende una asesoría gratuita!
                 </h2>
               </div>
               <p>
-                Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
-                magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor
-                incididunt ut labore et dolore sed do magna aliqua.
+                Nos comprometemos a brindarle un servicio sin preocupaciones,
+                donde la excelencia y la innovación se combinan para crear
+                resultados excepcionales.
               </p>
               <div className="contact-info-wrap">
                 <div className="contact-icon">
                   <i className="las la-envelope" />
                 </div>
                 <div className="contact-text">
-                  <p>info@factorix.com</p>
+                  <p>info@logoscorp.net</p>
                 </div>
               </div>
             </div>

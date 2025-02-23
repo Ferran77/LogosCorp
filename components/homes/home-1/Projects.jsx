@@ -1,4 +1,4 @@
-"use client";  // 👈 Esto evita que Next.js intente renderizar en el servidor
+"use client"; 
 
 import { projects7 } from "@/data/projects";
 import React from "react";
@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="container-fluid">
         <div className="row">
           {projects7.map((project, index) => {
-            const IconComponent = project.icon;  // ✅ Asignamos el icono como un componente
+            const IconComponent = project.icon;  
 
             return (
               <div
@@ -20,7 +20,7 @@ export default function Projects() {
                 data-wow-delay={project.delay}
               >
                 <Link
-                  href={`/project-details-right-sidebar/${project.id}`}
+                  href={`/about`}
                   className="single-project-item"
                 >
                   <Paper
@@ -33,26 +33,26 @@ export default function Projects() {
                       borderRadius: "10px",
                       transition: "transform 0.3s",
                       border: "1px solid rgba(255, 255, 255, 0.2)",
-                      height: "280px", // 🔥 Esto hace que todas tengan la misma altura
+                      height: "280px", 
                       display: "flex",
                       flexDirection: "column",
-                      justifyContent: "space-between", // Distribuye bien el contenido
+                      justifyContent: "space-between", 
                       "&:hover":  { transform: "scale(1.05)" },
                       border: ".5px solid #fa4729",
                     }}
 
                   >
-                    {/* Ícono superior */}
+                    {/*superior icon */}
                     <Box sx={{ color: "#fa4729" }}>
-                      <IconComponent sx={{ fontSize: 65 }} />  {/* ✅ Renderizamos el icono correctamente */}
+                      <IconComponent sx={{ fontSize: 65 }} /> 
                     </Box>
 
-                    {/* Título */}
+                    {/* title */}
                     <Typography variant="h6" sx={{ fontWeight: "bold", mt: 2 }}>
                       {project.title}
                     </Typography>
 
-                    {/* Descripción */}
+                    {/* Description */}
                     <Typography variant="body2" sx={{ mt: 1, color: "#333" }}>
                       {project.description}
                     </Typography>

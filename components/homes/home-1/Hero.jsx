@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="hero-area-bg">
               <Image
                 alt=""
-                src="/assets/img/servicios-adicinales.webp"
+                src="/assets/img/servicios-adicinales.jpg"
                 className="height-auto pt-4"
                 width={810}
                 height={865}
@@ -37,7 +37,7 @@ export default function Hero() {
               <p className="text-2xl">
                 ¿No sabe cómo empezar? ¡Contáctenos! Estamos listos para ofrecerle la solución perfecta 
               </p>
-              <Link href={`/`} className="theme-btn mt-20 font-bold text-1xl">
+              <Link href={`/contact`} className="theme-btn mt-20 font-bold text-1xl">
                 Contacto
               </Link>
             </div>

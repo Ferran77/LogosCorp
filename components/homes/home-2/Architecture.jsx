@@ -47,7 +47,8 @@ export default function Architecture() {
             {blogs2.map((post, index) => (
               <SwiperSlide key={index}>
                 <Link
-                  href={`/blog-details/${post.id}`}
+                  // href={`/blog-details/${post.id}`}
+                  href={`/services`}
                   className="single-blog-item wow fadeInUp"
                   data-wow-delay={post.delay}
                 >

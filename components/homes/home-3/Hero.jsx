@@ -66,7 +66,7 @@ export default function Hero() {
           </div>
         </SwiperSlide>
       ))}
-      <div className="owl-nav">
+      {/* <div className="owl-nav">
         <button
           type="button"
           role="presentation"
@@ -83,7 +83,7 @@ export default function Hero() {
         >
           <i className="las la-arrow-right" />
         </button>
-      </div>
+      </div> */}
     </Swiper>
   );
 }

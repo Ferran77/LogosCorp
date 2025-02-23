@@ -10,17 +10,20 @@ export default function Services() {
       <div className="container">
         <div className="row gx-5 align-items-center">
           <div className="col-xl-4 col-lg-4">
-            <div className="section-title">
-              <h6>What We Do</h6>
-              <h2>Top services</h2>
+            <div className="section-title ml-6">
+              <h6>Olvídese de preocupaciones</h6>
+              <h3>
+                Le ofrecemos una solución profesional y segura para su proyecto
+              </h3>
+              {/* <h3 className="mt-6">Le ofrecemos una solución profesional y segura para su proyecto</h3> */}
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="team-desc">
               <p>
-                Adipiscing elit, sed do euismod tempor incidunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitacion ullamco.
+                ¡Transforme sus espacios con nosotros! <br/> Diseñamos, construimos y
+                remodelamos con calidad y estilo. <br/> Haga realidad sus sueños. <br/>
+                ¡Contáctenos hoy mismo!
               </p>
             </div>
           </div>

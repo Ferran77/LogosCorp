@@ -9,7 +9,7 @@ export default function Projects() {
         {projects11.map((project, index) => (
           <div key={index} className="col-xl-3 col-lg-3 col-md-6">
             <Link
-              href={`/project-details-right-sidebar/${project.id}`}
+              href={`/about`}
               className="single-project-wrap small"
             >
               <Image alt="" src={project.imgSrc} width={840} height={840} />
