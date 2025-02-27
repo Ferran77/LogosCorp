@@ -21,18 +21,19 @@ export default function Header2() {
                   <Image
                     alt=""
                     src="/assets/img/logo.png"
-                    width={198}
+                    width={140}
                     height={64}
                   />
                 </Link>
               </div>
               <div className="header-right">
                 <div className="contact-number d-none d-md-block">
-                  <h4>1 800 458 56 97</h4>
+                  <h4>México: 55 5801 8167</h4>
+                  <h4>Oaxaca: 951 0454 506</h4>
                 </div>
                 <div className="header-btn">
                   <Link href={`/contact`} className="theme-btn">
-                    Let's Talk
+                    Contáctenos
                   </Link>
                 </div>
               </div>

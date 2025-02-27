@@ -25,6 +25,33 @@ export const teamMembers = [
   },
 ];
 
+export const teamMembers4 = [
+  {
+    name: "John Lewis",
+    role: "Operator",
+    image: "/assets/img/team/5.jpg",
+    delay: ".2s",
+  },
+  {
+    name: "Jane Doe",
+    role: "Engineer",
+    image: "/assets/img/team/6.jpg",
+    delay: ".4s",
+  },
+  {
+    name: "Alice Smith",
+    role: "Designer",
+    image: "/assets/img/team/7.jpg",
+    delay: ".6s",
+  },
+  {
+    name: "Bob Johnson",
+    role: "Manager",
+    image: "/assets/img/team/8.jpg",
+    delay: ".8s",
+  },
+];
+
 export const teamMembers2 = [
   {
     id: 1,

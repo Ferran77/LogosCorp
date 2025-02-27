@@ -65,7 +65,7 @@ export default function About() {
                 Modelado y asesorías personalizadas gratuitas
               </h3>
               <p>
-              “Estamos aquí para ayudarle a resolver todas sus dudas. Llámenos con confianza o agende su Reunión Virtual Personalizada y descubra cómo podemos hacer realidad su proyecto. Nuestro equipo estará encantado de atenderle y brindarle la información que necesita.”
+              Estamos aquí para ayudarle a resolver todas sus dudas. Llámenos con confianza o agende su Reunión Virtual Personalizada y descubra cómo podemos hacer realidad su proyecto. Nuestro equipo estará encantado de atenderle y brindarle la información que necesita.
               </p>
             </div>
             <div

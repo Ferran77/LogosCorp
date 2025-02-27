@@ -42,7 +42,7 @@ export default function Details1({ projectItem }) {
               <div className="project-feature-img">
                 <Image
                   alt=""
-                  src={projectItem.imgSrc}
+                  src="/assets/img/project/project-feature-img-3.jpg"
                   width={1536}
                   height={1536}
                   className="height-auto"
@@ -51,7 +51,7 @@ export default function Details1({ projectItem }) {
               <div className="project-feature-img mt-30">
                 <Image
                   alt=""
-                  src="/assets/img/project/project-feature-img-3.jpg"
+                  src="/assets/img/project/project-feature-img-4.jpg"
                   width={1024}
                   height={954}
                   className="height-auto"
@@ -60,7 +60,7 @@ export default function Details1({ projectItem }) {
               <div className="project-feature-img mt-30">
                 <Image
                   alt=""
-                  src="/assets/img/project/project-feature-img-4.jpg"
+                  src="/assets/img/project/project-feature-img-5.jpg"
                   width={1024}
                   height={792}
                   className="height-auto"
@@ -69,7 +69,7 @@ export default function Details1({ projectItem }) {
             </div>
           </div>
         </div>
-        <div className="row mt-100">
+        {/* <div className="row mt-100">
           <div className="nav-links">
             <div className="nav-previous">
               <Link
@@ -96,7 +96,7 @@ export default function Details1({ projectItem }) {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

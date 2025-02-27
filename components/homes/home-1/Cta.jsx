@@ -17,7 +17,7 @@ export default function Cta() {
   };
 
   return (
-    <div className="cta-section section-padding pt-60 pb-60 dark-bg">
+    <div className="cta-section section-padding pt-60 pb-60 dark-bg mb-8">
       <div className="container">
         <div className="row justify-center">
           <div className="col-xl-6 col-lg-6 col-md-8 text-center">

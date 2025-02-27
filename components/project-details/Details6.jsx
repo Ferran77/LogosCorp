@@ -1,4 +1,4 @@
-import { teamMembers } from "@/data/team";
+import { teamMembers4 } from "@/data/team";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +10,7 @@ export default function Details6() {
         <div className="grid grid-cols-3 gap-8 items-center">
           {/* Columna izquierda (2 imágenes) */}
           <div className="flex flex-col gap-6">
-            {teamMembers.slice(0, 2).map((member, index) => (
+            {teamMembers4.slice(0, 2).map((member, index) => (
               <div key={index} className="relative overflow-hidden group w-full h-[200px] sm:h-[300px] lg:h-[350px]">
                 <Image
                   src={member.image}
@@ -51,7 +51,7 @@ export default function Details6() {
 
           {/* Columna derecha (2 imágenes) */}
           <div className="flex flex-col gap-6">
-            {teamMembers.slice(2, 4).map((member, index) => (
+            {teamMembers4.slice(2, 4).map((member, index) => (
               <div key={index} className="relative overflow-hidden group w-full h-[200px] sm:h-[300px] lg:h-[350px]">
                 <Image
                   src={member.image}

@@ -31,7 +31,6 @@ export default function page() {
         </div>
       </div>
       <Services/>
-      
       <Features/>
       <Cta2/>
       {/* <Pricing /> */}

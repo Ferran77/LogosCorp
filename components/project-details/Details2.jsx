@@ -12,7 +12,7 @@ export default function Details2({ projectItem }) {
               <div className="project-feature-img">
                 <Image
                   alt=""
-                  src={projectItem.imgSrc}
+                  src="/assets/img/project/gallery-img-1.jpg"
                   width={1536}
                   height={1536}
                   className="height-auto"
@@ -31,7 +31,7 @@ Aquí es donde entra en juego el Anteproyecto, una herramienta clave que convier
                   <div className="col-6">
                     <Image
                       alt=""
-                      src="/assets/img/project/gallery-img-1.jpg"
+                      src="/assets/img/project/gallery-img-2.jpg"
                       width={1024}
                       height={764}
                       className="height-auto"
@@ -40,7 +40,7 @@ Aquí es donde entra en juego el Anteproyecto, una herramienta clave que convier
                   <div className="col-6">
                     <Image
                       alt=""
-                      src="/assets/img/project/gallery-img-2.jpg"
+                      src="/assets/img/project/gallery-img-3.jpg"
                       width={1024}
                       height={764}
                       className="height-auto"
@@ -49,7 +49,7 @@ Aquí es donde entra en juego el Anteproyecto, una herramienta clave que convier
                   <div className="col-12 mt-30">
                     <Image
                       alt=""
-                      src="/assets/img/project/gallery-img-3.jpg"
+                      src="/assets/img/project/gallery-img-4.jpg"
                       width={1920}
                       height={1433}
                       className="height-auto"
@@ -67,7 +67,7 @@ Con un Anteproyecto detallado y profesional, usted no solo construye un edificio
           <div className="col-xl-5 col-lg-5">
             <div className="project-details-info">
               <h3>{projectItem.title}</h3>
-              <p>3 elementos necesarios para comenzar su ante-proyecto:</p>
+              <p>3 elementos necesarios para comenzar su Anteproyecto:</p>
               <div className="row single-details-item gy-3 mt-30">
                 <div className="col-4">
                   <h5>1. Análisis de normatividad</h5>
@@ -93,7 +93,7 @@ Con un Anteproyecto detallado y profesional, usted no solo construye un edificio
             </div>
           </div>
         </div>
-        <div className="row mt-100">
+        {/* <div className="row mt-100">
           <div className="nav-links">
             <div className="nav-previous">
               <Link
@@ -118,7 +118,7 @@ Con un Anteproyecto detallado y profesional, usted no solo construye un edificio
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

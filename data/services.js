@@ -30,40 +30,35 @@ export const services = [
     title: "Anteproyectos",
     description:
       "Sus sueños, expectativas, necesidades y dudas se aclaran durante esta etapa de la mano de especialistas calificados quienes le acompañarán en todo momento presentándole soluciones innovadoras y prácticas para materializar su visión de proyecto.",
-    // link: "/project-details-right-sidebar/1",
-    link: "/services"
+    link: "/preliminary-draft",
   },
   {
     icon: FaBuildingCircleCheck,
     title: "Proyectos arquitectónicos",
     description:
       "¿Sabía que cada proyecto arquitectónico exitoso comienza con una planeación rigurosa y detallada? El Proyecto Arquitectónico es la base sólida sobre la que se construye cualquier edificación profesional.",
-    // link: "/project-details-right-sidebar/2",
-     link: "/services"
+    link: "/architectural-project",
   },
   {
     icon: TbCrane,
     title: "Proyectos estructurales",
     description:
       "Con una Memoria de Cálculo Estructural meticulosa, garantizamos que su inmueble resista tanto las condiciones diarias como los eventos inesperados; brindándole tranquilidad y protección.",
-    // link: "/project-details-right-sidebar/3",
-     link: "/services"
+    link: "/structural-project", 
   },
   {
     icon: MdElectricMeter,
     title: "Instalaciones básicas",
     description:
       "¿Sabía usted que el correcto cálculo y distribución deriva en un ahorro directo en su economía a largo plazo, así como en su seguridad y funcionalidad?",
-    // link: "/project-details-left-sidebar/1",
-     link: "/services"
+    link: "/project-details-left-sidebar/1",
   },
   {
     icon: BiSolidCctv,
     title: "Instalaciones especiales",
     description:
       "Confíe en nosotros para implementar soluciones avanzadas en instalaciones especiales que transforman sus espacios, combinando tecnología, seguridad y eficiencia para satisfacer sus necesidades con calidad y experiencia.",
-    // link: "/project-details-left-sidebar/1",
-     link: "/services"
+    link: "/project-details-left-sidebar/1",
   },
 ];
 
@@ -217,7 +212,7 @@ export const services6 = [
 export const services7 = [
   {
     id: 5,
-    imgSrc: "/assets/img/services/1.jpg",
+    imgSrc: "/assets/img/services/preliminary1.jpg",
     number: "01.",
     title: "Conceptualización Visual",
     description:
@@ -225,7 +220,7 @@ export const services7 = [
   },
   {
     id: 6,
-    imgSrc: "/assets/img/services/2.jpg",
+    imgSrc: "/assets/img/services/preliminary2.jpg",
     number: "02.",
     title: "Renderizado de Imágenes y Videos",
     description:
@@ -233,7 +228,7 @@ export const services7 = [
   },
   {
     id: 7,
-    imgSrc: "/assets/img/services/3.jpg",
+    imgSrc: "/assets/img/services/preliminary3.jpg",
     number: "03.",
     title: "Toma de Decisiones Informada",
     description:
@@ -241,7 +236,7 @@ export const services7 = [
   },
   {
     id: 8,
-    imgSrc: "/assets/img/services/4.jpg",
+    imgSrc: "/assets/img/services/preliminary4.jpg",
     number: "04.",
     title: "Evaluación de Costos y Viabilidad",
     description:
@@ -249,7 +244,7 @@ export const services7 = [
   },
   {
     id: 9,
-    imgSrc: "/assets/img/services/4.jpg",
+    imgSrc: "/assets/img/services/preliminary5.jpg",
     number: "05.",
     title: "Personalización a su Medida",
     description:
@@ -257,7 +252,7 @@ export const services7 = [
   },
   {
     id: 10,
-    imgSrc: "/assets/img/services/4.jpg",
+    imgSrc: "/assets/img/services/preliminary6.jpg",
     number: "06.",
     title: "Seguridad en el Resultado Final",
     description:
