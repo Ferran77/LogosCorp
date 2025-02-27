@@ -18,7 +18,7 @@ export default function page({ params }) {
   return (
     <>
       <Header2 />
-      <div className="breadcrumb-area bread-bg">
+      <div className="breadcrumb-area-2 bread-bg">
         <div className="overlay" />
         <div className="container">
           <div className="row justify-content-center">

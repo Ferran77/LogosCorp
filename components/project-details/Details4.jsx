@@ -14,8 +14,8 @@ export default function Details4() {
     <div id="service-page" className="service-section ">
       <div className="container mb-20 ">
         <div className="row gx-5 align-items-center">
-          <div className="col-xl-4 col-lg-4">
-            <div className="section-title mt-6">
+          <div className="col-xl-4 col-lg-4 mt-4 ml-6">
+            <div className="section-title mt-8">
               <h6>¿Pero qué es exactamente un Anteproyecto y por qué es tan crucial?</h6>
               <h2>Fases de un Anteproyecto:</h2>
             </div>

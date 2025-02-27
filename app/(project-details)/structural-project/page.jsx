@@ -2,13 +2,11 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Details3 from "@/components/project-details/Details3";
 import Details7 from "@/components/project-details/Details7";
-import Cta from "@/components/homes/home-1/Cta";
 import { allProjects } from "@/data/projects";
 import React from "react";
 
 export const metadata = {
-  title:
-    "Proyecto estructural",
+  title: "Proyecto estructural",
   description: "Proyecto estructural",
 };
 export default function page({ params }) {
@@ -17,7 +15,7 @@ export default function page({ params }) {
   return (
     <>
       <Header1 />
-      <div className="breadcrumb-area bread-bg">
+      <div className="breadcrumb-area-1 bread-bg">
         <div className="overlay" />
         <div className="container">
           <div className="row justify-content-center">
@@ -33,8 +31,7 @@ export default function page({ params }) {
         </div>
       </div>
       <Details3 projectItem={projectItem} />
-      <Cta/>
-      <Details7/>
+      <Details7 />
       <Footer1 />
     </>
   );

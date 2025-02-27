@@ -1,6 +1,6 @@
 "use client";
 
-import { services8 } from "@/data/services";
+import { services12 } from "@/data/services";
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -11,19 +11,22 @@ export default function Details4() {
   const swiperRef = useRef(null); // Referencia para Swiper
 
   return (
-    <div id="service-page" className="service-section pt-50">
-      <div className="container mb-20">
+    <div id="service-page" className="service-section ">
+      <div className="container mb-20 ">
         <div className="row gx-5 align-items-center">
-          <div className="col-xl-4 col-lg-4">
-            <div className="section-title">
-              <h6 className="ml-20">¿Es mucho más que un simple dibujo?</h6>
-              <h2 className="ml-20">La importancia del Proyecto arquitectónico:</h2>
+          <div className="col-xl-4 col-lg-4 mt-4 ml-6">
+            <div className="section-title mt-8">
+              <h6>Permita que nuestro equipo de ingenieros calculistas</h6>
+              <h2>Garantice la seguridad de su proyecto</h2>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="team-desc">
               <p>
-                Es un elemento de planeación con sustento técnico-normativo, escencial para la segurirdad y el buen desarrollo integral; cuya finalidad es la de brindarle información sobre las medidas y distribución de los espacios, tanto en plantas como en alzados, ilustrando la distribución de mobiliario fijo y temporal que puede alojar el espacio.
+                ¡No arriesgue su inversión! Un proyecto estructural bien
+                planificado garantiza seguridad, estabilidad y ahorro a largo
+                plazo en el desarrollo de su construcción. Construya con
+                confianza y solidez.
               </p>
             </div>
           </div>
@@ -73,14 +76,14 @@ export default function Details4() {
               }}
               loop
               speed={3200}
-              onSwiper={(swiper) => (swiperRef.current = swiper)} // Almacena la instancia de Swiper
+              onSwiper={(swiper) => (swiperRef.current = swiper)}
             >
-              {services8.map((service, index) => (
+              {services12.map((service, index) => (
                 <SwiperSlide
                   key={service.id}
                   className="single-service-item"
-                  onMouseEnter={() => swiperRef.current?.autoplay.stop()} // Detiene el autoplay
-                  onMouseLeave={() => swiperRef.current?.autoplay.start()} // Reinicia el autoplay
+                  onMouseEnter={() => swiperRef.current?.autoplay.stop()}
+                  onMouseLeave={() => swiperRef.current?.autoplay.start()}
                 >
                   <div className="service-img">
                     <Image
@@ -98,15 +101,26 @@ export default function Details4() {
                       <h6>
                         <a href="#">{service.title}</a>
                       </h6>
-                      <p>
-                        {expandedIndex === index
-                          ? service.description
-                          : `${service.description.slice(0, 100)}...`}
-                      </p>
+                      {/* Contenedor con scroll interno */}
+                      <div
+                         className={`transition-all duration-300 ${
+                          expandedIndex === index
+                            ? "max-h-40 overflow-y-auto" // Muestra scroll solo cuando está expandido
+                            : "max-h-20 overflow-hidden" // Oculta scroll cuando está retraído
+                        }`}
+                      >
+                        <p>
+                          {expandedIndex === index
+                            ? service.description
+                            : `${service.description.slice(0, 100)}...`}
+                        </p>
+                      </div>
                       <button
                         className="text-[#0b2154] font-bold"
                         onClick={() =>
-                          setExpandedIndex(expandedIndex === index ? null : index)
+                          setExpandedIndex(
+                            expandedIndex === index ? null : index
+                          )
                         }
                       >
                         {expandedIndex === index ? "Leer menos" : "Leer más"}

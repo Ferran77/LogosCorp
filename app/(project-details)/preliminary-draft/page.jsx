@@ -2,7 +2,7 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Details2 from "@/components/project-details/Details2";
 import Details4 from "@/components/project-details/Details4";
-import Cta from "@/components/homes/home-1/Cta"
+
 import { allProjects } from "@/data/projects";
 import React from "react";
 
@@ -33,7 +33,6 @@ export default function page({ params }) {
         </div>
       </div>
       <Details2 projectItem={projectItem} />
-      <Cta/>
       <Details4/>
       <Footer1 />
     </>

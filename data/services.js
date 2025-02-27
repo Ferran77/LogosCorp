@@ -370,3 +370,38 @@ export const services11 = [
     icon: FaHouseCircleCheck,
   },
 ];
+
+export const services12 = [
+  {
+    id: 5,
+    imgSrc: "/assets/img/services/structural1.jpg",
+    number: "01.",
+    title: "Planos estructurales",
+    description:
+      "Al concluir, le entregaremos los Planos Estructurales, que son fundamentales para la correcta ejecución de su proyecto. Estos planos contienen los detalles constructivos y especificaciones técnicas de todos los elementos estructurales, como la cimentación, entrepisos, cubierta (azotea), y más. Además, incluyen armados, especificaciones de concreto, y dimensiones precisas de zapatas, contratrabes, columnas, castillos, dalas de desplante, cadenas de cerramiento, losas, escaleras y muros. El objetivo de los Planos Estructurales es garantizar que cada componente de la estructura sea diseñado y construido de acuerdo con las normativas de seguridad y eficiencia.Su finalidad es proporcionar una guía detallada que asegure la durabilidad, resistencia y estabilidad del inmueble, protegiendo así su inversión y la seguridad de quienes lo habitarán. Con estos planos, usted cuenta con una herramienta esencial para la supervisión y ejecución de la obra, respaldada por nuestro compromiso con la calidad y precisión.",
+  },
+  {
+    id: 6,
+    imgSrc: "/assets/img/services/structural2.jpg",
+    number: "02.",
+    title: "Planos de cimentación",
+    description:
+      "El Plano de Cimentación es un componente esencial en la planificación de cualquier proyecto de construcción, ya que define las bases sobre las que se asentará la estructura. Este plano incluye detalles constructivos fundamentales, como las dimensiones y características de los materiales que se emplearán en la cimentación del inmueble. Se especifican elementos clave como zapatas corridas o aisladas de concreto o mampostería, muros de contención de concreto armado o mampostería, losas de cimentación de concreto armado, y cajones de cimentación. Además, el plano incorpora el detalle constructivo de la cisterna, asegurando que todos los componentes subterráneos estén perfectamente integrados y diseñados para soportar las cargas de la estructura y resistir las fuerzas externas. El objetivo de este plano es garantizar que la cimentación del edificio sea lo suficientemente robusta y estable para soportar el peso de la estructura y las condiciones del terreno. Su finalidad es proporcionar una guía detallada y precisa para la construcción de la base del inmueble, asegurando la durabilidad, estabilidad y seguridad del proyecto desde su origen. Con este plano, usted asegura que su construcción esté respaldada por una base sólida y confiable, protegiendo tanto su inversión como la seguridad de los ocupantes.",
+  },
+  {
+    id: 7,
+    imgSrc: "/assets/img/services/structural3.jpg",
+    number: "03.",
+    title: "Planos de entrepisos",
+    description:
+      "Los Planos de Entrepisos son esenciales para la correcta ejecución de cualquier proyecto de construcción, ya que detallan las dimensiones y características de los materiales que se utilizarán en los elementos a construir. Estos planos incluyen especificaciones para castillos de concreto armado, columnas de diversos materiales como concreto armado, acero o madera, así como cadenas de cerramiento y dalas de desplante. Además, abarcan los muros de mampostería, tabiques y blocks, tanto de concreto armado como prefabricados, ya sean de carga o divisorios. También se incluyen detalles sobre trabes, vigas, losas macizas, encasetonadas, y prefabricadas, así como los detalles específicos de escaleras y otros elementos especiales. El objetivo de los Planos de Entrepiso es garantizar que cada componente estructural cumpla con las normativas de seguridad y funcionalidad, asegurando así la integridad y estabilidad del edificio. Su finalidad es proporcionar una guía precisa para la construcción de los elementos intermedios del inmueble, optimizando la eficiencia y resistencia de la estructura. Con estos planos, usted obtiene una base sólida que asegura la calidad y durabilidad de su proyecto, protegiendo su inversión y la seguridad de todos los usuarios del edificio.",
+  },
+  {
+    id: 8,
+    imgSrc: "/assets/img/services/structural4.jpg",
+    number: "04.",
+    title: "Memoria de cálculo estructural",
+    description:
+      "El análisis técnico detallado y los cálculos precisos necesarios para definir los elementos constructivos de su proyecto. Con un enfoque basado en normativas vigentes y criterios técnicos rigurosos, esta memoria asegura que cada especificación de armados, dimensiones, y características técnicas constructivas esté en total cumplimiento con los estándares de seguridad y calidad. El objetivo principal de la Memoria Estructural es proporcionar una justificación técnica y normativa que respalde el diseño y la ejecución de la estructura, garantizando su estabilidad y durabilidad ante diversas condiciones de carga y factores ambientales. La finalidad es doble: Primero, asegurar que cada elemento estructural, desde cimentaciones hasta cubiertas, esté diseñado para soportar las cargas previstas de manera segura. Segundo, optimizar los recursos materiales y económicos, evitando sobrecostos y garantizando la eficiencia en la construcción. Con la Memoria Estructural, usted tiene la certeza de que su proyecto no solo cumple con las exigencias normativas, sino que también está preparado para ofrecer la máxima seguridad y desempeño a lo largo de su vida útil.",
+  },
+];

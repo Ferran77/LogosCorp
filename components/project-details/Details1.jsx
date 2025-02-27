@@ -8,7 +8,7 @@ export default function Details1({ projectItem }) {
       <div className="container">
         <div className="row gx-5">
           <div className="col-xl-5 col-lg-5">
-            <div className="project-details-info">
+            <div className="project-details-info ml-6">
               <h3>¡Vivimos cada detalle de su proyecto!</h3>
               <p>Un proyecto arquitectónico bien planificado es la clave para transformar ideas en espacios funcionales y estéticamente impactantes. Cada detalle cuenta para garantizar eficiencia, seguridad y armonía en cada construcción. <br/>
 

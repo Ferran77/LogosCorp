@@ -4,8 +4,8 @@ import Link from "next/link";
 import { allProjects } from "@/data/projects";
 export default function Details2({ projectItem }) {
   return (
-    <div className="project-details-wrap section-padding">
-      <div className="container">
+    <div className="project-details-wrap section-padding bg-[#0B0D26]">
+      <div className="container ">
         <div className="row gx-5">
           <div className="col-xl-7 col-lg-7">
             <div className="project-details-inner">
@@ -19,11 +19,15 @@ export default function Details2({ projectItem }) {
                 />
               </div>
               <div className="project-details-content">
-                <h3>¿Qué es lo primero que imagina al pensar en su proyecto ideal?</h3>
+                <h3 className="text-white">
+                  ¿Qué es lo primero que imagina al pensar en su proyecto ideal?
+                </h3>
                 <p>
-                ¡Seguramente una visión clara de cómo serán sus espacios, llenos de vida y funcionalidad! <br/>
-Aquí es donde entra en juego el Anteproyecto, una herramienta clave que convierte sus ideas en algo tangible antes de dar el siguiente gran paso. <br/>
-
+                  ¡Seguramente una visión clara de cómo serán sus espacios,
+                  llenos de vida y funcionalidad! <br />
+                  Aquí es donde entra en juego el Anteproyecto, una herramienta
+                  clave que convierte sus ideas en algo tangible antes de dar el
+                  siguiente gran paso. <br />
                 </p>
               </div>
               <div className="project-image-gallery">
@@ -58,25 +62,33 @@ Aquí es donde entra en juego el Anteproyecto, una herramienta clave que convier
                 </div>
               </div>
               <p className="mt-30">
-              ¡El Anteproyecto es la clave para convertir su visión en realidad! <br/> No deje que su proyecto quede a la suerte. Involúcrese desde el principio, visualice sus espacios y tome decisiones informadas. <br/>
-
-Con un Anteproyecto detallado y profesional, usted no solo construye un edificio, ¡construye el espacio de sus sueños con total confianza!
+                ¡El Anteproyecto es la clave para convertir su visión en
+                realidad! <br /> No deje que su proyecto quede a la suerte.
+                Involúcrese desde el principio, visualice sus espacios y tome
+                decisiones informadas. <br />
+                Con un Anteproyecto detallado y profesional, usted no solo
+                construye un edificio, ¡construye el espacio de sus sueños con
+                total confianza!
               </p>
             </div>
           </div>
           <div className="col-xl-5 col-lg-5">
             <div className="project-details-info">
-              <h3>{projectItem.title}</h3>
+              <h3 className="text-white">
+                ¡Un buen inicio garantiza su tranquilidad!
+              </h3>
               <p>3 elementos necesarios para comenzar su Anteproyecto:</p>
               <div className="row single-details-item gy-3 mt-30">
                 <div className="col-4">
-                  <h5>1. Análisis de normatividad</h5>
+                  <h5 className="text-white">1. Análisis de normatividad</h5>
                 </div>
                 {/* <div className="col-6">
                   <span>New Plant</span>
                 </div> */}
                 <div className="col-4">
-                  <h5>2. Análisis de las condiciones físicas del lugar </h5>
+                  <h5 className="text-white">
+                    2. Análisis de las condiciones físicas del lugar{" "}
+                  </h5>
                 </div>
                 {/* <div className="col-6">
                   <span>
@@ -84,7 +96,9 @@ Con un Anteproyecto detallado y profesional, usted no solo construye un edificio
                   </span>
                 </div> */}
                 <div className="col-4">
-                  <h5>3. Análisis y estudio de sus necesidades</h5>
+                  <h5 className="text-white">
+                    3. Análisis y estudio de sus necesidades
+                  </h5>
                 </div>
                 {/* <div className="col-6">
                   <span>Anna Lewis</span>

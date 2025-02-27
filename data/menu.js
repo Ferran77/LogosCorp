@@ -12,7 +12,19 @@ export const menuItems = [
     title: "Servicios",
     subMenu: [
       { title: "Nuestros Servicios", href: "/services" },
-      { title: "Arquitectura y diseño", href: "/home-2" },
+      {
+        title: "Arquitectura y diseño", href: "/home-2",
+        subMenu: [
+          { title: "Anteproyecto", href: "/preliminary-draft" },
+          { title: "Proyecto arquitectónico", href: "/architectural-project" },
+          { title: "Proyecto estructural", href: "/structural-project" },
+        ],
+        isNested: true,
+      },
+      // { title: "Arquitectura y diseño", href: "/home-2" 
+      // subMenu: [
+      //   {title: }
+      // ],},
       { title: "Construción y remodelación", href: "/home-3" },
       { title: "Render 3D y animaciones", href: "/home-4" },
       { title: "Soluciones integrales y servicios especiales", href: "/home-5" },

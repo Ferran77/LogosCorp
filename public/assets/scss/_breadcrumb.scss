@@ -1,10 +1,155 @@
 @use "variables";
 
 .breadcrumb-area {
-    background-image: url(../img/bread-bg.png);
+    background-image: url(../img/bread-bg.jpg);
 }
 
+
 .breadcrumb-area {
+    height: 400px;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	z-index: 1;    
+
+    .breadcrumb-title {
+        position: relative;
+        z-index: 999; 
+          
+        margin-top: 60px;    
+    }
+	
+	& .breadcrumb-title h1 {
+		font-size: 55px;
+		font-weight: 500;
+        color: #fff;
+        margin: 0;
+        letter-spacing: -1px;
+        
+        @media #{variables.$md} {
+            font-size: 50px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 35px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 40px;
+           }
+    }
+
+    & .breadcrumb-title p {
+        font-size: 20px;
+		font-weight: 300;
+        color: #e4bf41;
+        margin: 0;
+        letter-spacing: -1px;
+
+        @media #{variables.$md} {
+            font-size: 15px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 10px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 5px;
+           }
+    }
+    .breadcrumb-icon i {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    
+	
+}
+
+.breadcrumb-area-1 {
+    background-image: url(../img/bread-bg-1.jpg);
+}
+
+
+.breadcrumb-area-1 {
+    height: 400px;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	z-index: 1;    
+
+    .breadcrumb-title {
+        position: relative;
+        z-index: 999; 
+          
+        margin-top: 60px;    
+    }
+	
+	& .breadcrumb-title h1 {
+		font-size: 55px;
+		font-weight: 500;
+        color: #fff;
+        margin: 0;
+        letter-spacing: -1px;
+        
+        @media #{variables.$md} {
+            font-size: 50px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 35px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 40px;
+           }
+    }
+
+    & .breadcrumb-title p {
+        font-size: 20px;
+		font-weight: 300;
+        color: #e4bf41;
+        margin: 0;
+        letter-spacing: -1px;
+
+        @media #{variables.$md} {
+            font-size: 15px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 10px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 5px;
+           }
+    }
+    .breadcrumb-icon i {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    
+	
+}
+
+.breadcrumb-area-2 {
+    background-image: url(../img/bread-bg-2.jpg);
+}
+
+
+.breadcrumb-area-2 {
     height: 400px;
     background-size: cover;
     background-position: center bottom;
