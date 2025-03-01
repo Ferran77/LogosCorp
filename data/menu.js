@@ -21,11 +21,16 @@ export const menuItems = [
         ],
         isNested: true,
       },
-      // { title: "Arquitectura y diseño", href: "/home-2" 
-      // subMenu: [
-      //   {title: }
-      // ],},
-      { title: "Construción y remodelación", href: "/home-3" },
+      { 
+        title: "Construción y remodelación", href: "/home-3",
+        subMenu: [
+          { title: "Obra nueva", href: "/new-construction" },
+          { title: "Remodelación de interiores y exteriores", href: "/remodeling" },
+          { title: "Supervisión de obra", href: "/supervision" },
+          { title: "Mantenimiento a empresas", href: "/maintenance" },
+        ],
+        isNested: true,
+      },
       { title: "Render 3D y animaciones", href: "/home-4" },
       { title: "Soluciones integrales y servicios especiales", href: "/home-5" },
       { title: "Valución inmobiliaria", href: "/valuation" },

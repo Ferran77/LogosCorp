@@ -176,128 +176,200 @@ export const projects3 = [
   },
 ];
 
+
 export const projects4 = [
   {
     id: 23,
     imgSrc: "/assets/img/project/6-1.jpg",
-    title: "Tanker",
-    category: "Production",
+    title: "Planificación y conceptualización",
+    category: "Primera etapa",
     description:
-      "Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt explicabo.",
+      "Nuestro equipo de expertos trabaja meticulosamente en cada etapa, garantizando que su visión se convierta en una realidad que supera las expectativas.",
   },
   {
     id: 24,
     imgSrc: "/assets/img/project/6-2.jpg",
-    title: "Steel Processing",
-    category: "Construction",
+    title: "Diseño y soluciones personalizadas",
+    category: "Segunda etapa",
     description:
-      "Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt explicabo.",
+      "Con un enfoque innovador y comprometidos con la calidad, ofrecemos soluciones personalizadas que optimizan cada aspecto de su proyecto.",
   },
   {
     id: 25,
     imgSrc: "/assets/img/project/6-3.jpg",
-    title: "Wind Mill",
-    category: "Energy",
+    title: "Construcción y Ejecución",
+    category: "Tercera etapa",
     description:
-      "Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt explicabo.",
+      "Con nosotros, su proyecto está en manos de profesionales comprometidos con su éxito, transformando sus ideas en logros tangibles y duraderos.",
   },
   {
     id: 26,
     imgSrc: "/assets/img/project/6-4.jpg",
-    title: "Rolling Station",
-    category: "Manufacture",
+    title: "Entrega y Satisfacción Garantizada",
+    category: "Etapa final",
     description:
-      "Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Dicta sunt explicabo.",
+      "Al elegirnos, confía en un socio líder con una reputación sólida, respaldada por nuestra dedicación en cada área de trabajo. ¡Siempre procuraremos cada detalle de su desarrollo constructivo!",
   },
 ];
 
 export const projects5 = [
   {
-    id: 27,
-    imgSrc: "/assets/img/project/7-1.jpg",
-    title: "Oil Refinery",
-    category: "factory",
+    id: 23,
+    imgSrc: "/assets/img/project/6-5.jpg",
+    title: "Interiores",
+    category: "Remodelación",
+    description:
+      "Nuestra experiencia nos permite transformar sus interiores en espacios de elegancia y funcionalidad. Desde la selección de materiales hasta la optimización del diseño, cada paso es cuidadosamente planificado para superar sus expectativas.",
   },
   {
-    id: 28,
-    imgSrc: "/assets/img/project/7-2.jpg",
-    title: "Tunnel Gril",
-    category: "construction",
+    id: 24,
+    imgSrc: "/assets/img/project/6-6.jpg",
+    title: "Interiores",
+    category: "Remodelación",
+    description:
+      "Nuestra red de proveedores nos permite acceder a materiales de la más alta calidad, garantizando resultados excepcionales. Transformamos sus interiores en espacios donde el diseño y la funcionalidad se unen para crear verdaderos espacios habitables y confortables.",
   },
   {
-    id: 29,
-    imgSrc: "/assets/img/project/2-8.jpg",
-    title: "Ferous Metal",
-    category: "Manufacture",
+    id: 25,
+    imgSrc: "/assets/img/project/6-7.jpg",
+    title: "Exteriores",
+    category: "Remodelación",
+    description:
+      "En cada proyecto de remodelación de exteriores, transformamos sus espacios en ambientes que no solo inspiran, sino que también brindan protección y durabilidad.",
   },
   {
-    id: 30,
-    imgSrc: "/assets/img/project/2-4.jpg",
-    title: "Oil Tanker",
-    category: "Manufacture",
-  },
-  {
-    id: 31,
-    imgSrc: "/assets/img/project/7-3.jpg",
-    title: "Hot Forging",
-    category: "Production",
-  },
-  {
-    id: 32,
-    imgSrc: "/assets/img/project/2-6.jpg",
-    title: "Profeller",
-    category: "Construction",
-  },
-  {
-    id: 33,
-    imgSrc: "/assets/img/project/7-4.jpg",
-    title: "Steel Process",
-    category: "Industry",
+    id: 26,
+    imgSrc: "/assets/img/project/6-8.jpg",
+    title: "Esteriores",
+    category: "Remodelación",
+    description:
+      "Desde la selección de los materiales hasta la integración de soluciones sostenibles, cada detalle es meticulosamente planificado para armonizar con su entorno y elevar la experiencia de su inmueble.",
   },
 ];
 
+// export const projects5 = [
+//   {
+//     id: 27,
+//     imgSrc: "/assets/img/project/7-1.jpg",
+//     title: "Oil Refinery",
+//     category: "factory",
+//   },
+//   {
+//     id: 28,
+//     imgSrc: "/assets/img/project/7-2.jpg",
+//     title: "Tunnel Gril",
+//     category: "construction",
+//   },
+//   {
+//     id: 29,
+//     imgSrc: "/assets/img/project/2-8.jpg",
+//     title: "Ferous Metal",
+//     category: "Manufacture",
+//   },
+//   {
+//     id: 30,
+//     imgSrc: "/assets/img/project/2-4.jpg",
+//     title: "Oil Tanker",
+//     category: "Manufacture",
+//   },
+//   {
+//     id: 31,
+//     imgSrc: "/assets/img/project/7-3.jpg",
+//     title: "Hot Forging",
+//     category: "Production",
+//   },
+//   {
+//     id: 32,
+//     imgSrc: "/assets/img/project/2-6.jpg",
+//     title: "Profeller",
+//     category: "Construction",
+//   },
+//   {
+//     id: 33,
+//     imgSrc: "/assets/img/project/7-4.jpg",
+//     title: "Steel Process",
+//     category: "Industry",
+//   },
+// ];
+
 export const projects6 = [
   {
-    id: 34,
-    title: "Steel Processing",
-    category: "Construction",
-    imgSrc: "/assets/img/project/1.jpg",
-    imgWidth: 1920,
-    imgHeight: 1920,
+    id: 23,
+    imgSrc: "/assets/img/project/6-9.jpg",
+    title: "Control y cumplimiento normativo",
+    category: "Estándares de calidad",
+    description:
+      "Supervisamos cada fase del proyecto para garantizar que se respeten los estándares de calidad, normativas de seguridad y especificaciones técnicas.",
   },
   {
-    id: 35,
-    title: "Steel Roll",
-    category: "Factory",
-    imgSrc: "/assets/img/project/1-1.jpg",
-    imgWidth: 1536,
-    imgHeight: 1536,
+    id: 24,
+    imgSrc: "/assets/img/project/6-10.jpg",
+    title: "Gestión eficiente de tiempos y recursos",
+    category: "Resultados en tiempo y forma",
+    description:
+      "Coordinamos el cronograma de obra y optimizamos el uso de materiales, asegurando que cada etapa se complete en tiempo y forma sin desperdicios.",
   },
   {
-    id: 36,
-    title: "Welding",
-    category: "Construction",
-    imgSrc: "/assets/img/project/1-2.jpg",
-    imgWidth: 1536,
-    imgHeight: 1536,
+    id: 25,
+    imgSrc: "/assets/img/project/6-11.jpg",
+    title: "Monitoreo continuo y solución de imprevistos",
+    category: "Minimizar riesgos y retrasos ",
+    description:
+      "Aplicamos metodologías avanzadas para detectar y corregir cualquier desviación en el proceso constructivo, minimizando riesgos y retrasos.",
   },
   {
-    id: 37,
-    title: "Steel Profiles",
-    category: "Industry",
-    imgSrc: "/assets/img/project/1-3.jpg",
-    imgWidth: 1536,
-    imgHeight: 1536,
-  },
-  {
-    id: 38,
-    title: "Oil Transportation",
-    category: "Industry",
-    imgSrc: "/assets/img/project/1-4.jpg",
-    imgWidth: 1536,
-    imgHeight: 1536,
+    id: 26,
+    imgSrc: "/assets/img/project/6-12.jpg",
+    title: "Garantía de un resultado impecable",
+    category: "Proyectos ejecutados con excelencia",
+    description:
+      "Desde la inspección diaria hasta la entrega final, nos aseguramos de que el proyecto se ejecute con excelencia, cumpliendo con los planos aprobados y las expectativas del cliente.",
   },
 ];
+
+
+// export const projects6 = [
+//   {
+//     id: 34,
+//     title: "Steel Processing",
+//     category: "Construction",
+//     imgSrc: "/assets/img/project/1.jpg",
+//     imgWidth: 1920,
+//     imgHeight: 1920,
+//   },
+//   {
+//     id: 35,
+//     title: "Steel Roll",
+//     category: "Factory",
+//     imgSrc: "/assets/img/project/1-1.jpg",
+//     imgWidth: 1536,
+//     imgHeight: 1536,
+//   },
+//   {
+//     id: 36,
+//     title: "Welding",
+//     category: "Construction",
+//     imgSrc: "/assets/img/project/1-2.jpg",
+//     imgWidth: 1536,
+//     imgHeight: 1536,
+//   },
+//   {
+//     id: 37,
+//     title: "Steel Profiles",
+//     category: "Industry",
+//     imgSrc: "/assets/img/project/1-3.jpg",
+//     imgWidth: 1536,
+//     imgHeight: 1536,
+//   },
+//   {
+//     id: 38,
+//     title: "Oil Transportation",
+//     category: "Industry",
+//     imgSrc: "/assets/img/project/1-4.jpg",
+//     imgWidth: 1536,
+//     imgHeight: 1536,
+//   },
+// ];
 
 export const projects7 = [
   {
