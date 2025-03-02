@@ -1,6 +1,7 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header4 from "@/components/headers/Header4";
 import Projects4 from "@/components/projects/Projects4";
+import Persuade2 from "@/components/projects/Persuade2";
 import React from "react";
 
 export const metadata = {
@@ -13,7 +14,7 @@ export default function page() {
     <>
       <Header4 />
       <div className="breadcrumb-area white-bg">
-        <div className="container">
+        <div className="container p-8">
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
@@ -26,6 +27,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <Persuade2/>
       <Projects4 />
       <Footer1 />
     </>

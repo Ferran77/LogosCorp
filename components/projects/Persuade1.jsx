@@ -2,19 +2,16 @@ import React from "react";
 
 export default function Persuade1() {
   return (
-    <div id="service-1" className="service-section dark-bg section-padding">
-      <div className="container">
+    <div id="service-1" className="service-section dark-bg section-padding mb-8">
+      <div className="container mb-6">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6 col-md-6">
-            <div className="section-title">
+            <div className="section-title ml-4 mr-12">
               <h6 className="text-white">Logos-Corp México</h6>
-              <h2 className="text-white">
-                Arquitectura, diseño y construcción
-              </h2>{" "}
-              <br />
-              <h3 className="text-sky-300">
+              <h2 className="text-white">Obra Nueva</h2> <br />
+              <p className="text-sky-300 text-xl">
                 ¿Necesita ayuda? Por favor, contáctenos:
-              </h3>{" "}
+              </p>{" "}
               <br />
               <p className="text-white">
                 Tel. 951 454 0404 <br /> Tel. 55 5801 8167 <br /> Email.
@@ -22,25 +19,19 @@ export default function Persuade1() {
               </p>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6">
-            <p>
-              En nuestra empresa 100% mexicana, cada proyecto nace de la visión
-              compartida de nuestros fundadores, con el propósito de transformar
-              el entorno de manera positiva. <br /> <br /> Combinamos nuestra
-              experiencia técnica-operativa con los principios de la geometría
-              sagrada, infundiendo en cada obra una armonía única que redefine
-              el espacio y eleva la experiencia arquitectónica. <br /> Cada
-              diseño es un testimonio de nuestra dedicación a la innovación y al
-              impacto duradero.
-            </p>
-            <br />
-            <p>
-              En LOGOS-CORP MÉXICO, Valoramos profundamente su inversión y
-              esfuerzo en la construcción o remodelación de su propiedad. Por
-              ello, invertimos en la capacitación continua de nuestro equipo en
-              diversas especialidades, asegurando que cada servicio que
-              ofrecemos esté a la altura de su confianza y expectativas. <br />{" "}
-              <br /> ¡Con nosotros, su confianza está garantizada!
+          <div className="col-xl-6 col-lg-6 col-md-6 text-justify">
+            <p className="mr-12 pr-4">
+              Sabemos que la construcción de un nuevo proyecto es una decisión
+              importante, por eso, en LOGOS-CORP MÉXICO, nos enfocamos en brindar
+              una atención personalizada y transparente en cada fase. <br/> Desde el
+              primer contacto, nos dedicamos a escuchar sus necesidades y a
+              ofrecerle soluciones a medida, adaptadas a su presupuesto y
+              expectativas. <br/> <br/> Nuestro equipo de profesionales altamente
+              capacitados se encargará de gestionar cada detalle, garantizando
+              la calidad, precisión y cumplimiento en cada etapa. <br/>Confíe en
+              nosotros para convertir su sueño en realidad, con la tranquilidad
+              de saber que su proyecto está en las mejores manos. Su
+              satisfacción es nuestro compromiso.
             </p>
           </div>
         </div>

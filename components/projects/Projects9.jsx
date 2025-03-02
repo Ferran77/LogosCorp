@@ -1,12 +1,12 @@
-import { projects4 } from "@/data/projects";
+import { projects8 } from "@/data/projects";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export default function Projects9() {
   return (
-    <div className="project-list-wrap section-padding pt-0">
+    <div className="project-list-wrap section-padding pt-4">
       <div className="container">
-        {projects4.map((project, index) => (
+        {projects8.map((project, index) => (
           <div className="row align-items-center mt-60" key={index}>
             <div className="col-xl-6 col-lg-6">
               <div className="project-list-img">
@@ -26,7 +26,7 @@ export default function Projects9() {
                   <h2>{project.title}</h2>
                 </div>
                 <p>{project.description}</p>
-                <Link
+                {/* <Link
                   href={`/project-details-left-sidebar/${project.id}`}
                   className="read_more_link"
                 >
@@ -34,7 +34,7 @@ export default function Projects9() {
                   <span className="link_icon">
                     <i className="las la-arrow-right" />
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

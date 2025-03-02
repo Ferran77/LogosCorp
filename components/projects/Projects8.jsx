@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Projects8() {
   return (
-    <div className="project-list-wrap section-padding pt-0">
+    <div className="project-list-wrap section-padding pt-6">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Grid de 2x2: Imagen arriba y texto abajo */}

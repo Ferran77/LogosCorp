@@ -327,6 +327,41 @@ export const projects6 = [
   },
 ];
 
+export const projects8 = [
+  {
+    id: 23,
+    imgSrc: "/assets/img/project/6-13.jpg",
+    title: "Operación continua y eficiente",
+    category: "No interrumpa las funciones de su empresa",
+    description:
+      "Mantenemos sus instalaciones en óptimas condiciones con soluciones integrales diseñadas para garantizar que su empresa funcione sin interrupciones.",
+  },
+  {
+    id: 24,
+    imgSrc: "/assets/img/project/6-14.jpg",
+    title: "Expertos en calidad y seguridad",
+    category: "Las mejores prácticas de seguridad",
+    description:
+      "Nuestro equipo altamente capacitado trabaja con los más altos estándares para asegurar que cada detalle de su infraestructura cumpla con las mejores prácticas del sector.",
+  },
+  {
+    id: 25,
+    imgSrc: "/assets/img/project/6-15.jpg",
+    title: "Inversión segura para el futuro de su negocio",
+    category: "Preservamos el valor de su empresa",
+    description:
+      "Con nuestro servicio, no solo preserva el valor de su infraestructura, sino que también garantiza la continuidad y el éxito de su empresa a largo plazo.",
+  },
+  {
+    id: 26,
+    imgSrc: "/assets/img/project/6-16.jpg",
+    title: "Protección y gestión profesional",
+    category: "Una empresa segura, duradera y operativa",
+    description:
+      "Cuidamos sus activos con una gestión eficiente y estratégica, asegurando que sus instalaciones sean seguras, duraderas y operativas en todo momento.",
+  },
+];
+
 
 // export const projects6 = [
 //   {
@@ -406,32 +441,32 @@ export const projects7 = [
   },
 ];
 
-export const projects8 = [
-  {
-    id: 43,
-    title: "Oil Refinery",
-    category: "Production",
-    imgSrc: "/assets/img/project/2-1.jpg",
-  },
-  {
-    id: 44,
-    title: "Offshore Platform",
-    category: "Production",
-    imgSrc: "/assets/img/project/2-2.jpg",
-  },
-  {
-    id: 45,
-    title: "Oil Tanker",
-    category: "Production",
-    imgSrc: "/assets/img/project/2-3.jpg",
-  },
-  {
-    id: 46,
-    title: "Pumping Unit",
-    category: "Production",
-    imgSrc: "/assets/img/project/2-4.jpg",
-  },
-];
+// export const projects8 = [
+//   {
+//     id: 43,
+//     title: "Oil Refinery",
+//     category: "Production",
+//     imgSrc: "/assets/img/project/2-1.jpg",
+//   },
+//   {
+//     id: 44,
+//     title: "Offshore Platform",
+//     category: "Production",
+//     imgSrc: "/assets/img/project/2-2.jpg",
+//   },
+//   {
+//     id: 45,
+//     title: "Oil Tanker",
+//     category: "Production",
+//     imgSrc: "/assets/img/project/2-3.jpg",
+//   },
+//   {
+//     id: 46,
+//     title: "Pumping Unit",
+//     category: "Production",
+//     imgSrc: "/assets/img/project/2-4.jpg",
+//   },
+// ];
 
 export const projects9 = [
   {

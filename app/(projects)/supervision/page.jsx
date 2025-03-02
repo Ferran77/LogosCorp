@@ -1,6 +1,7 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header4 from "@/components/headers/Header4";
 import Projects8 from "@/components/projects/Projects8";
+import Persuade3 from "@/components/projects/Persuade3";
 import React from "react";
 
 export const metadata = {
@@ -26,6 +27,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <Persuade3/>
       <Projects8 />
       <Footer1 />
     </>

@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Projects7() {
 
   return (
-    <div className="project-list-wrap section-padding pt-0">
+    <div className="project-list-wrap section-padding pt-6">
       <div className="container">
         {projects4.map((project, index) => (
           <div
