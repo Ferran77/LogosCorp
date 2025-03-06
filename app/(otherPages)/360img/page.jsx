@@ -2,7 +2,7 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import ImgDetails from "@/components/otherPages/360img/ImgDetails"
 import RenderImg from "@/components/otherPages/360img/RenderImg";
-
+import Cta from "@/components/otherPages/Cta";
 import { allProjects } from "@/data/projects";
 import React from "react";
 
@@ -34,6 +34,7 @@ export default function page({ params }) {
       </div>
       <RenderImg/>
       <ImgDetails/>
+      <Cta/>
       <Footer1 />
     </>
   );

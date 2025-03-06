@@ -34,9 +34,9 @@ export const menuItems = [
       { title: "Render 3D y animaciones", href: "/home-4",
         subMenu: [
           { title: "Imágenes 360°", href: "/360img" },
-          { title: "Imágenes 3D", href: "/remodeling" },
-          { title: "Tour virtual 360°", href: "/supervision" },
-          { title: "Recorrido virtual 3D en video", href: "/maintenance" },
+          { title: "Imágenes 3D", href: "/3dImg" },
+          { title: "Tour virtual 360°", href: "/virtualTour" },
+          { title: "Recorrido virtual 3D en video", href: "/virtualVideo" },
         ],
         isNested: true,
        },
