@@ -104,3 +104,20 @@ export const features3 = [
     delay: ".4s",
   },
 ];
+
+export const features4 = [
+  {
+    title: "Peritos en Dictámenes de Seguridad Estructural",
+    description:
+      "Los peritos especializados analizan la estabilidad de una construcción mediante estudios técnicos, inspecciones detalladas y normativas vigentes, garantizando la seguridad estructural del inmueble.",
+    image: "/assets/img/feature/6.jpg",
+    delay: ".2s",
+  },
+  {
+    title: "Directores Responsables de Obra (DRO) en Seguridad Estructural",
+    description:
+      "Los DRO supervisan y validan que las construcciones cumplan con las regulaciones estructurales, asegurando calidad, seguridad y estabilidad en cada fase del proyecto arquitectónico.",
+    image: "/assets/img/feature/7.jpg",
+    delay: ".4s",
+  },
+];

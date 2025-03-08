@@ -10,7 +10,8 @@ import { RiCustomerServiceFill } from "react-icons/ri";
 import { PiSecurityCameraBold } from "react-icons/pi";
 import { GiElevator } from "react-icons/gi";
 import { LiaMoneyCheckAltSolid } from "react-icons/lia";
-
+import { BsBuildingFillLock } from "react-icons/bs";
+import { PiWarningDiamondBold } from "react-icons/pi";
 
 export const services = [
   {
@@ -391,5 +392,20 @@ export const services12 = [
     title: "Memoria de cálculo estructural",
     description:
       "El análisis técnico detallado y los cálculos precisos necesarios para definir los elementos constructivos de su proyecto. Con un enfoque basado en normativas vigentes y criterios técnicos rigurosos, esta memoria asegura que cada especificación de armados, dimensiones, y características técnicas constructivas esté en total cumplimiento con los estándares de seguridad y calidad. El objetivo principal de la Memoria Estructural es proporcionar una justificación técnica y normativa que respalde el diseño y la ejecución de la estructura, garantizando su estabilidad y durabilidad ante diversas condiciones de carga y factores ambientales. La finalidad es doble: Primero, asegurar que cada elemento estructural, desde cimentaciones hasta cubiertas, esté diseñado para soportar las cargas previstas de manera segura. Segundo, optimizar los recursos materiales y económicos, evitando sobrecostos y garantizando la eficiencia en la construcción. Con la Memoria Estructural, usted tiene la certeza de que su proyecto no solo cumple con las exigencias normativas, sino que también está preparado para ofrecer la máxima seguridad y desempeño a lo largo de su vida útil.",
+  },
+];
+
+export const services13 = [
+  {
+    title: "Qué es",
+    description:
+      "El dictamen de seguridad estructural es un informe técnico crucial que certifica la estabilidad y resistencia de su edificación, realizado por Peritos y Directores Responsables de Obra avalados por la “Secretaría de Desarrollo Urbano” y el “Consejo de la Judicatura.”",
+    icon: BsBuildingFillLock,
+  },
+  {
+    title: "Su importancia",
+    description:
+      "Un dictamen oportuno previene problemas potenciales, asegura el cumplimiento normativo y proporciona una base sólida para la operación segura y eficiente de su construcción. Con nuestro dictamen de seguridad estructural, garantizamos la integridad de sus espacios.",
+    icon: PiWarningDiamondBold,
   },
 ];

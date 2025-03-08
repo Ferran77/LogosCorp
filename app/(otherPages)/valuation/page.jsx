@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
       <Header1 />
-      <div className="breadcrumb-area bread-bg">
+      <div className="breadcrumb-area8 bread-bg">
         <div className="overlay" />
         <div className="container">
           <div className="row justify-content-center">
@@ -32,8 +32,7 @@ export default function page() {
       </div>
       <Services/>
       <Features/>
-      <Cta2/>
-      {/* <Pricing /> */}
+      {/* <Cta2/> */}
       <Cta/>
       <Footer1 />
     </>

@@ -527,6 +527,149 @@
     }
 }
 
+.breadcrumb-area7 {
+    background-image: url(../img/bread-bg-5.jpg);
+}
+
+
+.breadcrumb-area7 {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	z-index: 1;    
+
+    .breadcrumb-title {
+        position: relative;
+        z-index: 999; 
+          
+        margin-top: 60px;    
+    }
+	
+	& .breadcrumb-title h1 {
+		font-size: 55px;
+		font-weight: 500;
+        color: #fff;
+        margin: 0;
+        letter-spacing: -1px;
+        
+        @media #{variables.$md} {
+            font-size: 50px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 35px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 40px;
+           }
+    }
+
+    & .breadcrumb-title p {
+        font-size: 20px;
+		font-weight: 300;
+        color: #e4bf41;
+        margin: 0;
+        letter-spacing: -1px;
+
+        @media #{variables.$md} {
+            font-size: 15px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 10px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 5px;
+           }
+    }
+    .breadcrumb-icon i {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+.breadcrumb-area8 {
+    background-image: url(../img/bread-bg-6.jpg);
+}
+
+
+.breadcrumb-area8 {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	z-index: 1;    
+
+    .breadcrumb-title {
+        position: relative;
+        z-index: 999; 
+          
+        margin-top: 60px;    
+    }
+	
+	& .breadcrumb-title h1 {
+		font-size: 55px;
+		font-weight: 500;
+        color: #fff;
+        margin: 0;
+        letter-spacing: -1px;
+        
+        @media #{variables.$md} {
+            font-size: 50px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 35px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 40px;
+           }
+    }
+
+    & .breadcrumb-title p {
+        font-size: 20px;
+		font-weight: 300;
+        color: #e4bf41;
+        margin: 0;
+        letter-spacing: -1px;
+
+        @media #{variables.$md} {
+            font-size: 15px;
+           }
+    
+           @media #{variables.$sm} {
+            font-size: 10px;
+           }
+
+           @media #{variables.$xs} {
+            font-size: 5px;
+           }
+    }
+    .breadcrumb-icon i {
+        font-size: 24px;
+        color: #fff;
+        margin-top: 30px;
+    }
+}
+
+
 .breadcrumb-area.white-bg {
     height: 300px;
 }
