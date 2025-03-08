@@ -1,6 +1,6 @@
 "use client";
 
-import { services13 } from "@/data/services";
+import { renderDetails3 } from "@/data/renderDetails";
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -19,13 +19,13 @@ export default function imgDetails2() {
               {/* <h6>
                 4 Razones para Usar Imágenes 360° en Tu Proyecto Arquitectónico
               </h6> */}
-              <h3>Tour virtual </h3>
+              <h3>Viva su proyecto antes de construir</h3>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="team-desc">
               <p className="text-justify ml-4">
-                Tour virtual description
+              Visualice y recorra cada espacio con nuestro Tour Virtual 360°. <br/> Tome decisiones informadas, optimice detalles y asegure un resultado perfecto antes de construir.
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function imgDetails2() {
               speed={3200}
               onSwiper={(swiper) => (swiperRef.current = swiper)} // Almacena la instancia de Swiper
             >
-              {services13.map((service, index) => (
+              {renderDetails3.map((service, index) => (
                 <SwiperSlide
                   key={service.id}
                   className="single-service-item"

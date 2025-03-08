@@ -1,6 +1,6 @@
 "use client";
 
-import { services13 } from "@/data/services";
+import { renderDetails1 } from "@/data/renderDetails";
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -80,7 +80,7 @@ export default function Details4() {
               speed={3200}
               onSwiper={(swiper) => (swiperRef.current = swiper)} // Almacena la instancia de Swiper
             >
-              {services13.map((service, index) => (
+              {renderDetails1.map((service, index) => (
                 <SwiperSlide
                   key={service.id}
                   className="single-service-item"

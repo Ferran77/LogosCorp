@@ -1,28 +1,16 @@
-import { MdOutlineDesignServices } from "react-icons/md";
-import { MdConstruction } from "react-icons/md";
+import { MdOutlineDesignServices, MdConstruction, MdElectricMeter, MdOutline3dRotation, MdOutlineContactPhone } from "react-icons/md";
 import { LuScreenShare } from "react-icons/lu";
-import { FaHelmetSafety } from "react-icons/fa6";
-import { FaDraftingCompass } from "react-icons/fa";
-import { FaBuildingCircleCheck } from "react-icons/fa6";
-import { MdElectricMeter } from "react-icons/md";
+import { FaHelmetSafety, FaBuildingCircleCheck,  FaBuildingShield, FaMoneyCheckDollar, FaHouseLaptop, FaHouseCircleCheck  } from "react-icons/fa6";
+import { FaDraftingCompass, FaMap  } from "react-icons/fa";
 import { BiSolidCctv } from "react-icons/bi";
 import { TbCrane } from "react-icons/tb";
 import { Gi3dGlasses } from "react-icons/gi";
-import { MdOutline3dRotation } from "react-icons/md";
-import { TbRotate360 } from "react-icons/tb";
-import { TbView360Number } from "react-icons/tb";
-import { BsBuildingUp } from "react-icons/bs";
-import { FaTools, FaHardHat, FaEye } from "react-icons/fa";
-import { FaMap } from "react-icons/fa";
-import { FaBuildingShield } from "react-icons/fa6";
-import { FaMoneyCheckDollar } from "react-icons/fa6";
+import { TbRotate360, TbView360Number } from "react-icons/tb";
 import { RiCustomerServiceFill } from "react-icons/ri";
-import { FaHouseLaptop } from "react-icons/fa6";
 import { PiSecurityCameraBold } from "react-icons/pi";
-import { MdOutlineContactPhone } from "react-icons/md";
 import { GiElevator } from "react-icons/gi";
 import { LiaMoneyCheckAltSolid } from "react-icons/lia";
-import { FaHouseCircleCheck } from "react-icons/fa6";
+
 
 export const services = [
   {
@@ -403,40 +391,5 @@ export const services12 = [
     title: "Memoria de cálculo estructural",
     description:
       "El análisis técnico detallado y los cálculos precisos necesarios para definir los elementos constructivos de su proyecto. Con un enfoque basado en normativas vigentes y criterios técnicos rigurosos, esta memoria asegura que cada especificación de armados, dimensiones, y características técnicas constructivas esté en total cumplimiento con los estándares de seguridad y calidad. El objetivo principal de la Memoria Estructural es proporcionar una justificación técnica y normativa que respalde el diseño y la ejecución de la estructura, garantizando su estabilidad y durabilidad ante diversas condiciones de carga y factores ambientales. La finalidad es doble: Primero, asegurar que cada elemento estructural, desde cimentaciones hasta cubiertas, esté diseñado para soportar las cargas previstas de manera segura. Segundo, optimizar los recursos materiales y económicos, evitando sobrecostos y garantizando la eficiencia en la construcción. Con la Memoria Estructural, usted tiene la certeza de que su proyecto no solo cumple con las exigencias normativas, sino que también está preparado para ofrecer la máxima seguridad y desempeño a lo largo de su vida útil.",
-  },
-];
-
-export const services13 = [
-  {
-    id: 1,
-    imgSrc: "/assets/img/renderImg/1.jpg",
-    number: "01.",
-    title: "Visualización inmersiva y realista",
-    description:
-      "Las imágenes en 360° permiten explorar cada rincón del diseño como si estuvieras físicamente dentro del espacio. Esta experiencia interactiva brinda una comprensión profunda del entorno proyectado, superando las limitaciones de los renders tradicionales y facilitando una presentación más impactante y convincente.",
-  },
-  {
-    id: 2,
-    imgSrc: "/assets/img/renderImg/2.jpg",
-    number: "02.",
-    title: "Mejor toma de decisiones y menos errores",
-    description:
-      "Gracias a la visualización integral del proyecto, es más fácil evaluar la distribución de espacios, la iluminación y la integración de los elementos arquitectónicos. Esto permite detectar y corregir posibles fallos antes de la construcción, optimizando el diseño y evitando costosos errores.",
-  },
-  {
-    id: 3,
-    imgSrc: "/assets/img/renderImg/3.jpg",
-    number: "03.",
-    title: "Mayor claridad para clientes e inversores",
-    description:
-      "Con imágenes 360°, todos los involucrados —clientes, inversionistas y colaboradores— pueden compartir una visión clara y detallada del proyecto. Esto reduce malentendidos, acelera la aprobación de propuestas y mejora la comunicación entre equipos.",
-  },
-  {
-    id: 4,
-    imgSrc: "/assets/img/renderImg/4.jpeg",
-    number: "04.",
-    title: "Inversión que agrega valor y ahorra costos",
-    description:
-      "Aunque la generación de imágenes en 360° tiene un costo, su impacto en la optimización del proyecto la convierte en una inversión inteligente. Permiten tomar decisiones más acertadas desde el inicio, evitando gastos innecesarios y asegurando que el resultado final sea fiel a la visión original.",
   },
 ];

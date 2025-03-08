@@ -23,8 +23,13 @@ export default function RenderImg2() {
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 text-justify">
+            <h6 className="text-2xl text-white mb-4">
+              ¡Usted toma el control! <br/> <br/>¡No solo visualiza su proyecto, sino que lo lleva a una nueva dimensión de experiencia!
+            </h6>
             <p className="mr-12 pr-4">
-              Description
+              Adéntrese en una experiencia inmersiva que le permite explorar cada rincón de su
+              proyecto con total libertad de movimiento y detalle desde
+              cualquier ángulo. <br/> <br/>Es una vivencia interactiva que le brinda control total sobre la exploración de su proyecto.
             </p>
           </div>
         </div>

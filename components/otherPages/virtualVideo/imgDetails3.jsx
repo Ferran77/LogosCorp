@@ -1,6 +1,6 @@
 "use client";
 
-import { services13 } from "@/data/services";
+import { renderDetails4 } from "@/data/renderDetails";
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
@@ -16,12 +16,12 @@ export default function ImgDetails3() {
         <div className="row gx-5 align-items-center">
           <div className="col-xl-4 col-lg-4 mt-4 ml-6">
             <div className="section-title mt-8">
-              <h3 className="text-white">Título de recorrido virtual 3d en video</h3>
+              <h3 className="text-white">Su proyecto en movimiento antes de construir</h3>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6">
             <div className="team-desc">
-              <p className="text-justify ml-4 text-white">Descripción de recorrido virtual 3d en video</p>
+              <p className="text-justify ml-4 text-white">Descubra su proyecto con un Recorrido Virtual 3D. Visualice espacios, materiales y acabados en video realista, optimice su diseño y tome decisiones seguras antes de construir.</p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function ImgDetails3() {
               speed={3200}
               onSwiper={(swiper) => (swiperRef.current = swiper)}
             >
-              {services13.map((service, index) => (
+              {renderDetails4.map((service, index) => (
                 <SwiperSlide
                   key={service.id}
                   className="single-service-item"
