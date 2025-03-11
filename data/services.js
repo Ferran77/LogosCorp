@@ -4,14 +4,13 @@ import { FaHelmetSafety, FaBuildingCircleCheck,  FaBuildingShield, FaMoneyCheckD
 import { FaDraftingCompass, FaMap  } from "react-icons/fa";
 import { BiSolidCctv } from "react-icons/bi";
 import { TbCrane } from "react-icons/tb";
-import { Gi3dGlasses } from "react-icons/gi";
-import { TbRotate360, TbView360Number } from "react-icons/tb";
-import { RiCustomerServiceFill } from "react-icons/ri";
-import { PiSecurityCameraBold } from "react-icons/pi";
-import { GiElevator } from "react-icons/gi";
+import { Gi3dGlasses, GiElevator } from "react-icons/gi";
+import { TbRotate360, TbView360Number, TbArrowBigUpLinesFilled } from "react-icons/tb";
+import { PiSecurityCameraBold, PiWarningDiamondBold } from "react-icons/pi";
 import { LiaMoneyCheckAltSolid } from "react-icons/lia";
-import { BsBuildingFillLock } from "react-icons/bs";
-import { PiWarningDiamondBold } from "react-icons/pi";
+import { BsBuildingFillLock, BsFillGeoAltFill } from "react-icons/bs";
+import { MdOutlineMapsHomeWork, MdOutlineVideoCameraBack } from "react-icons/md";
+import { HiMiniDocumentCheck } from "react-icons/hi2";
 
 export const services = [
   {
@@ -300,6 +299,12 @@ export const services9 = [
     icon: FaMap,
   },
   {
+    title: "Levantamientos arquitectónicos",
+    description:
+      "El objetivo principal de un Levantamiento Arquitectónico es proporcionar una representación precisa y detallada del estado actual del inmueble o terreno",
+    icon: MdOutlineMapsHomeWork,
+  },
+  {
     title: "Dictamen de seguridad estructural",
     description:
       "Un Dictamen de Seguridad Estructural exhaustivo previene riesgos y asegura la protección de quienes ocupan su edificio",
@@ -310,12 +315,6 @@ export const services9 = [
     description:
       "¿Se ha preguntado cuánto vale su propiedad? No se preocupe, nosotros le hacemos un estudio detallado y completo",
     icon: FaMoneyCheckDollar,
-  },
-  {
-    title: "Asesorías gratuitas",
-    description:
-      "Tenemos una solución integral para usted. Agende una reunión virtual y platiquemos de sus proyectos",
-    icon: RiCustomerServiceFill,
   },
 ];
 export const services10 = [
@@ -407,5 +406,35 @@ export const services13 = [
     description:
       "Un dictamen oportuno previene problemas potenciales, asegura el cumplimiento normativo y proporciona una base sólida para la operación segura y eficiente de su construcción. Con nuestro dictamen de seguridad estructural, garantizamos la integridad de sus espacios.",
     icon: PiWarningDiamondBold,
+  },
+];
+
+export const services14 = [
+  {
+    title: "Documentación Técnica Precisa",
+    description:
+      "Usted obtiene una representación detallada y exacta del estado actual de una construcción o terreno. Esta información es esencial para garantizar la seguridad y la precisión en cualquier intervención futura, ya sea una remodelación, un trámite legal o el desarrollo de un nuevo proyecto.",
+    icon: HiMiniDocumentCheck,
+  },
+  {
+    title: "Planificación y Ejecución de Proyectos",
+    description:
+      "Contar con planos actualizados que incluyan plantas, fachadas, cortes, croquis de localización y cuadros de áreas facilita la toma de decisiones y la ejecución eficiente de proyectos de construcción, remodelación o regularización.",
+    icon: TbArrowBigUpLinesFilled,
+  },
+];
+
+export const services15 = [
+  {
+    title: "Herramienta esencial para trámites y proyectos",
+    description:
+      "Los planos topográficos facilitan subdivisiones, regularizaciones y procesos notariales, así como la planificación de obras nuevas o remodelaciones.",
+    icon: MdOutlineVideoCameraBack,
+  },
+  {
+    title: "Geo-referenciación profesional",
+    description:
+      "Procesamos los datos en software especializado para generar poligonales en sistemas de coordenadas oficiales, garantizando precisión y compatibilidad en cualquier contexto geográfico.",
+    icon: BsFillGeoAltFill,
   },
 ];

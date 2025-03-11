@@ -13,8 +13,9 @@ export const menuItems = [
     subMenu: [
       { title: "Nuestros Servicios", href: "/services" },
       {
-        title: "Arquitectura y diseño", href: "/home-2",
+        title: "Arquitectura y diseño",
         subMenu: [
+          { title: "Arquitectura y diseño", href: "/home-2" },
           { title: "Anteproyecto", href: "/preliminary-draft" },
           { title: "Proyecto arquitectónico", href: "/architectural-project" },
           { title: "Proyecto estructural", href: "/structural-project" },
@@ -22,8 +23,9 @@ export const menuItems = [
         isNested: true,
       },
       { 
-        title: "Construción y remodelación", href: "/home-3",
+        title: "Construción y remodelación", 
         subMenu: [
+          { title: "Construcción y remodelación", href: "/home-3" },
           { title: "Obra nueva", href: "/new-construction" },
           { title: "Remodelación de interiores y exteriores", href: "/remodeling" },
           { title: "Supervisión de obra", href: "/supervision" },
@@ -31,8 +33,9 @@ export const menuItems = [
         ],
         isNested: true,
       },
-      { title: "Render 3D y animaciones", href: "/home-4",
+      { title: "Render 3D y animaciones", 
         subMenu: [
+          { title: "Render 3D y animaciones", href: "/home-4" },
           { title: "Imágenes 360°", href: "/360img" },
           { title: "Imágenes 3D", href: "/3dImg" },
           { title: "Tour virtual 360°", href: "/virtualTour" },
@@ -43,29 +46,29 @@ export const menuItems = [
       { title: "Soluciones integrales y servicios especiales", href: "/home-5" },
       { title: "Valuación inmobiliaria", href: "/valuation" },
       { title: "Dictamen de seguridad estructural", href: "/dictum" },
-      { title: "Levantamiento arquitectónico", href: "/services" },
-      { title: "Levantamiento topográfico", href: "/home-2" },
-      { title: "Preguntas frecuentes", href: "/home-3" },
+      { title: "Levantamiento arquitectónico", href: "/architecturalSurvey" },
+      { title: "Levantamiento topográfico", href: "/topographicSurvey" },
+      // { title: "Preguntas frecuentes", href: "/home-3" },
     ],
   },
   {
     title: "Mi proyecto",
     subMenu: [
       { title: "Avances", href: "/contact" },
-      { title: "Metro Fullwidth", href: "/project-fullwidth" },
-      { title: "Grid", href: "/project-grid" },
-      { title: "List", href: "/project-list" },
-      { title: "Masonry", href: "/project-masonry" },
-      { title: "Slider", href: "/project-slider" },
-      {
-        title: "Single Project",
-        subMenu: [
-          { title: "Left Sidebar", href: "/project-details-left-sidebar/1" },
-          { title: "Right Sidebar", href: "/project-details-right-sidebar/2" },
-          { title: "Gallery", href: "/project-details-gallery/3" },
-        ],
-        isNested: true,
-      },
+      // { title: "Metro Fullwidth", href: "/project-fullwidth" },
+      // { title: "Grid", href: "/project-grid" },
+      // { title: "List", href: "/project-list" },
+      // { title: "Masonry", href: "/project-masonry" },
+      // { title: "Slider", href: "/project-slider" },
+      // {
+      //   title: "Single Project",
+      //   subMenu: [
+      //     { title: "Left Sidebar", href: "/project-details-left-sidebar/1" },
+      //     { title: "Right Sidebar", href: "/project-details-right-sidebar/2" },
+      //     { title: "Gallery", href: "/project-details-gallery/3" },
+      //   ],
+      //   isNested: true,
+      // },
     ],
   },
   {

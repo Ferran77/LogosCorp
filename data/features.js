@@ -121,3 +121,37 @@ export const features4 = [
     delay: ".4s",
   },
 ];
+
+export const features5 = [
+  {
+    title: "Cumplimiento Normativo y Seguridad Jurídica",
+    description:
+      "Un levantamiento arquitectónico garantiza que la documentación técnica de la propiedad esté completa y cumpla con todas las normativas vigentes, lo que brinda certeza y respaldo en trámites notariales, subdivisiones y licencias de funcionamiento.",
+    image: "/assets/img/feature/8.jpg",
+    delay: ".2s",
+  },
+  {
+    title: "Optimización de Recursos y Prevención de Errores",
+    description:
+      "Al contar con datos técnicos precisos sobre muros, columnas, instalaciones y espacios, se evita la toma de decisiones equivocadas que puedan generar costos adicionales o problemas técnicos durante la obra. Esto optimiza el uso de recursos y garantiza un proceso constructivo más seguro y eficiente.",
+    image: "/assets/img/feature/9.jpg",
+    delay: ".4s",
+  },
+];
+
+export const features6 = [
+  {
+    title: "Precisión garantizada con tecnología avanzada",
+    description:
+      "Utilizamos GPS y equipos electrónicos de alta precisión para obtener datos confiables de planimetría y altimetría, asegurando mediciones exactas y representaciones precisas.",
+    image: "/assets/img/feature/10.jpg",
+    delay: ".2s",
+  },
+  {
+    title: "Planos completos y detallados",
+    description:
+      "Incluyen cuadro de áreas, croquis de localización, orientación norte, cortes detallados y referencias de coordenadas, proporcionando toda la información técnica necesaria.",
+    image: "/assets/img/feature/11.jpg",
+    delay: ".4s",
+  },
+];

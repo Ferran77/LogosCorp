@@ -14,7 +14,7 @@ export default function Footer1() {
                 <Link href={`/`} className="logo ">
                   <Image
                     alt="logos-corp-logo"
-                    src="/assets/img/logo-white.png"
+                    src="/assets/img/logos img/logo_nuevo.png"
                     width={198}
                     height={64}
                     className="pl-5"
