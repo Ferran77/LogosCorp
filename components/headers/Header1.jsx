@@ -23,7 +23,7 @@ export default function Header1() {
                     src="/assets/img/logos img/logo_nuevo.png"
                     width={140}
                     height={140}
-                    className="pt-4 mr-15"
+                    className="pt-5 mr-16"
                   />
                 </Link>
               </div>

@@ -12,6 +12,7 @@ import FeatureLineIframe from "@/components/homes/home-1/FeatureLineIframe";
 import Hero from "@/components/homes/home-1/Hero";
 import Projects from "@/components/homes/home-1/Projects";
 import Services from "@/components/homes/home-1/Services";
+import SpecialServices from "@/components/homes/home-1/SpecialServices";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 
 export const metadata = {
@@ -25,7 +26,8 @@ export default function Home() {
       <Hero />
       <FeatureLine />
       <Services />
-      <Cta2/>
+      {/* <SpecialServices/> */}
+      {/* <Cta2/> */}
       <VirtualTour />
       <Cta />
       <About />

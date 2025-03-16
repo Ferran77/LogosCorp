@@ -572,6 +572,183 @@ export const projects12 = [
   },
 ];
 
+export const projects13 = [
+  {
+    id: 23,
+    imgSrc: "/assets/img/automation/automation.jpg",
+    title: "Operación continua y eficiente",
+    category: "No interrumpa las funciones de su empresa",
+    description:
+      "Mantenemos sus instalaciones en óptimas condiciones con soluciones integrales diseñadas para garantizar que su empresa funcione sin interrupciones.",
+  },
+  {
+    id: 24,
+    imgSrc: "/assets/img/automation/automation1.jpg",
+    title: "Ahorro de energía garantizado",
+    category: "Las mejores prácticas de seguridad",
+    description:
+      "La tecnología domótica no solo moderniza su hogar, sino que también optimiza el consumo energético. Automatice el apagado de luces y electrodomésticos cuando no estén en uso, ajuste la temperatura según sus preferencias y reduzca el desperdicio de energía de forma automática. Esto no solo es amigable con el medio ambiente, sino que también permitirá un ahorro significativo en sus facturas mensuales.",
+  },
+  {
+    id: 25,
+    imgSrc: "/assets/img/automation/automation2.jpg",
+    title: "Seguridad de última generación",
+    category: "Preservamos el valor de su empresa",
+    description:
+      "Con nuestro servicio, no solo preserva el valor de su infraestructura, sino que también garantiza la continuidad y el éxito de su empresa a largo plazo.",
+  },
+  {
+    id: 26,
+    imgSrc: "/assets/img/automation/automation3.jpg",
+    title: "Protección y gestión profesional",
+    category: "Una empresa segura, duradera y operativa",
+    description:
+      "Cuidamos sus activos con una gestión eficiente y estratégica, asegurando que sus instalaciones sean seguras, duraderas y operativas en todo momento.",
+  },
+];
+
+export const projects14 = [
+  {
+    id: 23,
+    imgSrc: "/assets/img/automation/automation.jpg",
+    // title: "Control total y comodidad en sus manos",
+    category: "Control total y comodidad en sus manos",
+    description:
+      "Imagine manejar la iluminación, la climatización, las cortinas y hasta la seguridad de su hogar desde tu smartphone o con un simple comando de voz. Con nuestro sistema domótico, usted tendrá el control absoluto de cada rincón de su espacio, optimizando su día a día y disfrutando de una comodidad sin igual. ¡Despídase de los interruptores y viva la experiencia de un hogar inteligente!",
+  },
+  {
+    id: 24,
+    imgSrc: "/assets/img/automation/automation1.jpg",
+    // title: "Ahorro de energía garantizado",
+    category: "Ahorro de energía garantizado",
+    description:
+      "La tecnología domótica no solo moderniza su hogar, sino que también optimiza el consumo energético. Automatice el apagado de luces y electrodomésticos cuando no estén en uso, ajuste la temperatura según sus preferencias y reduzca el desperdicio de energía de forma automática. Esto no solo es amigable con el medio ambiente, sino que también traerá un ahorro significativo en sus facturas mensuales.",
+  },
+  {
+    id: 25,
+    imgSrc: "/assets/img/automation/automation2.jpg",
+    // title: "Seguridad de última generación",
+    category: "Seguridad de última generación",
+    description:
+      "Proteja lo que más valora con sistemas integrados de cámaras, alarmas y sensores de movimiento, todo conectado a su dispositivo móvil. Reciba notificaciones en tiempo real sobre cualquier situación inusual y tome decisiones al instante, esté donde esté. ¡Duerma tranquilo sabiendo que su hogar está bajo constante vigilancia inteligente!",
+  },
+  {
+    id: 26,
+    imgSrc: "/assets/img/automation/automation3.jpg",
+    // title: "Valor agregado para su propiedad",
+    category: "Valor agregado para su propiedad",
+    description:
+      "Invertir en domótica no solo mejora Su calidad de vida, sino que también incrementa el valor de Su propiedad. Los hogares inteligentes son cada vez más buscados por compradores exigentes que valoran la comodidad, la eficiencia y la tecnología moderna. Dele a su hogar un toque de vanguardia que lo hará destacar en el mercado inmobiliario.",
+  },
+];
+
+export const projects15 = [
+  {
+    id: 23,
+    imgSrc: "/assets/img/cctv/CCTV1.jpg",
+    // title: "Control total y comodidad en sus manos",
+    category: "Monitoreo total y acceso remoto",
+    description:
+      "Con el sistema de CCTV de Logos Corp México, mantenga el control absoluto de su propiedad desde cualquier lugar del mundo, directamente desde su smartphone. Monitoree en tiempo real lo que sucede dentro y fuera de su hogar u oficina, recibiendo notificaciones inmediatas ante cualquier situación inusual. ¡Nunca más estará a ciegas sobre lo que pasa en su espacio!",
+  },
+  {
+    id: 24,
+    imgSrc: "/assets/img/cctv/CCTV2.jpg",
+    // title: "Ahorro de energía garantizado",
+    category: "Instalación profesional y personalizada",
+    description:
+      "Nuestro equipo de expertos realiza un análisis exhaustivo para identificar los puntos ciegos y diseñar un sistema de videovigilancia adaptado a sus necesidades específicas. Utilizamos planos detallados que incluyen ramaleo de tuberías, cableado seguro y materiales de alta calidad, garantizando una instalación eficiente y duradera.",
+  },
+  {
+    id: 25,
+    imgSrc: "/assets/img/cctv/CCTV3.jpg",
+    // title: "Seguridad de última generación",
+    category: "Tecnología de última generación",
+    description:
+      "Elija entre cámaras fijas, domo o con visión nocturna, según su entorno y sus requerimientos de seguridad. Además, nuestros sistemas incluyen grabación continua en alta definición y opciones de DVR avanzadas para almacenamiento seguro. La calidad de imagen es esencial, y en Logos Corp México le garantizamos nitidez y fiabilidad en cada toma.",
+  },
+  {
+    id: 26,
+    imgSrc: "/assets/img/cctv/CCTV4.jpg",
+    // title: "Valor agregado para su propiedad",
+    category: "Seguridad integral y mantenimiento garantizado",
+    description:
+      "Más allá de las cámaras, integramos sensores, alarmas y cercados de protección para ofrecerle un sistema de seguridad integral. Nuestro compromiso no termina con la instalación: también brindamos mantenimiento continuo y asistencia técnica para que su equipo siempre esté en óptimas condiciones.",
+  },
+];
+
+export const projects16 = [
+  {
+    id: 23,
+    imgSrc: "/assets/img/voice&data/voice_data1.jpg",
+    // title: "Control total y comodidad en sus manos",
+    category: "Conectividad integral y estable",
+    description:
+      "Con el sistema de voz y datos de Logos Corp México, disfrute usted de una conexión eficiente y continua en todo su hogar u oficina. Olvídese de las interrupciones y aproveche la integración de servicios como telefonía fija, internet, TV por cable e interphone, todo perfectamente planificado para garantizar la máxima cobertura y rendimiento en cada rincón.",
+  },
+  {
+    id: 24,
+    imgSrc: "/assets/img/voice&data/voice_data2.jpg",
+    // title: "Ahorro de energía garantizado",
+    category: "Instalación profesional y diseño personalizado",
+    description:
+      "Nuestros expertos en telecomunicaciones analizan a fondo sus espacios para crear planos detallados que contemplan la distribución óptima de cableado y la ubicación de cada punto de conexión. Utilizamos materiales de alta calidad, respetando los diámetros de tuberías adecuados y garantizando una instalación estética y duradera.",
+  },
+  {
+    id: 25,
+    imgSrc: "/assets/img/voice&data/voice_data3.jpg",
+    // title: "Seguridad de última generación",
+    category: "Eficiencia y rendimiento garantizados",
+    description:
+      "Una infraestructura de voz y datos deficiente puede causar interrupciones de servicio y costos elevados de mantenimiento. Por eso, en Logos Corp México aseguramos un diseño robusto que evita problemas a largo plazo. Nuestros sistemas están diseñados para mantener la estabilidad y el rendimiento en cualquier situación.",
+  },
+  {
+    id: 26,
+    imgSrc: "/assets/img/voice&data/voice_data4.jpg",
+    // title: "Valor agregado para su propiedad",
+    category: "Optimización y valor agregado",
+    description:
+      "Transforme sus espacios en un entorno inteligente y moderno que aprovecha al máximo la tecnología de comunicación. No solo mejorará la eficiencia en sus actividades diarias, sino que también usted aumentará el valor de su propiedad al contar con una infraestructura actualizada y funcional.",
+  },
+];
+
+
+export const projects17 = [
+  {
+    id: 23,
+    imgSrc: "/assets/img/elevator/elevator1.jpg",
+    // title: "Control total y comodidad en sus manos",
+    category: "Diseño profesional y adaptado a sus necesidades",
+    description:
+      "En Logos Corp México, diseñamos sistemas de elevadores personalizados para personas, mercancías o vehículos. Cada proyecto se adapta a las necesidades específicas del inmueble, garantizando un diseño preciso y seguro. Nuestros planos de instalación contemplan todos los elementos técnicos, electrónicos y mecánicos para una ejecución impecable.",
+  },
+  {
+    id: 24,
+    imgSrc: "/assets/img/elevator/elevator2.jpg",
+    // title: "Ahorro de energía garantizado",
+    category: "Seguridad y cumplimiento normativo",
+    description:
+      "No deje la seguridad al azar. Realizamos estudios detallados de esfuerzos y cargas para asegurar que la estructura soporte el peso y el movimiento del elevador sin riesgos. Nuestro equipo de ingenieros mecatrónicos se encarga de que cada aspecto del diseño cumpla con las normativas vigentes, evitando problemas futuros y asegurando la tranquilidad de los usuarios.",
+  },
+  {
+    id: 25,
+    imgSrc: "/assets/img/elevator/elevator3.jpg",
+    // title: "Seguridad de última generación",
+    category: "Optimización del espacio y eficiencia operativa",
+    description:
+      "Un plano bien diseñado no solo garantiza seguridad, sino también eficiencia. Aprovechamos al máximo el espacio disponible para optimizar el rendimiento del elevador, lo que prolonga su vida útil y reduce costos de mantenimiento. La operación será siempre fluida, segura y confiable.",
+  },
+  {
+    id: 26,
+    imgSrc: "/assets/img/elevator/elevator4.jpg",
+    // title: "Valor agregado para su propiedad",
+    category: "Valor agregado para su propiedad",
+    description:
+      "Invertir en un sistema de elevadores profesional no solo aumenta la accesibilidad, sino también el valor de su inmueble. Con Logos Corp México, usted obtiene una instalación que cumple con los más altos estándares de calidad y que proyecta modernidad y sofisticación.",
+  },
+];
+
+
 export const allProjects = [
   ...projects,
   ...projects2,

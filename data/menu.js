@@ -4,7 +4,6 @@ export const menuItems = [
     subMenu: [
       { title: "Inicio", href: "/" },
       { title: "Nosotros", href: "/about" },
-      
     ],
     active: true,
   },
@@ -22,32 +21,56 @@ export const menuItems = [
         ],
         isNested: true,
       },
-      { 
-        title: "Construción y remodelación", 
+      {
+        title: "Construción y remodelación",
         subMenu: [
           { title: "Construcción y remodelación", href: "/home-3" },
           { title: "Obra nueva", href: "/new-construction" },
-          { title: "Remodelación de interiores y exteriores", href: "/remodeling" },
+          {
+            title: "Remodelación de interiores y exteriores",
+            href: "/remodeling",
+          },
           { title: "Supervisión de obra", href: "/supervision" },
           { title: "Mantenimiento a empresas", href: "/maintenance" },
         ],
         isNested: true,
       },
-      { title: "Render 3D y animaciones", 
+      {
+        title: "Render 3D y animaciones",
         subMenu: [
           { title: "Render 3D y animaciones", href: "/home-4" },
           { title: "Imágenes 360°", href: "/360img" },
           { title: "Imágenes 3D", href: "/3dImg" },
           { title: "Tour virtual 360°", href: "/virtualTour" },
-          { title: "Recorrido virtual 3D en video", href: "/virtualVideo" },
         ],
         isNested: true,
-       },
-      { title: "Soluciones integrales y servicios especiales", href: "/home-5" },
-      { title: "Valuación inmobiliaria", href: "/valuation" },
-      { title: "Dictamen de seguridad estructural", href: "/dictum" },
-      { title: "Levantamiento arquitectónico", href: "/architecturalSurvey" },
-      { title: "Levantamiento topográfico", href: "/topographicSurvey" },
+      },
+      {
+        title: "Catálogo de servicios especiales", href: "/home-5"
+      },
+      {
+        title: "Soluciones integrales",
+        subMenu: [
+          { title: "Valuación inmobiliaria", href: "/valuation" },
+          { title: "Dictamen de seguridad estructural", href: "/dictum" },
+          {
+            title: "Levantamiento arquitectónico",
+            href: "/architecturalSurvey",
+          },
+          { title: "Levantamiento topográfico", href: "/topographicSurvey" },
+        ],
+        isNested: true,
+      },
+      {
+        title: "Servicios especiales",
+        subMenu: [
+          { title: "Sistema domótico -Hogar inteligente-", href: "/automationSystem" },
+          { title: "Sistema de CCTV", href: "/cctv" },
+          { title: "Sistema de voz y datos", href: "/voice&data" },
+          { title: "Sistema de elevadores", href: "/elevator" },
+        ],
+        isNested: true,
+      },
       // { title: "Preguntas frecuentes", href: "/home-3" },
     ],
   },

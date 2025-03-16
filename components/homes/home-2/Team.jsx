@@ -63,7 +63,7 @@ export default function Team() {
               </p>
               <p className="mt-16 mb-8">
                Especiales:
-               <li>Sitema de CCTV</li>
+               <li>Sistema de CCTV</li>
                 <li>Riego automatizado para jardín</li>
                 <li>Sistema domótico -Casa inteligente- </li>
                 <li>Sistema de voz y datos</li>
