@@ -1,16 +1,21 @@
 import { MdOutlineDesignServices, MdConstruction, MdElectricMeter, MdOutline3dRotation, MdOutlineContactPhone } from "react-icons/md";
 import { LuScreenShare } from "react-icons/lu";
 import { FaHelmetSafety, FaBuildingCircleCheck,  FaBuildingShield, FaMoneyCheckDollar, FaHouseLaptop, FaHouseCircleCheck  } from "react-icons/fa6";
-import { FaDraftingCompass, FaMap  } from "react-icons/fa";
+import { FaDraftingCompass, FaMap, FaToilet  } from "react-icons/fa";
 import { BiSolidCctv } from "react-icons/bi";
 import { TbCrane } from "react-icons/tb";
-import { Gi3dGlasses, GiElevator } from "react-icons/gi";
-import { TbRotate360, TbView360Number, TbArrowBigUpLinesFilled } from "react-icons/tb";
+import { Gi3dGlasses, GiElevator, GiTeePipe } from "react-icons/gi";
+import { TbRotate360, TbView360Number, TbArrowBigUpLinesFilled, TbFileCertificate } from "react-icons/tb";
 import { PiSecurityCameraBold, PiWarningDiamondBold } from "react-icons/pi";
 import { LiaMoneyCheckAltSolid } from "react-icons/lia";
-import { BsBuildingFillLock, BsFillGeoAltFill } from "react-icons/bs";
-import { MdOutlineMapsHomeWork, MdOutlineVideoCameraBack } from "react-icons/md";
-import { HiMiniDocumentCheck } from "react-icons/hi2";
+import { BsBuildingFillLock, BsFillGeoAltFill, BsDiagram3 } from "react-icons/bs";
+import { MdOutlineMapsHomeWork, MdOutlineVideoCameraBack, MdElectricBolt } from "react-icons/md";
+import { HiMiniDocumentCheck, HiDocumentMagnifyingGlass } from "react-icons/hi2";
+import { SiLightning } from "react-icons/si";
+import { VscMapVerticalFilled } from "react-icons/vsc";
+import { PiPipeLight } from "react-icons/pi";
+
+
 
 export const services = [
   {
@@ -43,10 +48,10 @@ export const services = [
   },
   {
     icon: BiSolidCctv,
-    title: "Instalaciones especiales",
+    title: "Servicios especiales",
     description:
       "Confíe en nosotros para implementar soluciones avanzadas en instalaciones especiales que transforman sus espacios, combinando tecnología, seguridad y eficiencia para satisfacer sus necesidades con calidad y experiencia.",
-    link: "/project-details-left-sidebar/1",
+    link: "/home-5",
   },
 ];
 
@@ -436,5 +441,90 @@ export const services15 = [
     description:
       "Procesamos los datos en software especializado para generar poligonales en sistemas de coordenadas oficiales, garantizando precisión y compatibilidad en cualquier contexto geográfico.",
     icon: BsFillGeoAltFill,
+  },
+];
+
+export const services16 = [
+  {
+    title: "Planos de Instalación Hidráulica:",
+    description:
+      "¡Asegure la eficiencia de su proyecto! Un plano hidráulico profesional evita costosas reparaciones garantizando recorridos, materiales y diámetros correctos desde el inicio. ¡Invierte en calidad!",
+    icon: FaMap,
+  },
+  {
+    title: "Memoria de Cálculo Hidráulica:",
+    description:
+      "Optimice su sistema hidráulico con cálculos precisos. Evite fallos y sobrecargas garantizando capacidad y presión adecuadas con una memoria profesional. ¡Eficiencia y seguridad aseguradas!",
+    icon:  PiPipeLight,
+  },
+  {
+    title: "Planos de Instalación Sanitaria:",
+    description:
+      "Proteja su inversión con planos sanitarios precisos. Un diseño profesional garantiza recorridos y materiales adecuados, evitando errores costosos y problemas regulatorios. ¡Calidad desde el principio!",
+    icon: VscMapVerticalFilled,
+  },
+  {
+    title: "Memoria de Cálculo Sanitaria:",
+    description:
+      "Evite problemas de drenaje y costosos ajustes. Una memoria sanitaria profesional asegura cálculos precisos y cumplimiento normativo. ¡Su proyecto, seguro y eficiente desde el inicio!",
+    icon: FaToilet,
+  },
+];
+
+export const services17 = [
+  {
+    title: "Planos de Instalación Eléctrica:",
+    subtitile:
+      "Garantiza seguridad y eficiencia con planos eléctricos precisos. Evita riesgos y fallos asegurando el cumplimiento normativo. ¡La precisión hoy previene problemas mañana!",
+    icon: <FaMap  />,
+    delay: ".2s",
+  },
+  {
+    title: "Diagrama Unifilar:",
+    subtitile:
+      "Optimice su proyecto eléctrico con un diagrama unifilar preciso. Evite rechazos y retrasos en trámites. ¡Cumpla con la CFE y garantice un servicio confiable!",
+    icon: <BsDiagram3 />,
+    delay: ".4s",
+  },
+  {
+    title: "Cuadro de Cargas:",
+    subtitile:
+      "Balancee su consumo eléctrico con un cuadro preciso. Evite problemas de suministro y retrasos en su contrato con la CFE. ¡Optimice su energía hoy!",
+    icon: <SiLightning />,
+    delay: ".6s",
+  },
+  {
+    title: "Memoria de Cálculo Eléctrica:",
+    subtitile:
+      "Evite sobrecargas y fallos eléctricos con cálculos precisos y normativos. Proteja tu inversión y asegure la eficiencia de su instalación. ¡Seguridad garantizada!",
+    icon: <MdElectricBolt />,
+    delay: ".8s",
+  },
+];
+
+export const services18 = [
+  {
+    title: "Planos de Instalación de Gas:",
+    description:
+      "Garantice la seguridad de su proyecto con planos precisos y profesionales. Evite riesgos y costos innecesarios asegurando recorridos y materiales adecuados. ¡Optimice su sistema hoy!",
+    icon: FaMap,
+  },
+  {
+    title: "Memoria de Cálculo de Instalación de Gas:",
+    description:
+      "Asegure la eficiencia y precisión en su sistema de gas con cálculos normativos. Evite problemas de presión y consumo. ¡La seguridad depende de un diseño confiable!",
+    icon: GiTeePipe,
+  },
+  {
+    title: "Certificación de Instalación de Gas:",
+    description:
+      "Confíe en especialistas certificados para garantizar el cumplimiento normativo. Evite multas y riesgos asegurando la calidad de su sistema de gas. ¡Su seguridad es prioridad!",
+    icon: TbFileCertificate,
+  },
+  {
+    title: "Diagnóstico y Mantenimiento de Sistemas de Gas:",
+    description:
+      "Identifique y solucione problemas antes de que ocurran. Un diagnóstico profesional garantiza eficiencia y evita riesgos. ¡Mantenga su sistema seguro y funcional siempre!",
+    icon: HiDocumentMagnifyingGlass,
   },
 ];

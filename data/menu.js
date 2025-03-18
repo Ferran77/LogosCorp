@@ -46,6 +46,9 @@ export const menuItems = [
         isNested: true,
       },
       {
+        title: "Catálogo de instalaciones básicas", href: "/basics"
+      },
+      {
         title: "Catálogo de servicios especiales", href: "/home-5"
       },
       {

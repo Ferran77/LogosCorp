@@ -748,6 +748,77 @@ export const projects17 = [
   },
 ];
 
+export const projects18 = [
+  {
+    id: 47,
+    title: "Planos de Instalación Eléctrica",
+    imgSrc: "/assets/img/basic/1.jpg",
+  },
+  {
+    id: 48,
+    title: "Diagrama Unifilar",
+    imgSrc: "/assets/img/basic/2.jpg",
+  },
+  {
+    id: 49,
+    title: "Cuadro de Cargas",
+    imgSrc: "/assets/img/basic/3.jpg",
+  },
+  {
+    id: 50,
+    title: "Memoria de Cálculo Eléctrica",
+    imgSrc: "/assets/img/basic/4.jpg",
+  },
+];
+
+export const projects19 = [
+  {
+    id: 47,
+    title: "Planos de Instalación de Gas",
+    imgSrc: "/assets/img/basic/5.jpg",
+  },
+  {
+    id: 48,
+    title: "Memoria de Cálculo de Instalación de Gas",
+    imgSrc: "/assets/img/basic/6.jpg",
+  },
+  {
+    id: 49,
+    title: "Certificación de Instalación de Gas",
+    imgSrc: "/assets/img/basic/7.jpg",
+  },
+  {
+    id: 50,
+    title: "Diagnóstico y Mantenimiento de Sistemas de Gas",
+    imgSrc: "/assets/img/basic/8.jpg",
+  },
+];
+
+export const projects20 = [
+  {
+    id: 47,
+    title: "Planos de Instalación Hidráulica",
+    imgSrc: "/assets/img/basic/9.jpg",
+  },
+  {
+    id: 48,
+    title: "Memoria de Cálculo Hidráulica",
+    imgSrc: "/assets/img/basic/10.jpg",
+  },
+  {
+    id: 49,
+    title: "Planos de Instalación Sanitaria",
+    imgSrc: "/assets/img/basic/11.jpg",
+  },
+  {
+    id: 50,
+    title: "Memoria de Cálculo Sanitaria",
+    imgSrc: "/assets/img/basic/12.jpg",
+  },
+];
+
+
+
 
 export const allProjects = [
   ...projects,

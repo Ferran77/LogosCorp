@@ -51,3 +51,24 @@ export const slides3 = [
     delay: ".2s",
   },
 ];
+
+export const slides4 = [
+  {
+    title: "Instalaciones básicas",
+    // subtitle: "Renovando emociones",
+    description:
+      "Le apoyaremos en todo momento, hasta la conclusión de la instalación requerida",
+    image: "/assets/img/slider/9.jpg",
+    buttonText: "Saber más",
+    delay: ".2s",
+  },
+  {
+    title: "Servicios importantes",
+    // subtitle: "Renovando espacios",
+    description:
+      "Le presentaremos las mejores alternativas que permitan equilibrar eficiencia, costo y seguridad",
+    image: "/assets/img/slider/10.jpg",
+    buttonText: "Nosotros",
+    delay: ".2s",
+  },
+];
