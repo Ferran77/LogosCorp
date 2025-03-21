@@ -1,9 +1,16 @@
-import { allBlogs } from "@/data/blogs";
+import { allBlogs } from "@/data/allBlogs";
 import React from "react";
 
 export default function DetailsBanner({ blogItem = allBlogs[0] }) {
   return (
-    <div className="banner-section blog-dtl-bg section-padding pb-60 blog-details-banner">
+    <div
+      className="banner-section blog-dtl-bg section-padding pb-60 blog-details-banner"
+      style={{
+        backgroundImage: `url(${blogItem.backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-xl-12 text-center">

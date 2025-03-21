@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { blogs2 } from "@/data/blogs";
+import { architecture } from "@/data/architecture";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
@@ -44,11 +44,11 @@ export default function Architecture() {
             spaceBetween={40}
             className="blog-carousel owl-carousel"
           >
-            {blogs2.map((post, index) => (
+            {architecture.map((post, index) => (
               <SwiperSlide key={index}>
                 <Link
                   // href={`/blog-details/${post.id}`}
-                  href={`/services`}
+                  href={post.href}
                   className="single-blog-item wow fadeInUp"
                   data-wow-delay={post.delay}
                 >

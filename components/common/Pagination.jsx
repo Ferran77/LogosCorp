@@ -1,12 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 
-export default function Pagination() {
-  const [currentPage, setCurrentPage] = useState(1);
-
+export default function Pagination({ currentPage, totalPages, onPageChange }) {
   const handlePageClick = (page) => {
-    if (page >= 1 && page <= 3) {
-      setCurrentPage(page);
+    if (page >= 1 && page <= totalPages) {
+      onPageChange(page);
     }
   };
 
@@ -20,24 +18,19 @@ export default function Pagination() {
           <i className="las la-angle-left" />
         </a>
       </li>
-      <li className={`page-item ${currentPage === 1 ? "active" : ""}`}>
-        <a className="page-link" onClick={() => handlePageClick(1)}>
-          1
-        </a>
-      </li>
-      <li
-        className={`page-item ${currentPage === 2 ? "active" : ""}`}
-        aria-current="page"
-      >
-        <a className="page-link" onClick={() => handlePageClick(2)}>
-          2
-        </a>
-      </li>
-      <li className={`page-item ${currentPage === 3 ? "active" : ""}`}>
-        <a className="page-link" onClick={() => handlePageClick(3)}>
-          3
-        </a>
-      </li>
+      {Array.from({ length: totalPages }, (_, index) => (
+        <li
+          key={index + 1}
+          className={`page-item ${currentPage === index + 1 ? "active" : ""}`}
+        >
+          <a
+            className="page-link"
+            onClick={() => handlePageClick(index + 1)}
+          >
+            {index + 1}
+          </a>
+        </li>
+      ))}
       <li className="page-item">
         <a
           className="page-link"

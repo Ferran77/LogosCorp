@@ -1,5 +1,5 @@
 "use client";
-import { blogs } from "@/data/blogs";
+import { allBlogs } from "@/data/allBlogs";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -56,7 +56,7 @@ export default function Blogs() {
             loop
             speed={2500}
           >
-            {blogs.map((blog, index) => (
+            {allBlogs.map((blog, index) => (
               <SwiperSlide key={index}>
                 {/* Blog Links Here */}
                 {/* <Link 

@@ -100,7 +100,7 @@ export const menuItems = [
   {
     title: "Blog",
     subMenu: [
-      { title: "Nuestro blog", href: "/contact" },
+      { title: "Nuestro blog", href: "/blog-grid" },
       // { title: "Blog Standard", href: "/blog-standard" },
       // { title: "Blog Details", href: "/blog-details/1" },
     ],
