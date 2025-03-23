@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Pagination from "../common/Pagination";
 
-const postsPerPage = 9;
+const postsPerPage = 6;
 
 export default function Blogs1() {
   const [currentPage, setCurrentPage] = useState(1);

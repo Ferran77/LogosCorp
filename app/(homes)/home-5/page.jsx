@@ -25,14 +25,14 @@ export default function page() {
       <Header1 />
       <Hero />
       {/* <About /> */}
-      <Services />
-      <Projects />
+      <Services1/>
+      <Projects1/>
       {/* <Testimonials /> */}
       {/* <Process /> */}
       {/* <PromoSection /> */}
       <Cta />
-      <Services1/>
-      <Projects1/>
+      <Services />
+      <Projects />
       {/* <Team />
       <Blogs /> */}
       <Footer1 />
