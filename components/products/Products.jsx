@@ -1,77 +1,77 @@
 "use client";
+
 import { products } from "@/data/products";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-const sortingOptions = [
-  "Default Sorting",
-  "Alphabetically, A-Z",
-  "Alphabetically, Z-A",
-  "Price, low to high",
-  "Price, high to low",
-];
 import { useContextElement } from "@/context/Context";
-import noUiSlider from "nouislider";
 import Pagination from "../common/Pagination";
+
+const sortingOptions = [
+  "Predeterminado",
+  "Alfabéticamente, A-Z",
+  "Alfabéticamente, Z-A",
+  "Precio, bajo a alto",
+  "Precio, alto a bajo",
+];
+
+const discountedProducts = [
+  "Imágenes 360°",
+  "Proyecto Arquitectónico Básico",
+  "Proyecto Arquitectónico Elite",
+  "Proyecto de Instalación de Riego Automatizado (planos)",
+  "Proyecto de Instalación Eléctrica (planos y memoria de cálculo)",
+  "Proyecto de Instalación Hidro-Sanitaria (planos y memoria de cálculo)",
+  "Proyecto de Instalación Voz y Datos (planos)",
+  "Recorrido Virtual en Video",
+  "Tour virtual 360°",
+];
+
 export default function Products() {
   const { addProductToCart, isAddedToCartProducts } = useContextElement();
-  const [priceRange, setPriceRange] = useState([10, 40]);
-  const [filtered, setfiltered] = useState(products);
+  const [filtered, setFiltered] = useState(products);
   const [currentSortingOption, setCurrentSortingOption] =
-    useState("Default Sorting");
-  useEffect(() => {
-    const element = document.getElementById("price-slider");
-    if (element) {
-      // Initialize the noUiSlider
-      noUiSlider.create(element, {
-        start: [12, 38],
-        connect: true,
-        range: {
-          min: 10,
-          max: 40,
-        },
-        format: {
-          to: (value) => Math.round(value),
-          from: (value) => Math.round(value),
-        },
-      });
+    useState("Predeterminado");
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 6;
+  const [selectedCategory, setSelectedCategory] = useState(null);
 
-      // Set up the 'update' event listener
-      element.noUiSlider.on("update", (values) => {
-        if (values[0] != priceRange[0] || values[1] !== priceRange[1]) {
-          setPriceRange(values);
-        }
-      });
+  useEffect(() => {
+    let sortedProducts = [...products];
+
+    if (selectedCategory) {
+      sortedProducts = sortedProducts.filter(
+        (product) => product.category === selectedCategory
+      );
     }
 
-    // Cleanup on component unmount
-    return () => {
-      if (element) {
-        element.noUiSlider.destroy();
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    const filterByPrice = [...products].filter(
-      (elm) => elm.price >= priceRange[0] && elm.price <= priceRange[1]
-    );
-    const sortedProducts = [...filterByPrice].sort((a, b) => {
+    sortedProducts.sort((a, b) => {
       switch (currentSortingOption) {
-        case "Alphabetically, A-Z":
+        case "Alfabéticamente, A-Z":
           return a.title.localeCompare(b.title);
-        case "Alphabetically, Z-A":
+        case "Alfabéticamente, Z-A":
           return b.title.localeCompare(a.title);
-        case "Price, low to high":
+        case "Precio, bajo a alto":
           return a.price - b.price;
-        case "Price, high to low":
+        case "Precio, alto a bajo":
           return b.price - a.price;
         default:
           return 0;
       }
     });
-    setfiltered(sortedProducts);
-  }, [priceRange, currentSortingOption]);
+
+    setFiltered(sortedProducts);
+    setCurrentPage(1);
+  }, [currentSortingOption, selectedCategory]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filtered]);
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = filtered.slice(indexOfFirstItem, indexOfLastItem);
+  const totalPages = Math.ceil(filtered.length / itemsPerPage);
 
   return (
     <div className="product-area section-padding">
@@ -80,92 +80,41 @@ export default function Products() {
           <div className="col-xl-3 col-lg-3 col-12">
             <div className="sidebar-wrapper">
               <div className="single-sidebar">
-                <div className="sidebar-search-box">
-                  <form
-                    className="search-form"
-                    onSubmit={(e) => e.preventDefault()}
-                  >
-                    <input placeholder="Search" required type="text" />
-                    <button type="submit">
-                      <i className="las la-search" />
-                    </button>
-                  </form>
-                </div>
-              </div>
-              <div className="single-sidebar">
-                <h6>
-                  Filter by Price : ${priceRange[0]} to ${priceRange[1]}
-                </h6>
-                <div className="filter-price">
-                  <div id="price-slider" />
-                  {/* End #price-slider */}
-                </div>
-                {/* End .filter-price */}
-              </div>
-              <div className="single-sidebar">
                 <div className="categories-box">
                   <div className="title">
-                    <h3>Categories</h3>
+                    <h3>Categorías:</h3>
                   </div>
                   <ul className="categories clearfix">
                     <li>
-                      <a className="active" href="#">
-                        Engine Parts
+                      <a
+                        href="#"
+                        className={!selectedCategory ? "active" : ""}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setSelectedCategory(null);
+                        }}
+                      >
+                        Mostrar todo
                       </a>
                     </li>
-                    <li>
-                      <a href="#">Suspension Parts</a>
-                    </li>
-                    <li>
-                      <a href="#">Wheels &amp; Tyres</a>
-                    </li>
-                    <li>
-                      <a href="#">Electrical System</a>
-                    </li>
-                    <li>
-                      <a href="#">Exterior &amp; Interior</a>
-                    </li>
-                    <li>
-                      <a href="#">Care &amp; Cleaning</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="single-sidebar">
-                <div className="tag-box">
-                  <div className="title">
-                    <h3>Filter by Tag</h3>
-                  </div>
-                  <ul className="tags clearfix">
-                    <li>
-                      <a className="active" href="#">
-                        Craft
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">Energy</a>
-                    </li>
-                    <li>
-                      <a href="#">Engine</a>
-                    </li>
-                    <li>
-                      <a href="#">Iron</a>
-                    </li>
-                    <li>
-                      <a href="#">Machines</a>
-                    </li>
-                    <li>
-                      <a href="#">Motor</a>
-                    </li>
-                    <li>
-                      <a href="#">Service</a>
-                    </li>
-                    <li>
-                      <a href="#">Speed</a>
-                    </li>
-                    <li>
-                      <a href="#">Fuel</a>
-                    </li>
+                    {Array.from(new Set(products.map((p) => p.category))).map(
+                      (category, index) => (
+                        <li key={index}>
+                          <a
+                            href="#"
+                            className={
+                              selectedCategory === category ? "active" : ""
+                            }
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setSelectedCategory(category);
+                            }}
+                          >
+                            {category}
+                          </a>
+                        </li>
+                      )
+                    )}
                   </ul>
                 </div>
               </div>
@@ -178,7 +127,10 @@ export default function Products() {
                   <div className="showing-result-shorting">
                     <div className="left">
                       <div className="showing">
-                        <p>Showing {filtered.length} Results</p>
+                        <p>
+                          Mostrando {currentItems.length} de {filtered.length}{" "}
+                          resultados
+                        </p>
                       </div>
                     </div>
                     <div className="right">
@@ -201,75 +153,70 @@ export default function Products() {
               </div>
               <div className="all_products">
                 <div className="row">
-                  {filtered.map((product, index) => (
+                  {currentItems.map((product, index) => (
                     <div key={index} className="col-xl-4 col-lg-4 col-md-6">
                       <div className="all_products_single text-center">
-                        <div className="all_product_item_image">
-                          <Image
-                            alt={product.title}
-                            src={product.imgSrc}
-                            width={800}
-                            height={800}
-                            className="height-auto"
-                          />
-                          <div className="all_product_hover">
-                            <ul className="all_products_thumb_icon">
-                              <li className="icon-list">
-                                <a
-                                  onClick={() => addProductToCart(product.id)}
-                                  className="icon add-to-cart-btn"
-                                >
-                                  <i
-                                    className={`las ${
-                                      isAddedToCartProducts(product.id)
-                                        ? "la-cart-plus"
-                                        : "la-shopping-cart"
-                                    } `}
-                                  />
-                                </a>
-                              </li>
-                              <li className="icon-list add-to-wishlist-btn">
-                                <a className="icon add-to-wishlist-btn">
-                                  <i className="lar la-heart" />
-                                </a>
-                              </li>
-                              <li className="icon-list">
-                                <Link
-                                  href={`/product-details/${product.id}`}
-                                  className="icon cart-loading product-quick-view-ajax"
-                                >
-                                  <i className="lar la-eye" />
-                                </Link>
-                              </li>
-                            </ul>
+                        <div
+                          className="all_product_item_image position-relative"
+                          style={{
+                            width: "300px",
+                            height: "300px",
+                            overflow: "hidden",
+                          }}
+                        >
+                          {discountedProducts.includes(product.title) && (
+                            <div
+                              className="sale-badge position-absolute bg-danger text-white p-2"
+                              style={{
+                                top: "10px",
+                                left: "10px",
+                                borderRadius: "5px",
+                              }}
+                            >
+                              ¡Oferta!
+                            </div>
+                          )}
+                          <div className="w-[300px] h-[300px] overflow-hidden flex items-center justify-center bg-gray-100">
+                            <Image
+                              alt={product.title}
+                              src={product.imgSrc}
+                              width={300}
+                              height={300}
+                              className="w-full h-full object-cover"
+                            />
                           </div>
                         </div>
+
+                        <p>{product.category}</p>
                         <h4>
                           <Link href={`/product-details/${product.id}`}>
                             {product.title}
                           </Link>
                         </h4>
-                        <p>${product.price.toFixed(2)}</p>
+                        {discountedProducts.includes(product.title) ? (
+                          <p>
+                            <span className="text-gray line-through mr-2">
+                              ${(product.price * 1.2).toFixed(2)}
+                            </span>
+                            <span>${product.price.toFixed(2)}</span>
+                          </p>
+                        ) : (
+                          <p>${product.price.toFixed(2)}</p>
+                        )}
+                        <p className="text-black mb-7 -mt-2">
+                          {product.subtitle}
+                        </p>
                       </div>
                     </div>
                   ))}
                 </div>
               </div>
             </div>
-            {filtered.length ? (
-              <ul className="pagination">
-                <Pagination />
-              </ul>
-            ) : (
-              ""
-            )}
-            {!filtered.length ? (
-              <div className="p-5">
-                No products found . Please try another filter
-              </div>
-            ) : (
-              ""
-            )}
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={setCurrentPage}
+            />
           </div>
         </div>
       </div>

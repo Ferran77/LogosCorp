@@ -4,8 +4,8 @@ import Products from "@/components/products/Products";
 import React from "react";
 
 export const metadata = {
-  title: "Products || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+  title: "Tienda de servicios || LOGOS-CORP MÉXICO",
+  description: "Tienda - LOGOS-CORP MÉXICO",
 };
 export default function page() {
   return (
@@ -17,7 +17,7 @@ export default function page() {
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
-                <h1>Shop</h1>
+                <h1>Tienda de servicios</h1>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />

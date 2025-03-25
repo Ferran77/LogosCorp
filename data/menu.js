@@ -108,6 +108,7 @@ export const menuItems = [
   {
     title: "Tienda",
     subMenu: [
+      { title: "Tienda de servicios", href: "/product" },
       { title: "Cupón promocional", href: "/about" },
       // { title: "Product Details", href: "/product-details/1" },
       // { title: "Cart", href: "/cart" },
