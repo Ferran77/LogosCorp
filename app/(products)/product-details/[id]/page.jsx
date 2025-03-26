@@ -8,8 +8,8 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Product details || Factorix - Industrial & Factory React Nextjs Template",
-  description: "Factorix - Industrial & Factory React Nextjs Template",
+    "Servicios || LOGOS-CORP MÉXICO",
+  description: "Servicios LOGOS-CORP MÉXICO",
 };
 export default function page({ params }) {
   const product =
@@ -23,7 +23,7 @@ export default function page({ params }) {
           <div className="row justify-content-center">
             <div className="col-lg-6 text-center">
               <div className="breadcrumb-title">
-                <h1>Shop</h1>
+                <h1>Detalles del Servicio</h1>
               </div>
               <div className="breadcrumb-icon">
                 <i className="las la-angle-down" />

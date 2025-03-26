@@ -37,6 +37,9 @@ export default function ProductDetails({ product }) {
       setCartProducts((pre) => [...pre, item]);
     }
   };
+
+  const productDescription = product.summary || "Descripción del producto no disponible.";
+
   const products = [
     { id: 1, imgSrc: product.imgSrc, alt: "product image" },
     { id: 2, imgSrc: "/assets/img/shop/product-2.jpg", alt: "product image" },
@@ -156,13 +159,13 @@ export default function ProductDetails({ product }) {
               <span>(1) Reviews</span>
             </div>
             <div className="product-summary">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit
-                amet consectetur adipiscing elit sed do eiusmod tempor. ipsum,
-                dolor sit amet consectetur adipisicing elit. Molestiae, tempore?
-              </p>
-            </div>
+      {productDescription.split("\n\n").map((line, index) => (
+        <span key={index}>
+        {line}
+        <br /><br /> {/* Esto asegura que haya dos saltos de línea */}
+      </span>
+      ))}
+    </div>
             <div className="product-details-cart">
               <div className="qty-plus-minus">
                 <div
@@ -203,18 +206,18 @@ export default function ProductDetails({ product }) {
                 <a className="theme-btn">
                   <i className="las la-shopping-bag" />
                   <span>
-                    {isIncludeCard() ? "Already Added" : "Add To Cart"}
+                    {isIncludeCard() ? "Se añadió un servicio" : "Añadir al carrito"}
                   </span>
                 </a>
               </div>
             </div>
-            <div className="product-wishlist">
+            {/* <div className="product-wishlist">
               <a href="#">
                 <i className="las la-heart" />
                 Add to Wishlist
               </a>
-            </div>
-            <div className="social-icons">
+            </div> */}
+            {/* <div className="social-icons">
               <span className="social-label">Share:</span>
               <a
                 href="#"
@@ -243,14 +246,14 @@ export default function ProductDetails({ product }) {
               >
                 <i className="lab la-pinterest" />
               </a>
-            </div>
-            <div className="product-meta">
+            </div> */}
+            <div className="product-meta mt-8">
               <h6>
-                Category: <span>Engine Parts, Electric System</span>
+                Categoría: <span>{product.category}</span>
               </h6>
-              <h6>
+              {/* <h6>
                 Tag: <span>Car Repair | Maintenance</span>
-              </h6>
+              </h6> */}
             </div>
           </div>
         </div>

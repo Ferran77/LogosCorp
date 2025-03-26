@@ -19,7 +19,7 @@ export default function DetailsTab() {
                     aria-controls="description"
                     aria-selected="true"
                   >
-                    Description
+                    Descripción
                   </button>
                   <button
                     className="nav-link"
@@ -31,9 +31,9 @@ export default function DetailsTab() {
                     aria-controls="additional_info"
                     aria-selected="false"
                   >
-                    Additional Information
+                    Información Adicional
                   </button>
-                  <button
+                  {/* <button
                     className="nav-link"
                     id="review-tab"
                     data-bs-toggle="tab"
@@ -44,7 +44,7 @@ export default function DetailsTab() {
                     aria-selected="false"
                   >
                     Review
-                  </button>
+                  </button> */}
                 </div>
               </nav>
             </div>

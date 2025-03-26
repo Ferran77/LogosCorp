@@ -12,8 +12,8 @@ export default function RelatedProducts() {
         <div className="row">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
             <div className="section-title">
-              <h6>Products</h6>
-              <h2>Related Products</h2>
+              <h6>Servicios</h6>
+              <h2>Relacionados</h2>
             </div>
           </div>
         </div>
