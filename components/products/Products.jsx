@@ -182,7 +182,7 @@ export default function Products() {
                               src={product.imgSrc}
                               width={300}
                               height={300}
-                              className="w-full h-full object-cover"
+                              className="w-full h-full object-cover mb-4"
                             />
                           </div>
                         </div>

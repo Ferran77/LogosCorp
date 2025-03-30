@@ -12,6 +12,7 @@ export const metadata = {
   description: "Servicios LOGOS-CORP MÉXICO",
 };
 export default function page({ params }) {
+  
   const product =
     products.filter((elm) => elm.id == params.id)[0] || products[0];
   return (
@@ -33,7 +34,7 @@ export default function page({ params }) {
         </div>
       </div>
       <ProductDetails product={product} />
-      <DetailsTab />
+      <DetailsTab product={product} />
       <RelatedProducts />
       <Footer1 />
     </>
